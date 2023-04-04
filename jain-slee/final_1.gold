@@ -1,0 +1,222 @@
+0	Builds the profile attribute map using the cmp interface class
+1	Returns methods of this interface and all super interfaces
+2	Searches for provided interface in passed Class object - it can be class or interface . If it finds it return instance of it .
+3	Verifies if the wrapped transaction is active and if dissociates it from the thread if needed
+4	Specifies the the Deployable Unit this component belongs . This method also sets the reverse relation adding the component to the deployable unit
+5	Pipes data from the input stream into the output stream .
+6	This method will extract all the files in the jar file
+7	Builds a service component contained in the specified du jar file with the specified and adds it to the specified deployable unit .
+8	Checks if all dependencies of a DU component exists
+9	Creates the directory that will be used for unpacking the child jars for a given DU .
+10	Retrieves the component ids for components that refers the specified component
+11	Retrieves the JAIN SLEE specs event type descriptor
+12	Retrieves the component javassist class pool
+13	cleans up the class pool cache
+14	Retrieves the set of sbbs used by this service
+15	Set the element as text value parse it and setValue . The separator is CID_SEPARATOR
+16	Register the property editors for jboss jmx console so non string SLEE api types can be used in specs mbeans methods as args
+17	deletes the whole path going through directories
+18	Some operations require that the transaction be suspended
+19	Executes actions scheduled for before commit at first
+20	Decorate the abstract Class
+21	Some methods to expose info about what is goign on .
+22	generic for all calls
+23	Indicates that the component was undeployed and thus should clean up any resources
+24	Retrieves the set of ra entity links referenced by the sbbs related with the service .
+25	Removes all replicated data
+26	Ends the activity context .
+27	get an ordered copy of the set of SBBs attached to this ac . The ordering is by SBB priority .
+28	Detach the sbb entity
+29	Puts an object in cache data
+30	Tries to attaches an sbb entity
+31	attach the given timer to the current activity context .
+32	This is called to release all the name bindings after the activity end event is delivered to the sbb .
+33	add a naming binding to this activity context .
+34	Set a shared data item for the ACI
+35	Retrieves a set containing all activity context handles in the factory s cache data
+36	End Event has been delivered on the Activity Context .
+37	Add the given name to the set of activity context names that we are bound to . The AC Naming facility implicitly ends the activity after all names are unbound .
+38	attach an sbb entity to this AC .
+39	Retrieves a map copy of the aci attributes set
+40	Attaches a timer
+41	Verifies if there at least one timer attached
+42	Returns the set of timers attached to the ac
+43	Adds the specified name to the set of names bound to the ac
+44	Removes the specified name from the set of names bound to the ac
+45	Verifies if there at least one name bound to the ac
+46	Returns the set of names bound to the ac
+47	Sets the aci cmp attribute
+48	Retrieves the aci cmp attribute
+49	Detaches a timer
+50	Detaches an sbb entity
+51	Return a set with all sbb entities attached .
+52	Verifies if there at least one sbb entity attached
+53	Creates an object pool for the specified service and sbb . If a transaction manager is used then and if the tx rollbacks the pool will be removed .
+54	The contains method . This method returns true if the SBB entity represented by the SBB local object specified by the input argument is a member of this child relation . If the method argument is not an SBB local object is an invalid SBB local object or is an SBB local object whose underlying SBB entity is not a member of this child relation then this method returns false .
+55	Generates the log4j logger name for the tracer with specified named and notification source .
+56	Generate the Sbb Local Object Class
+57	Event firing logic independent of transaction management .
+58	Checks that fire event methods can be invoked
+59	Resumes the specified tx . If it is null nothing is done .
+60	This method returns tracer names that have been defined explicitly via setTraceLevel from TraceMBean
+61	This method can be called multiple times .
+62	This checks if the specified tracer name is ok .
+63	THis is internaly called by 1 . 1 tracers
+64	Generates classes for a slee component which defines usage parameters
+65	This method returns true if all SBB entities represented by the SBB local objects in the collection specified by the input argument are members of this child relation . If the collection contains an object that is not an SBB local object an SBB local object that is invalid or an SBB local object whose underlying SBB entity is not a member of this child relation then this method returns false .
+66	End activity logic independent of transaction management .
+67	Ensures the standard SLEE lifecycle .
+68	Executes a non transacted End Activity operation .
+69	Retrieves the object pool for the specified sbb and service .
+70	Create a method to retrive the entity from the SbbObject .
+71	This checks if tracer name is ok . It must not be null ;
+72	Its used to embed calls in AccessController in case of insturmented code cause javassist does not support anonmous inner class .
+73	Create a default usage parameter getter and setter .
+74	Retrieves an sbb aci data field value
+75	This method returns the aci for the specified activity if exists it should be invoked by each impl of methods of an ra type aci factory .
+76	Method for checking if this DU components are referred by any others .
+77	Create the narrow method to get the activity context interface
+78	Getter for the Uninstall Actions .
+79	Sets an sbb aci data field value
+80	Computes the real aci data field name
+81	Getter for the Install Actions .
+82	Removing an SBB entity from a child relation initiates a cascading removal of the SBB entity tree rooted by the SBB entity similar to invoking the remove method on an SBB local object that represents the SBB entity .
+83	Method for checking if this DU contains any component that is already deployed .
+84	Method for obtaining the external dependencies for this DU if any .
+85	Adder method for a Deployable Component .
+86	Invokers for the simple types
+87	Generates the concrete methods of the class It generates a specific method implementation for the javax . slee . ActivityContextInterface methods for the methods coming from the ActivityContextInterface developer the call is routed to the base asbtract class
+88	Generate the Activity Context Interface Class
+89	Executes a non transacted start activity operation .
+90	Create the implementation of the fire event methods
+91	Start the SLEE container
+92	This method depending if SecurityManger is present switches class loader using priviledged action this is requried as some action may be initiated by unsecure domains .
+93	Method for checking if the DU has all the dependencies needed to be deployed .
+94	Create a default constructor on the Sbb Concrete Class
+95	Start activity logic independent of transaction management .
+96	schedules the ending of all the entity activities this is needed on ra entity deactivation or slee container stop once the process ends it will invoke allActivitiesEnded to complete those processes
+97	Removes the entity it will unconfigure and unset the ra context the entity object can not be reused
+98	Binds the specified aci name with the specified activity context handle
+99	Deactivates the ra entity
+100	Activates the ra entity
+101	Signals that the container is in STOPPING state
+102	Signals that the container is in RUNNING state
+103	Updates the ra entity config properties
+104	Copy methods to a class
+105	Retrieves a set containing sbb entity ids in the factory cache data
+106	get the Log4J logger corresponding to the java . util . logger . LogRecord
+107	Removes the specified sbb entity but without changing to sbb s class loader first .
+108	Indicates if notifications are enabled for the specified parameter name
+109	Retrieves the set of ra entity link names referenced by the service componen which do not exist
+110	Install a service into SLEE
+111	Retrieves the ra interface for this entity and the specified ra type
+112	uninstall a service .
+113	If the message should be logged convert the JDK 1 . 4 LogRecord to a Log4J message .
+114	Method for showing current status of the Deployment Manager .
+115	Sets the DU as not installed and remove it from waiting list if present there . Also tries to undeploy DU s waiting for dependencies to be removed .
+116	Method for uninstalling a Deployable Unit into SLEE .
+117	Method for installing a Deployable Unit into SLEE .
+118	Updates the list of components already deployed to SLEE .
+119	This method returns a list containing the names of the named SBB usage parameter sets that belong to the SBB specified by the sbbID argument and the Service represented by the ServiceUsageMBean object .
+120	Send the notification .
+121	Initiates the notification info for usage mbeans
+122	Retrieves the next sbb entity to handle the event .
+123	Retrieves a map of the bindings . Key is the aci name and Value is the activity context handle
+124	Lookup of the activity context id bound to the specified aci name
+125	Resets the usage parameters of all SBBs within the Service represented by the ServiceUsageMBean object . The SLEE sets counter - type usage parameters to zero and removes all samples from sample - type usage parameters .
+126	Executes a non transacted fire event operation .
+127	Verifies if the specified ra entity link name is referenced by a non inactive service .
+128	Indicates a service was activated the entity will forward this notification to the ra object .
+129	Unbinds the specified aci name with the specified activity context id
+130	Callback to notify the entity and possibly the ra object informing activity handled ended .
+131	THis methods raises alarm . It MUST not receive AlarmLevel . CLEAR it has to be filtered .
+132	Retrieve all methods from an interface including super interfaces except the ones specified in the provided map
+133	Retrieve all abstract methods from a class
+134	SBB USAGE PARAMS
+135	Retrieves a profile given the cmp method name and profile id
+136	Create the inheritance link with the sbb absract class provided by the sbb developer
+137	Copy declared methods from one class to another
+138	The logic to fire an event from an SLEE 1 . 1 Sbb
+139	if it is a handle reference it gets the referred handle
+140	The logic to fire an event from an SLEE 1 . 0 Sbb
+141	Retrieves the object name for the usage param mbean with the specified name
+142	Directory is valid if it exists does not represent a file and can be read .
+143	NON MBEAN - used only internal those methods are not exposed via jmx
+144	the real logic to resume the event context
+145	Updates the ra configuration .
+146	Unsets the ft context of the ra object .
+147	Unsets the context of the ra object .
+148	Merges the current properties values with the new ones and uses the ra to verify the configuration
+149	Removes the mbean
+150	Unconfigures the ra object
+151	Requests the deactivation of the ra object . If the operation succeeds the ra will transition to INACTIVE state .
+152	Requests the stopping of the ra object . If the operation succeeds the ra will transition to STOPPING state .
+153	Downloads a remote DU to a local folder
+154	Finds a resource locally i . e . in the URLs managed by the extended URLClassLoader .
+155	manages the flags which cache if levels are enabled
+156	assigns the equiv log4j level to the tracer
+157	syncs the slee tracer level with the one that related logger has in log4j
+158	Method for deciding whether or not to accept the file .
+159	Initializer method for accepted files . Will parse descriptors at this point .
+160	This is where the fun begins . Time to deploy!
+161	Fun has ended . Time to undeploy .
+162	MBean operation for getting Deployer status .
+163	Shutdown of the SLEE container
+164	Initiates the SLEE container
+165	Finds a class locally i . e . in the URLs managed by the extended URLClassLoader .
+166	Finds resources locally i . e . in the URLs managed by the extended URLClassLoader .
+167	Adds a direct dependency to this domain . Direct dependencies are other domains which the domain depends on .
+168	Retrieves a flat list containing all dependencies for the domain i . e . all direct dependencies and their own dependencies .
+169	Place an object into the NonSerializableFactory namespace for subsequent access by getObject . There cannot be an already existing binding for key .
+170	A convience method that simplifies the process of rebinding a non - zerializable object into a JNDI context . This version binds the target object into the default IntitialContext using name path .
+171	Default implementation .
+172	Creates an InputSource with a SystemID corresponding to a local dtd file .
+173	Removes the object pool for the specified profile table . If a transaction manager is used then the removal is only after the tx commit .
+174	Creates an object pool for the specified profile table . If a transaction manager is used then and if the tx rollbacks the pool will be removed .
+175	Creates and registers a profile mbean for the specified object .
+176	Adds call to this profile .
+177	Retrieves a profile object for the table and specified profile name there is only one profile object per profile entity per transaction
+178	Adds transactional actions to the active transaction to passivate a profile object .
+179	Verifies that the current transaction is still the one used to create the object
+180	Triggers remove operation on this profile table .
+181	Determines if profile is in back end storage == visible to other compoenents than MBean if null is passed as argumetn it must check for any other than defualt?
+182	Fires a profile added or updated event if the profile object state is ready and the persistent state is dirty
+183	Retrieves a local object valid for thus current transaction .
+184	Verifies if the specified class can be loaded by current thread class loader
+185	Usage methods . Here we can be static for sure . Rest must be tested .
+186	Retrieves the profile cmp slee 1 . 0 wrapper for this profile object
+187	Create a named usage parameter getter .
+188	Retrieves the local representation for this profile object
+189	Adds the selected annotation to the Object along with the specified memberValues .
+190	Invoked when pool removes object
+191	Get a ProfileID object that identifies the profile contained in the specified profile table where the specified profile attribute is set to the specified value . In the case of a profile attribute of an array type the type of the specified value must be the base component type of the array not the array type itself and the SLEE will return the profile identifier of any profile that contains the value within the array .
+192	Retrieves the entity manager for the current tx and the framework profile spec
+193	Get a ProfileTableActivity object for a profile table .
+194	Private method to add member values to annotation
+195	Method that does lookup and creates PLOs
+196	initialize state from default profile
+197	Invoked from pool .
+198	Create the inheritance link with the absract class provided by the developer
+199	Creates a class with the desired name and linked to the mentioned interfaces .
+200	Get a collection of ProfileID objects that identify all the profiles contained in the specified profile table . The collection returned is immutable . Any attempt to modify it either directly or indirectly will result in a java . lang . UnsupportedOperationException being thrown .
+201	Method to display result of operation .
+202	User should overide it to provide different name for instance for boolean \ is \ prefix
+203	This method is called to convert optArg from string form if no conversion is needed it should return passed object .
+204	TMP DEV METHODS
+205	protected DeployableUnitsCard deployableUnitsCard ;
+206	SImilar to LoggingMXBean return list of available loggers . Filter is string that has to occur in loggers name .
+207	Tries to add logger if it doesnt exist
+208	Removes all loggers under certain branch .
+209	Resets all loggers level to default one
+210	Calculates the Activity TTL
+211	Adds SocketHandler to certain logger this logger must exist prior this function is called
+212	Tries to remove handler from logger .
+213	Logic to execute after invoking a management method on the mbean
+214	Retrieves the JMX ObjectName for a profile given its profile name and profile table name
+215	Logic to execute before invoking a cmp setter method on the mbean
+216	Logic to execute after invoking a cmp setter method on the mbean
+217	Logic to execute before invoking a cmp getter method on the mbean
+218	Logic to execute after invoking a cmp getter method on the mbean
+219	Logic to execute before invoking a management method on the mbean
+220	Closes and unregisters the mbean for the specified profile if exists
+221	Moves to the write mode using specified object . The current java transaction will be suspended .

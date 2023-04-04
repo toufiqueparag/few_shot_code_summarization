@@ -1,0 +1,423 @@
+0	Add an index entry .
+1	Returns all the new records created .
+2	Returns all the new records created .
+3	Returns the linked class if any .
+4	Drop all the indexes related to current property .
+5	Creates an index on the property .
+6	Returns the index instance if any .
+7	List all the available databases .
+8	Connect to the server .
+9	Returns the cluster status .
+10	Check if a database exists .
+11	Freeze the database .
+12	Shutdown the pool .
+13	Startup the cache .
+14	Removes all the records of the specified cluster .
+15	Execute the query .
+16	Execute the query against the index .
+17	Execute the query and get the first result .
+18	Save a record in the requested cluster .
+19	Deletes a record .
+20	Acquire a database instance from the pool .
+21	Acquire a database instance from the pool .
+22	Execute the DROP CLUSTER .
+23	Remove a listener .
+24	Grant a permission to the role .
+25	Revoke a permission for a resource .
+26	Sets the fetch plan to use .
+27	Drop a database .
+28	Adds an index definition .
+29	Move the buffer content .
+30	Fills the stream with a fixed byte .
+31	Evaluates the record .
+32	Creates a hash of the input string .
+33	Check the password .
+34	Read the current record .
+35	Detach all the connected documents to POJO .
+36	Returns the version number of the document .
+37	Release the script engine .
+38	Returns the library code for the current language .
+39	Returns the value of a field in a document .
+40	Execute the command .
+41	Converts all the values to enum instances .
+42	Convert the value to enum .
+43	Reads the next char .
+44	Execute the CREATE CLASS .
+45	Check if the current user has the permission to execute the operation against the resource .
+46	Check if the user has the rule defined .
+47	Sets the child context .
+48	Handle the result .
+49	Returns the set of clusters involved in the command .
+50	Execute the CREATE CLUSTER .
+51	Evaluates the condition .
+52	Truncates all the clusters the class uses .
+53	Release the database .
+54	Parses the timeout keyword if found .
+55	Returns the list of the command names .
+56	Returns the list of the names of the supported functions .
+57	Sets the class handler .
+58	Creates a new POJO by its class name .
+59	Convert 4 bytes to an int .
+60	Creates the index .
+61	Send the response to the client .
+62	Writes a record in the response .
+63	Writes a collection of records in JSON format .
+64	Writes the HTTP response headers .
+65	Writes the HTTP status .
+66	Sends a stream as response .
+67	Converts the link to a record .
+68	Changes maximum amount of memory used by disk cache .
+69	Synchronizes the schema .
+70	Returns all the index types .
+71	Returns true if the replication is active for the cluster .
+72	Returns the map of server name and the list of clusters it manages .
+73	Returns the list of configured servers for the cluster .
+74	Returns the list of servers that are configured to manage the passed cluster names .
+75	Returns the owner of the cluster .
+76	Backup the database to an output stream .
+77	Returns true if the cluster is configured to read your writes .
+78	Register the entity classes .
+79	Sets the bucket pointer .
+80	Reads the bucket pointer from the stream .
+81	Close all the pooled databases .
+82	Remove all the pools that are bound to the storage .
+83	Prepares keys for index .
+84	Returns the list of collate names .
+85	End the atomic operation .
+86	Acquires exclusive lock till operation complete .
+87	Updates the size of the bag .
+88	Release all the locks acquired by the command .
+89	Get the graph instance .
+90	Gets the index by name .
+91	Removes the current element from the graph .
+92	Drops an index .
+93	Adds a vertex to the graph .
+94	Creates a new edge to another vertex .
+95	Add an edge to the current vertex .
+96	Removes the vertex from the graph .
+97	Returns the connected vertices .
+98	Checks if the class exists in the schema . If not it creates it .
+99	Removes a property .
+100	Set the property .
+101	Returns the connection class name .
+102	Creates a new edge .
+103	Stop the transaction .
+104	Returns the base vertex type .
+105	Returns the vertex type by name .
+106	Returns the graph features .
+107	Gets the vertex instance .
+108	Execute the query against the graph .
+109	Execute the query against the graph .
+110	Returns the vertex at the opposite side of the edge .
+111	Returns the Record Id . If the edge is transient , then return a temporary Id composed by the out vertex , the in vertex and a random number .
+112	Set a property to the edge .
+113	Remove a property .
+114	Close the context .
+115	Returns the edge type .
+116	Drops the index associated with the key for the given class .
+117	Reuse the current instance by setting the new database instance to use .
+118	Gets an edge by its id .
+119	Returns all the edges of class iClassName .
+120	Returns all the vertices of a class .
+121	Creates a key index .
+122	Gets an element from the graph .
+123	Drops a vertex class .
+124	Clears the tree .
+125	Deletes the tree .
+126	Listens for changes .
+127	Gets the current transaction .
+128	Returns a new instance of OrientGraphNoTx .
+129	Setup the pool .
+130	Parses the lock keyword if found .
+131	Parses the fetchplan keyword if found .
+132	Returns the number of available connections in the pool .
+133	Add a base class to the current one . It automatically add the base class cluster ids to the current cluster ids .
+134	Add the cluster ids of the polymorphic classes .
+135	Returns the connection class name .
+136	Parses the RETRY keyword if found .
+137	Optimize the ORDER BY clause using indexes .
+138	Links the record to the stream .
+139	Transforms the result of the script execution .
+140	Gets the value as object or map .
+141	Analyzes the condition and returns the list of indexes that can be used to execute the query .
+142	Creates an index search result .
+143	Updates the record in the cache .
+144	Finds a record in the cache .
+145	Tries to merge the changes .
+146	Replace the current delegate with a new one .
+147	Returns the set of index engines .
+148	Registers the cluster internally .
+149	Fills a record .
+150	Sets the version .
+151	Returns the record type .
+152	Returns the list of methods annotated with ConsoleCommand .
+153	Updates the metadata .
+154	Merges two buffers into a short .
+155	Check if the current character is a separator .
+156	Splits short value to two buffers .
+157	Jump white spaces .
+158	Parses the next chars .
+159	Parses an optional word .
+160	Finds the index of the character outside of the strings .
+161	Find all the classes in a package .
+162	Returns all the classes that implement the interface .
+163	Returns the generic type of the field if any .
+164	Parses an optional keyword .
+165	Jump the cursor to the next char not in the list .
+166	Parses a required word .
+167	Returns the execution mode for the cluster .
+168	Returns the argument value at the requested position .
+169	Returns the number of parameters found .
+170	Generate ParseException .
+171	Get the ith token , counting from 1 .
+172	Gets the next token .
+173	Parse the query .
+174	Listen for incoming connections .
+175	Reads the parameters from the configuration file .
+176	Returns the current record .
+177	Get the database instance .
+178	Authenticate against a database .
+179	Create a new vertex .
+180	End the import .
+181	Clear the initialization stack .
+182	Execute the command request and return the result back .
+183	Parses the NOCACHE keyword if found .
+184	Lookup the provider with the OrientDB classloader .
+185	Returns the index of the first byte to be returned .
+186	Reports a tip to the profiler .
+187	Registers the entity classes .
+188	Returns the temporary RID counter .
+189	Adjust the line and column numbers for the current token .
+190	Wait for a random time before to retry .
+191	Parse the MATCH .
+192	Execute the command .
+193	Execute the SYNC DATABASE .
+194	Execute the SYNC CLUSTER .
+195	Returns the list of clusters that are on the specified server .
+196	Registers a new command .
+197	Define the strategy to use for the edge attribute .
+198	Define the strategy to use for a specific vertex attribute .
+199	Estimates the number of records that will be returned by the query .
+200	Updates the schedule starting at the given node .
+201	Returns the property value .
+202	Parse the statement .
+203	Registers a new encryption algorithm .
+204	Returns all the configured servers .
+205	Retrieves the server information .
+206	Add a new result to the unique result set .
+207	Sets the callback to handle replication errors .
+208	Fixes the link .
+209	Stop the commit timer .
+210	Completes the component operation .
+211	Execute the PROFILER .
+212	Returns the owner node of a cluster .
+213	Checks if the index can be used by the ORDER BY clause after the filter .
+214	Wraps cursor to track changes .
+215	Returns the write quorum .
+216	Returns the set of clusters owned by a server .
+217	Deletes the configuration files .
+218	Returns true if the connection is active .
+219	Stop monitoring .
+220	Push the data from the snapshot to the counters .
+221	Push the counters to the snapshot .
+222	Fetch counters for specified component .
+223	Creates a new Edge type .
+224	Creates a new vertex class .
+225	Fetch system counters .
+226	Registers a database .
+227	Called when the database is opened .
+228	Checks if the algorithm is supported .
+229	Unregister MBean .
+230	Registers MBean for profiler .
+231	Returns collate for current field chain .
+232	Creates a server user from a document .
+233	Returns the authentication header .
+234	Stop write cache flush timer .
+235	Stops the fuzzy checkpoint timer .
+236	Stops the WAL record timer .
+237	Pushes WAL counters to the holder .
+238	Stops the WAL flush timer .
+239	Push the storage counters to the holder .
+240	Stops the full checkpoint timer .
+241	Pushes write cache counters to holder .
+242	Fetch write cache counters .
+243	Check the memory configuration .
+244	Returns the value as string .
+245	Removes the server from the list .
+246	Install the clusters of a class .
+247	Loads all the local databases .
+248	Dumps the servers status .
+249	Authenticate the user .
+250	Checks if the user is authorized to execute the command .
+251	Returns the cluster configuration .
+252	Create a new cluster .
+253	Returns a compact string representation of the distributed configuration .
+254	Creates a copy of current database .
+255	Acquire an entry .
+256	Returns the closest power of two for the given value .
+257	Removes the entry from the cache .
+258	Adds a task to be executed after the write operation .
+259	Puts entry in read buffer .
+260	After read operation .
+261	Reads all the entries from the read buffers .
+262	Close the file .
+263	Clear the cache .
+264	Adds new item to the cache .
+265	Gets the value for the key .
+266	Checks if the server contains all the clusters .
+267	Returns the set of data centers .
+268	Returns the write quorum for the given data center .
+269	Returns the list of servers that belong to the data center .
+270	Returns the data center name of a server .
+271	Returns the global read quorum .
+272	Returns the configuration of the data center .
+273	Removes a background exception listener .
+274	Fire the background data flush exception event .
+275	Extracts subqueries from the query and adds them to the let clause .
+276	Returns true if the server is configured to contain the cluster .
+277	Splits the projection item for aggregation .
+278	Set a property .
+279	Returns the property value .
+280	Returns true if the cluster is sharded .
+281	Aggregates index search descriptors by index and key condition .
+282	Add projections for ORDER BY items that are not in the projection list .
+283	Move all equality expressions to the left .
+284	Checks if the class hierarchy is diamond shaped .
+285	Returns the order direction if it is the same for all order by items .
+286	Checks if the query can be executed using an index for sorting only .
+287	Checks if the function can be executed using an index .
+288	Checks if the function can be executed without index .
+289	Checks if the index can be used to execute the function .
+290	Checks if the function can be executed without index .
+291	Returns the partition key .
+292	Returns the timeout to synchronize the distributed request .
+293	Returns the next position .
+294	Check for memory leaks .
+295	Clear the cache .
+296	Shutdown the logging system .
+297	Shutdown the server .
+298	Gets the index class .
+299	Convert an element to a JSON object node .
+300	Convert an element to JSON .
+301	Create a vertex from a JSON object .
+302	Create an edge from a JSON object .
+303	Derive the field type .
+304	Execute the script until the first return statement is found .
+305	Creates a new instance of the field handling strategy .
+306	Returns a list of disjoint patterns .
+307	Execute the PROFILER .
+308	Returns the value at the specified index .
+309	Put given value in index . In case of concurrent access , when current transaction is running , it tries to lock index . If someone works with index in non - transaction mode , then exception is thrown .
+310	Registers a new compression algorithm .
+311	Returns the list of registered servers .
+312	Returns the strategy to use to create new nodes .
+313	Creates a symmetric key from a configuration .
+314	Loads a symmetric key from a file .
+315	Creates a new symmetric key from the input stream .
+316	Encrypts the bytes using the secret key .
+317	Save the key to the output stream .
+318	Save the key to a keystore .
+319	Separates the algorithm from the cipher transformation .
+320	Execute a command against the database .
+321	Marks the object as dirty .
+322	Unset the dirty status of the document .
+323	Write page to the disk .
+324	Opens the WAL .
+325	Reads page from WAL file .
+326	Opens a database using an URL .
+327	Execute the MOVE VERTEX .
+328	Creates a result set with a single entity .
+329	Returns the index of the object in the array .
+330	Elect a new lock manager .
+331	Assign the lock manager from the cluster .
+332	Returns the list of master servers .
+333	Returns the index of the object in the array .
+334	Find the best index for the query .
+335	Returns a map of dependencies between aliases .
+336	Release the pointer .
+337	Returns the map of active data centers .
+338	Handle the push request .
+339	Finds a minimal set of nodes that covers all the clusters .
+340	Called when a request timeout .
+341	Checks if the cluster is in the filter .
+342	Rollback the micro - transaction .
+343	Updates the record cache after a rollback .
+344	Commit the micro-transaction .
+345	Rollback the current transaction .
+346	Updates the identity of the record .
+347	Deletes the file if exists and creates the parent directories .
+348	Move file atomically .
+349	Merge two sets .
+350	Truncates the WAL file .
+351	Returns the status of the scheduler .
+352	Execute the import .
+353	Returns the status of the import .
+354	Returns the best group of responses .
+355	Returns the list of received responses .
+356	Returns the list of missing nodes .
+357	Compute the quorum response .
+358	Returns the list of responses that are in conflict with the best group .
+359	Prints the exception stack trace .
+360	Builds a JSON document from a file .
+361	Handle JVM error .
+362	Acquire read lock .
+363	Initialize the system database .
+364	Sets the type of the property .
+365	Get the execution plan for the statement .
+366	Checks if changes are filled up to the given page index .
+367	Reads embedded collection and returns list of positions of elements .
+368	Checks if the key condition requires multiple index lookups .
+369	Reads the field size and type from the current position .
+370	Detects limit of open files for the current OS .
+371	Attach the object to the current database .
+372	Execute the full script .
+373	Append the characters to the builder .
+374	Converts the result to a document or a map .
+375	Swaps the value of the entry at the specified index with the specified value .
+376	Add a new reader to the list of readers .
+377	Gets next value from sequence .
+378	Deletes a record .
+379	Add a record to the queue of the records to repair .
+380	Cancel the repair of a record .
+381	Enqueue the cluster to repair .
+382	Initialize the database instance .
+383	Returns the number of nodes with the specified status .
+384	Execute the request on the local node .
+385	Starts the thread to receive messages .
+386	Initialize the timer to check if the servers are alive .
+387	Creates the file .
+388	Replace the content of the file with the content of the passed file .
+389	Check if the requested region is valid .
+390	Call all the configured hooks .
+391	Deletes the record without checking the version .
+392	Counts the total elements of a class .
+393	Activates the current database instance in the current thread .
+394	Updates the configuration of the schema class .
+395	Deletes a record .
+396	Counts the total number of records of a class .
+397	Put a new entry in the index .
+398	Create the metadata for the security .
+399	Authenticate the user by token .
+400	Removes the value from the index .
+401	Load the configuration from the storage .
+402	Compress the JSON response .
+403	Initialize the shutdown queue .
+404	Execute the command remotely and return the result back .
+405	Returns the engine by name .
+406	End the request .
+407	Add the host to the list of available servers .
+408	Begin a new request to the server .
+409	Advance the probe .
+410	Returns the index of the item in the table .
+411	Resets the table .
+412	Spreads the bits of a number to all positions .
+413	Returns the connection by its id .
+414	Interrupts the current command .
+415	Disconnect a client connection .
+416	Push the new cluster configuration to the connected clients .
+417	Kill the connection .
+418	Execute the CREATE VERTEX .
+419	Execute the CREATE INDEX .
+420	Processes set of RIDs of records which were detected as broken during database export .
+421	Returns the serializer for the given type .
+422	Builds index search descriptor for fulltext index .

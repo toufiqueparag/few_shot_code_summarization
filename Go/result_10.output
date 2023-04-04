@@ -1,0 +1,1000 @@
+0	NewSized creates a new Map with the given width and height .
+1	connectionCloseStateChange is called when a connection is closed . It updates the channel state if necessary .
+2	IsAssignee reports whether login is one of the assignees for i .
+3	uncapitalizeYs changes all Y's to y's .
+4	NewTransport creates a new http . Transport with the same settings as http . DefaultTransport , but with idle connections and keep alives disabled .
+5	NewSystemError creates a new SystemError with the given code and message .
+6	GetSnapshot returns a snapshot by ID .
+7	OpenDb opens a GeoIP database from a list of files .
+8	send sends the event to the channel .
+9	migratedBlockingPresubmits returns a map of repos to presubmits that have been migrated from blocking to non - blocking .
+10	SliceLen returns the length of the slice .
+11	List lists all Apps in the indexer for a given namespace .
+12	appendStats records the time spent and logs processed for a given peer .
+13	Flush calls Flush on the underlying ResponseWriter if it implements http . Flusher .
+14	typeName returns a string describing the type of x .
+15	MigrateContainerSnapshot performs a migration of a container snapshot .
+16	readKey reads a private key from the given path .
+17	IntrospectState returns the runtime state of the peer .
+18	SortTypes sorts the given types in the order of their hierarchy .
+19	Match returns true if the event matches the given event name and label .
+20	Uint defines a uint flag with specified name , default value , and usage string . The return value is the address of a uint variable that stores the value of the flag .
+21	IsEnabledFor returns true if the specified module is enabled to the specified level .
+22	DeleteSession deletes session by its id in http cookie .
+23	StorageVolumeConfigClear removes all config entries for a volume .
+24	SetLogger sets the logger used by the aws - sdk - go . To restore the original logger , call the return value of this function .
+25	Replay sends all events to a subscriber .
+26	WithApp adds the app to the PostAppsAppRoutes params .
+27	parseTriageData parses the JSON data from the triage app.
+28	Do executes RemoveBinding in the provided context .
+29	configureOrgMeta updates the org metadata to match the desired state .
+30	WriteResponse writes the response to the given response object .
+31	New returns a new Handler .
+32	Main draws a gopher .
+33	Do executes DispatchTouchEvent with the provided context and parameters .
+34	NewPool creates a new Pool .
+35	EntriesService sets the EntriesService to use for logging .
+36	NewFromData returns a new Message with the given data .
+37	WithReferrer sets the referrer for the navigation .
+38	Set sets the agent's configuration .
+39	ShowCommandHelp shows help for a command .
+40	OpPut creates a put operation .
+41	GetSortedList returns a sorted list of symbols in the set .
+42	nextConfiguration returns the next configuration given the current configuration and a change request .
+43	FromGRPC converts a gRPC error into an Error .
+44	GetNetworks returns the list of networks .
+45	NewClient creates a new Client .
+46	Close closes the connection with the API server .
+47	check reports whether the tagLine matches the current environment .
+48	GetJobLog returns the log for the specified job .
+49	RenameContainerBackup renames a container backup .
+50	ContainerConfig returns the container configuration map for the container with the given ID .
+51	LoggingService sets the logging service to use for the StackdriverHook .
+52	Accept implements the net . Listener interface .
+53	ListIssueEvents returns the list of issue events for the given issue .
+54	WrapHTTPHandlerFunc wraps an http . HandlerFunc into a HandlerFunc .
+55	WebSocketHandlerFunc wraps a websocket . HandlerFunc into a HandlerFunc .
+56	Lease acquires a lease on a Task .
+57	PutWriter returns a new io . WriteCloser which will upload the contents written to it to the storage provider .
+58	printLs prints the response from a Get request .
+59	EncodeArray encodes an array . If n is negative , the array is encoded as a stream .
+60	ValidEnum validates a proposed value for this enum . Implements the Enum interface for CreateAccountResultCode .
+61	DepthMatchFirst returns the first part that matches the matcher .
+62	monitorVersions periodically checks the versions of all members in the cluster . If the versions are all the same , it will decide the cluster version . If the cluster version is greater than the current version , it will update the cluster version .
+63	EventuallyWithOffset is a wrapper around Eventually that allows you to specify an offset for the line number of the error message .
+64	AlertSpecLocator returns a reference to a AlertSpecLocator instance .
+65	OpenedStream is called when a stream is opened .
+66	RuleName returns the name of the rule .
+67	Compact discards all uncommitted entries at and above the given revision .
+68	manifestSchema1FromComponents creates a manifestSchema1 from the supplied components .
+69	keyFunc returns a string representation of the given request .
+70	gitCtxForRefs returns a gitCtx for the given refs .
+71	SetAttr sets the value of the attribute with the given key .
+72	createOCIRef creates a temporary directory and extracts the image into it .
+73	AttachCdrom attaches a cdrom to a server .
+74	Hijack implements the http . Hijacker interface .
+75	GetHeadContexts returns the contexts for the head of the PR .
+76	readAllAsync reads all the data from the given reader and returns a pointer to the buffer containing the data . The caller must not modify the buffer . The done channel is closed when the read is complete .
+77	Flush flushes all the senders .
+78	UrlFor returns a URL for the given path and query parameters .
+79	ListObject lists all objects .
+80	PrintDetailedCommitInfo prints a detailed commit info to stdout .
+81	start starts the bindSyncer .
+82	httpsLXD creates a new LXD protocol instance using the provided URL and connection arguments .
+83	SRS returns the spatial reference system of the map .
+84	NewOfferEntryExt creates a new OfferEntryExt .
+85	MiddlewareFunc makes AccessLogJsonMiddleware implement the Middleware interface .
+86	Add adds a child node to the node .
+87	OriginAllowed checks if the origin is allowed to access the resource .
+88	Send sends a message to the given recipients .
+89	VerifyBasicAuth returns a handler that verifies the basic auth header .
+90	ServeTCP is the same as Serve , but uses a net . TCPListener instead of a net . Listener .
+91	IDFromMetadata returns the ID from the metadata .
+92	Endpoint returns a http . Handler that handles all requests for the group .
+93	SequenceForAccount returns the sequence number for the given account .
+94	WithDelims sets the delimiters for the template .
+95	Send sends a message to the remote peer .
+96	NewAccountId creates a new AccountId from a public key .
+97	ReadHTTP reads the contents of a URL and returns the body .
+98	pagedQuery executes a query and returns the results in pages .
+99	signaturePath returns the path to the signature file for the given index .
+100	FrameRangePadded returns the frame range with padding .
+101	Run starts the controller .
+102	NetworkNodeJoin adds a node to a network .
+103	newPRMExactRepository creates a new prmExactRepository .
+104	ClusterAddress returns the address of the cluster listener .
+105	NewRouter creates a new Router instance .
+106	Do executes SetPlaybackRate with the provided params .
+107	getValues returns the Values for the current goroutine .
+108	getenv returns the value of the environment variable named by the key . It returns the value , which will be empty if the variable is not present , and whether the variable is present .
+109	NewStringSliceFlag returns a flag . Value that is a slice of strings .
+110	SetWriter sets the writer for all loggers .
+111	GetCmd returns the cobra command for " " .
+112	CertDelete deletes a certificate from the database .
+113	updateFromV37 updates the database from version 37 to 38 .
+114	Health returns the health status of the server .
+115	DumpAST sets the DumpAST flag .
+116	FlushCommit flushes the commits to the repos .
+117	Do executes RemoveXHRBreakpoint with this params .
+118	Close closes the file associated with the RotatingFileHandler .
+119	processLog processes a log entry . It returns true if the log entry was processed , false if the log entry was invalid .
+120	NumPendingOutbound returns the number of pending outbound messages .
+121	SaveConfig saves the current configuration to the given path .
+122	StoragePoolVolumeSnapshotsGetType returns a list of snapshots for a volume .
+123	parseXML parses the XML response from GCS.
+124	isBuiltInType returns true if the given type name is a built - in type .
+125	DeepCopy is an autogenerated deepcopy function , copying the receiver , creating a new App .
+126	newLoggingPipe returns a loggingPipe .
+127	handleCallRes handles a call response frame .
+128	HomeDir returns the home directory for the current user .
+129	writeRequests writes all the requests in reqs to the database .
+130	Analyze analyzes the API and returns a descriptor .
+131	Client returns a client for the given type .
+132	Send sends a message to the given client .
+133	Do executes ReleaseObjectGroup with the provided params .
+134	Subscribe creates a subscription to the specified topic .
+135	New creates a new History .
+136	step4 is the 4th step of the Russian stemmer .
+137	Add adds an item to the segment .
+138	MergeAttrs merges the attributes from attrs into a .
+139	CanonicalLink returns a link to the artifact .
+140	NewPubSub creates a new PubSub object with the given host and router .
+141	Master returns a keypair for the master account .
+142	merge merges the contents of bbsrc into bb .
+143	getUser returns a user by id .
+144	Scan implements the sql . Scanner interface .
+145	FinishReportAndFlushUserAction returns a function that reports the given action and error ( if any ) , and flushes the user action .
+146	HandlerWithNext is a middleware function that takes a next http . HandlerFunc .
+147	String returns the string representation of the log level .
+148	Reticence returns a string that is no longer than the specified length .
+149	generateEmpty returns a list of rules that generate empty files .
+150	FirstIndex returns the first index in the store .
+151	GetConfig returns the config for the given name .
+152	Key returns the key of the current node .
+153	produceKVs produces key values from the database and sends them to the kvChan .
+154	profileDelete deletes a profile .
+155	Codecs returns a map of all registered codecs .
+156	Main draws a simple line and ellipse .
+157	ContainerConfigRemove removes a config key from a container .
+158	InputName returns the name of the input .
+159	string returns a string representation of the stack frame .
+160	NewStream returns a new Stream .
+161	rescind attempts to rescind a lease .
+162	FileName returns the file name from the Content - Disposition header .
+163	Set sets the namespaces .
+164	SetReview sets a review on a change .
+165	newWritableChunk returns a new writableChunk .
+166	accumulate takes a list of PRs and a list of ProwJobs and returns a list of PRs that are successful , pending , or neither .
+167	CloseNotify implements the http . CloseNotifier interface .
+168	GetHeaderValues gets the values associated with the given header key . It is case - insensitive; CanonicalMIMEHeaderKey is used to canonicalize the provided name . If there are no values associated with the key , nil is returned . To access
+169	IsMergeable returns true if the pull request can be merged .
+170	ValidateGitCloneURL validates that the given url is a valid git clone url .
+171	Backtick escapes a string for use in a SQL query .
+172	Create creates a new certificate authority .
+173	Contains returns true if the device is already in the list .
+174	allJobNames returns a list of all job names in the two releases .
+175	Register registers a gossip instance with the peer .
+176	New returns a new Checksum of the given type .
+177	NewFromURL creates a new etcd client from a URL .
+178	newSizeHistogram returns a new sizeHistogram .
+179	Notify implements the Notifier interface .
+180	NewOutgoingMessage creates a new OutgoingMessage .
+181	Map applies a function to each string in the PlatformStrings . If the function returns an error , the error is collected and returned .
+182	fill fills the response header with the information from the header .
+183	MutatePayment mutates the provided operation to use the native amount .
+184	AddRaw adds an index to the indexer .
+185	StoragePoolVolumeTypeToName converts a volume type to a string .
+186	prepareLogfiles copies all the log files from the local machine to the directory specified by logDir .
+187	New returns a new Sentinel instance .
+188	GetATime returns the last access time of a file .
+189	Start starts the given app . It returns an error if the app is already running .
+190	WithURL sets the URL field of the struct .
+191	watchGC watches for changes to the etcd GCGenerationKey and updates the generation of the server .
+192	Set sets the configuration .
+193	sendFile sends the file at path to the destination .
+194	EditScriptForMatrix returns the edit script for the given matrix .
+195	CreateJob creates a new job .
+196	Date sets the Date header field .
+197	WithContext returns a new Context that carries the request .
+198	entityPost returns the path for a POST request to the given entity .
+199	GetKeyList returns all the keys in a section .
+200	Release releases the sequence back to the database .
+201	RemoveServer removes a server from the cluster . The server must be present in the configuration and not be the leader . The change is applied asynchronously and must be committed with a subsequent call to ApplyConfChange .
+202	StripPunctuation removes punctuation from a string .
+203	match returns the converted import path if it matches the key .
+204	NewSTM creates a new STM transaction .
+205	Reset resets the state to its initial state .
+206	WithFromSurface sets the FromSurface field of the given CaptureScreenshotParams .
+207	SetItems sets the Items field s value .
+208	NewSegment creates a new segment .
+209	GetErrno returns the underlying syscall . Errno from an error .
+210	Start returns the start of the first block .
+211	FieldByName returns the field with the given name .
+212	NewURLsValue returns a new URLsValue .
+213	Load loads the config from the given files .
+214	demuxExternal dispatches the payload to all external plugins .
+215	ProjectMap returns a map of project id to project name .
+216	HostFromLogin returns the policy host for a given login host .
+217	Do executes SetRemoteLocations with the provided params .
+218	MakeWatcher creates a new Watcher .
+219	Set adds a new symbol to the set .
+220	Session sets the session for the handler .
+221	InlineEdit renders the inline edit form for the resource .
+222	deprecated_init is a deprecated function that is used to initialize the Stdin variable .
+223	Claimer is a TokenOpt that sets the claimer function .
+224	ForwardedOperationResponse returns a response that forwards the operation .
+225	Publish publishes a value to a node .
+226	forever sets the expiry time to forever .
+227	Errorf returns an error with the given message .
+228	setLeader sets the current leader.
+229	rollback rolls back the transaction and logs the reason .
+230	ArmForSwitch returns which field name should be used for storing the value for an instance of PathPaymentResult .
+231	Wrap sets the buffer to be read from .
+232	removeLegacyProto removes legacy proto rules from the given file .
+233	stemSpecialWord returns the stemmed version of a special word .
+234	EnsureSchema ensures the schema is up to date .
+235	IsRetriableError returns true if the error is a retriable error .
+236	NewController creates a new Controller instance .
+237	FinalizeTypeNames finalizes the type names in the registry .
+238	Do executes SendMessageToTarget with the provided params .
+239	getLxcState returns the state of the container by asking LXC .
+240	MutateTransaction implements the Mutator interface .
+241	newImageSource creates a new ImageSource from an OCI archive .
+242	UserPreferenceInfoLocator returns a UserPreferenceInfoLocator .
+243	GetKubeClient returns a kubernetes client .
+244	StoragePoolGetID returns the ID of the storage pool with the given name .
+245	newPkgDot returns an expression and corresponding type denoting the qualified identifier pkg . name .
+246	findConflict finds the index of the conflict. Returns 0 if there is no conflict. The entries must be sorted by index.
+247	BeginMany marks the beginning of a batch of indices .
+248	Destroy deletes all session data associated with the session id .
+249	MarshalJSON marshals this object to a JSON structure .
+250	Errorf logs to ERROR log . Arguments are handled in the manner of fmt . Printf .
+251	ID returns the ID of the Ref .
+252	Send sends a presence message .
+253	NewWithConfig creates a new skiplist with the given configuration .
+254	LoadFromReader loads a configuration from a reader .
+255	GetBranchRevision returns the revision of the given branch .
+256	Do executes StartWorker with the provided context .
+257	ExtractToFile extracts a file from the archive to the given path .
+258	Parse parses the given struct and populates the Params with the values .
+259	NewPOSTTask creates a new POST task .
+260	Get returns the URL from the context .
+261	Delete deletes the key from the database .
+262	buildImage builds a docker image from a given context directory .
+263	Filters returns a list of filters for the given entity .
+264	NewTracerFromRequest creates a new Tracer from the given request .
+265	forEachConnectedPeer iterates over all connected peers .
+266	New creates a new LocalGit instance .
+267	Visualize returns a graphviz representation of the catalog .
+268	Write writes the VMXFile to disk .
+269	writeMeta writes the meta file to disk .
+270	Begin starts a transaction .
+271	walkFields walks the fields of a struct and calls visit for each field . If visit returns true , walkFields will recurse into the field if it is a struct .
+272	topJobsFailed returns the top count jobs with the most failed builds .
+273	GetOrgProjects returns the projects for the given org .
+274	Insert inserts itm into the skiplist .
+275	Try wraps a Handler and returns a new Handler that will recover from any panics and store the error in the request context .
+276	Publish publishes a message to the given topic .
+277	TwoContig returns two slices of the readable data in the buffer . The first slice is the data from the beginning of the buffer to the end of the buffer . The second slice is the data from the beginning of the buffer to the end of the
+278	MultiLogger returns a leveled backend that writes to all backends .
+279	ContainerUpdate updates the description , architecture , ephemeral and expiry_date fields of the container with the given id .
+280	GetLogger returns the global logger .
+281	GoogleSecret returns a secret for Google Cloud Storage .
+282	getConfigPath returns the path to the system - wide registries . conf file .
+283	Get returns a peer that has not been returned by Get before . If all peers have been returned , ErrNoNewPeers is returned .
+284	newNetPipeline creates a new pipeline.
+285	Do executes the command in the provided context .
+286	IdentityProviderLocator returns a reference to the IdentityProviderLocator with the provided href .
+287	Do executes HideHighlight against the provided context .
+288	watcherSetByKey returns the set of watchers for the given key .
+289	Count returns the number of entities that match the query.
+290	AddWithMask adds one image to another with the mask .
+291	HaveAttribute returns a matcher that checks if the actual value has the given attribute with the given value .
+292	RawWebsocket returns a websocket connection to the given path .
+293	New returns a new Archive for the given file .
+294	PowerState returns the power state of the VM .
+295	Do executes StartSampling against the provided context .
+296	Copy returns a copy of the hash tree .
+297	IsOriginAllowed checks if the origin is allowed to connect .
+298	Render implements the Renderer interface .
+299	Warnf writes a warning message to the state .
+300	SetProviderConfig sets the provider config for the cluster .
+301	Compare compares two versions .
+302	RunCommand runs a command and returns its output .
+303	makeUnicastRouteStatusSlice returns a slice of unicastRouteStatus from the given routes .
+304	acceptLoop runs in a separate goroutine and accepts connections from the Listener . It wraps each connection with a tls . Conn . It then sends the new tls . Conn on the connc channel and blocks until the tls . Conn has
+305	Warn logs a message at level Warn on the standard logger .
+306	ValidEnum validates a proposed value for this enum . Implements the Enum interface for BucketEntryType .
+307	socketUnixSetOwnership sets the ownership of the unix socket to the current user and the given group .
+308	Do executes EmulateNetworkConditions against the provided context .
+309	NewStatus returns a Status object for the given router .
+310	parseBitString parses an ASN.1 bit string from the given byte array and returns it .
+311	ServiceInfoFromMetadata extracts service name , version and network address from the given metadata .
+312	NewRelayer creates a new Relayer instance .
+313	FormatURL formats a datadog URL to a human readable format .
+314	fromString returns the Type from a string .
+315	Quantize quantizes the samples in buf to the given bit depth .
+316	PostsubmitToJobSpec converts a Postsubmit to a JobSpec .
+317	Valid returns true if the iterator is positioned at a valid node . It returns false otherwise . The iterator is not valid if the iterator is rewound past the start of the tree or advanced past the end of the tree .
+318	formatSQL returns a SQL statement with each clause on its own line.
+319	CheckUint64 checks if val is in the range .
+320	MustDontHave ensures that the return value is not nil .
+321	Schema1FromComponents creates a Schema1 struct from the given components .
+322	Paginate returns a PaginationInfo struct with the pagination information for the current result set .
+323	GetHeader returns the value of the named header field . If the header is not present , it returns an empty string .
+324	Append appends the string representation of the node to the buffer .
+325	NewLeaseGrantCommand returns the cobra command for "lease grant" .
+326	NewGroup creates a new Group .
+327	Remove removes the node from the store .
+328	LoadConfig loads the configuration from the given path .
+329	SetKeyComparator sets the key comparator .
+330	newApps returns a apps object .
+331	UnmarshalText implements encoding . TextUnmarshaler .
+332	PrivateAttrKeys returns the keys of the private attributes .
+333	Asset loads and returns the asset for the given name . It returns an error if the asset could not be found or could not be loaded .
+334	C returns the mgo . Collection for the given model .
+335	ValidEnum validates a proposed value for this enum . Implements the Enum interface for OperationResultCode .
+336	skipRequested creates a status for each skipped job .
+337	Shutdown stops the server gracefully . It stops the server from accepting new connections and RPCs and blocks until all the pending RPCs are finished .
+338	PadLeftF returns a function that pads the left of a string with the given character to the given length .
+339	EquateNaNs returns an Option that compares NaN values as equal .
+340	Clear clears the graphic context .
+341	SetTTL sets the TTL field of the lazyCallReq .
+342	makePipelineGitResource creates a PipelineResource for the given ProwJob .
+343	HashSecret hashes the secret of the application .
+344	measure records the time it took to execute a request .
+345	Email returns the email address of the account .
+346	GetAvailableInventory returns the available inventory .
+347	GetContextError returns the context error if it is a context error .
+348	NewCommit creates a new Commit .
+349	withAuthRetry returns a retryOption that sets the retryAuth field of the options struct .
+350	Next advances the iterator to the next node .
+351	WithPath sets the Path field s value .
+352	makeRequest creates a BranchProtectionRequest from a Policy .
+353	Do executes StartPreciseCoverage with the provided context and parameters .
+354	FindRoutesAndPathMatched returns a list of routes that match the given http method and path . It also returns a boolean indicating if the path matched .
+355	Find returns a ResultSet for the query .
+356	WithDetailed sets the Detailed field s value .
+357	Register registers a migration function with the given name .
+358	ReadUint64 reads a uint64 from the buffer .
+359	SetOffer sets the LedgerKey to the offer with the given account and id .
+360	ReviewCommentEventHandlers returns a map of plugin names to ReviewCommentEventHandler functions .
+361	ProfileGet returns the profile with the given name .
+362	handleAddSubscription handles a request to add a subscription .
+363	LoginURLFederated returns a URL that, when visited, prompts the user to sign in, including a request for the scope specified by requiredScope. The URL will include the continue URL as a query parameter. If the user is already signed in
+364	Duration returns a human readable string for a duration .
+365	withRetryPolicy returns a retryOption that sets the retry policy .
+366	setupExternalAuthentication sets up external authentication using the given parameters .
+367	Main draws the line with different caps and joins .
+368	Get returns the named cookie provided in the request or ErrNoCookie if not found . If multiple cookies match the given name , only one cookie will be returned .
+369	Fatalf is a wrapper for Fatalln .
+370	Debugln logs a message at level Debug on the standard logger .
+371	OnGossipBroadcast is called when a new topology update is received from a peer .
+372	Do executes UntrackCacheStorageForOrigin with this params .
+373	AddDir adds a directory to IPFS.
+374	Do executes SetShowViewportSizeOnResize with this params .
+375	NewInt returns a new Int .
+376	New returns a new Logger . The out variable sets the destination to which log data will be written . The prefix appears at the beginning of each generated log line . The flag argument defines the logging properties .
+377	GetShuffledApprovers returns a shuffled list of approvers .
+378	RegisterIssueCommentHandler registers a plugin to handle issue comments .
+379	Hash specifies the hash function to use when adding the file . This is useful for sharding large files . Default : sha2 - 256 .
+380	DeferBytes returns a BytesRef to the buffer . The caller must not write to the returned BytesRef .
+381	Equals returns true if the set equals other .
+382	ApplySnapshot overwrites the contents of this Storage object with snapshot .
+383	CreateProfile creates a new profile .
+384	get returns a Builder by name .
+385	makeRaftPeer returns a raft . Peer for the given address .
+386	ReceiveEvent implements State .
+387	Output returns the output of the displayer .
+388	Cause returns the underlying cause of the error , if possible . An error value has a cause if it implements the following interface : type causer interface { Cause ( ) error } If the error does not implement Cause , the original error will be returned.
+389	MutateTransaction implements the Mutator interface .
+390	rewind resets the reader to the beginning of the file .
+391	Patch is a mock implementation of ProwJobClient . Patch .
+392	ImageAliasRename renames an alias .
+393	SubScalar subtracts a scalar from an image .
+394	Issues returns a slice of creator . Issue .
+395	GetNetworkState returns the raw network state of a network .
+396	Do executes SynthesizeTapGesture against the provided context .
+397	MustParse is like Parse but panics if the expression cannot be parsed . It simplifies safe initialization of global variables holding compiled regular expressions .
+398	SendOrg sends the org to the server .
+399	EnterPopupText enters the given text into a prompt popup .
+400	prowJobStatus returns the ProwJobState and description for a PipelineRunStatus .
+401	MustEncode is a helper function that calls Encode and panics if there is an error .
+402	DeepCopy is an autogenerated deepcopy function , copying the receiver , creating a new JenkinsSpec .
+403	GetArchitectures returns a list of architectures supported by the current system .
+404	DeepCopy is an autogenerated deepcopy function , copying the receiver , creating a new ProwJob .
+405	Or is an alias of OrExpr .
+406	Paint paints the given spans .
+407	isBoolean reports whether the type is boolean .
+408	newLog returns a new log using the given storage and logger .
+409	ChunkReader reads from r in chunks and calls f with each chunk .
+410	BackupLocator returns a BackupLocator reference for the given href .
+411	tarDirectory creates a tar file at dst containing the contents of the directory at src .
+412	ValidateOU checks if the client certificate has an Organizational Unit that is allowed .
+413	querystring returns a querystring for the OutgoingPhoto .
+414	Clone returns a copy of the Config .
+415	Watching returns the paths being watched .
+416	doImp performs the request and dumps the request and response if necessary .
+417	NewEncoder returns a new encoder that writes to w .
+418	BeginningOfHour returns a Time on the beginning of the hour .
+419	Do executes StopSampling command .
+420	NewChangeTrustResult creates a new ChangeTrustResult .
+421	Age sets the maximum age of a cached item .
+422	newStream creates a new Stream .
+423	readAnswer reads a string from stdin .
+424	Commits returns a collection of commits .
+425	Close closes the iterator .
+426	Throttle sets the rate limit for the client .
+427	NewAccountEntryExt creates a new AccountEntryExt .
+428	addPeer adds a peer to the heap .
+429	Get returns the value for the given key . If the key is not found , ok will be false .
+430	helpProvider returns the help text for the merge - commits plugin .
+431	tick is a convenience function for calling Tick on the raftNode .
+432	EnvForSpec returns a map of environment variables for the given JobSpec .
+433	getV3Filter returns a filter function for the given filter code .
+434	applyCompare applies the compare request to the given kv .
+435	Sign signs the request with the given keys .
+436	CheckPassword checks if a password is valid .
+437	Validate validates the options .
+438	Set sets the EWMA to the given value .
+439	Next advances the iterator to the next element . It returns false if the iterator is exhausted .
+440	arg2Reader returns the ArgReader for the second argument .
+441	Register registers a RepositoryManager .
+442	ProwJobClient returns a ProwJobInterface for the given namespace .
+443	MustUpdated returns the value in the Updated field if it is set or panics otherwise .
+444	ExtractPipeline extracts a pipeline from the cluster .
+445	Set sets the value of the flag to s . It is called once, in command line order, for each flag present. The flag package may call the String method with a zero-valued receiver, such as a nil pointer.
+446	Close closes the client connection .
+447	WithAPICallFunc returns a copy of parent in which calls are made by f .
+448	List returns the contents of a directory .
+449	New returns a new generator with the given options .
+450	Serialize writes the hash tree to the given writer .
+451	TagObject tags an object with the given tags .
+452	Lenses returns a list of lenses that match the given image .
+453	WithHeaders returns a new context with the given headers .
+454	GetIpv6 returns the Ipv6 value or a zero value if the field is not set and the field is not required .
+455	UpdateCluster updates the cluster configuration .
+456	GetTopics returns a list of all topics .
+457	MarshalJSON implements json . Marshaler interface .
+458	BatchSpec returns a ProwJobSpec for a batch job .
+459	GetSkipMetrics returns the skip metrics for the given path .
+460	Do executes SetDocumentCookieDisabled with the provided params .
+461	ToList returns a list of KV pairs from the iterator .
+462	Sign adds a signature to the transaction .
+463	Reverse returns its argument string reversed rune - wise left to right .
+464	Gossip returns the gossip data for the router .
+465	Do executes SetBypassCSP against the provided context .
+466	Merge merges four single - channel images into one multi - channel image .
+467	recvPeerFrame receives a frame from the peer .
+468	ExtractAll extracts all operations from the APIClient .
+469	Issuer sets the issuer claim of the token .
+470	GetHashTreeTag returns a HashTree for a given tag .
+471	union returns a new orgRepoConfig which is the union of c and c2 .
+472	Description returns a human readable description of the operation .
+473	GetMergeOperator returns a MergeOperator for the given key .
+474	UploadURL returns a URL that can be used to upload a blob to the blobstore . The URL is valid for a limited time . The successPath is the URL to which the user will be redirected after a successful upload . The opts argument may
+475	NewReadBufferWithSize returns a new ReadBuffer with the given size .
+476	UpdateNetwork updates a network .
+477	internalClusterContainerMovedPost is called when a container is moved to a new node .
+478	CreateNewRecord creates a new record from a property .
+479	NewGetCommand returns the cobra command for "get" .
+480	Namespace returns a new context with the given namespace .
+481	UpdateCertificate updates a certificate .
+482	temporaryUnapprovedFiles returns the set of files that are not approved by any of the given approvers .
+483	NewTableBuilder returns a new table builder.
+484	CreateTokenHandlers creates a list of TokenHandler from a list of token files .
+485	GetBodyJSON parses the request body as JSON and stores the result in ctx . BodyJSON .
+486	NewWatcher creates a new watcher with prefix .
+487	VerifyBootstrap verifies the configuration for bootstrap .
+488	ImageLastAccessUpdate updates the last_use_date field of the image with the given fingerprint .
+489	GetFileReader returns a reader for the file name .
+490	AddContext adds a context to a logger .
+491	GetHashTreeObject returns a HashTree for the given object .
+492	BlockCommit is like Commit but it blocks until the commit is finished .
+493	recalc recalculates the current font size and scale .
+494	String returns the string representation of the Operation .
+495	NewAPIAnalyzer creates a new APIAnalyzer .
+496	Current returns the user associated with the request . If the user is not signed in , Current returns nil .
+497	String returns a string representation of the check .
+498	StreamJSONResponse streams a JSON response to the given writer . It returns an error if the response status code is not 200 .
+499	Close closes the Nitro instance .
+500	Remove removes a symbol from the Load .
+501	WithObjectID sets the ObjectID field s value .
+502	GetAttribute returns the attribute with the given local and space name .
+503	Auth is a fake implementation of the Auth method .
+504	FrameRangePadded returns the frame range padded with zeros .
+505	skipStatement skips the current statement .
+506	Parse parses the given XPath expression and returns the root node of the parse tree .
+507	MutateChangeTrust implements the Mutator interface .
+508	Param sets a parameter to the given value .
+509	SetValid sets the Int64 and Valid fields of i .
+510	writeLevel0Table writes a level - 0 table to f .
+511	isDirEmpty returns true if the directory is empty .
+512	Iif returns the truthy string if condition is true , otherwise it returns the falsey string .
+513	NewDecoder returns a new decoder that reads from r . The decoder introduces its own buffering and may read data from r beyond the JSON values requested.
+514	ACL sets the Access - Control - Allow - Origin header .
+515	NewGoogleClientFromEnv creates a new GoogleClient from environment variables .
+516	Procurement is the main entry point for the Lease . It will create a new Task based on the Sku and return it .
+517	containsEmpty returns true if any of the strings in vals are empty .
+518	UpdateBranch updates the branch protection for the given branch .
+519	Fetch downloads the file from the URL .
+520	Bool defines a bool flag with specified name , default value , and usage string . The return value is the address of a bool variable that stores the value of the flag .
+521	Compare compares the node with the given prevValue and prevIndex .
+522	generateProto generates a rule for a proto package .
+523	Checkout checks out the given commitlike .
+524	GetForProvisioner returns a builder for the given provisioner .
+525	UpdateProject updates a project .
+526	getConnFromAddressProvider returns a connection to the given server .
+527	Check runs all the health checks and returns a slice of Result . If names is empty , all checks are run .
+528	PlacementGroupLocator returns a locator for a placement group .
+529	WithScale sets the Scale field s value .
+530	defaultArguments adds any environment variables that are not already arguments to the template instantiation spec .
+531	Txn sends a Txn request to the etcd server .
+532	ReadInt64 reads an int64 from the process .
+533	Shutdown shuts down the raft instance .
+534	Callback is called when the lens is activated .
+535	NewWatchServer creates a watch server.
+536	Do executes SetDOMBreakpoint with the provided params .
+537	LaunchBuild launches a build .
+538	MarshalJSON implements json . Marshaler .
+539	StartServe starts serving the server .
+540	WriteCustomAssets writes the assets for a custom S3 - compatible object store .
+541	newTokenBucket returns a new token bucket with the given capacity and refill interval .
+542	getKey returns the key at the given offset and size .
+543	TriggerFor returns the trigger for the given org and repo .
+544	getLastEntry returns the last log entry index and term .
+545	WithBackendNodeID sets the BackendNodeID field of the GetPartialAXTreeParams .
+546	FieldsFromIncomingContext returns the log fields from the given context .
+547	StoragePoolVolumeGetType returns a storage volume of the given type .
+548	WithFormat sets the Format field s value .
+549	RegisterFuncMap registers a function to the template with given name . It is legal to overwrite elements of the default actions :
+550	DecodeMap decodes a map from the stream .
+551	NewCluster creates a new cluster of the given size .
+552	stats returns the number of each type of edit in es .
+553	MakeRouter creates a new router with the given routes .
+554	loadLabels loads all labels for a list of repositories .
+555	Advertise advertises the client to the discovery service .
+556	Do executes SetProduceCompilationCache against the provided context .
+557	ProjectID sets the project ID for the StackdriverHook .
+558	Pretty returns a pretty - printed string of the input .
+559	resetR1R2 resets the R1 , R2 , and RV regions to the correct values .
+560	Ratio returns the ratio of covered statements to all statements .
+561	newPipelineConfig creates a new pipelineConfig .
+562	GetContainerSnapshots returns the list of snapshots for a given container .
+563	getGitHubClient returns a GitHub client .
+564	Fail writes the error to the response .
+565	ProjectDelete deletes a project .
+566	before returns true if i ends before j starts .
+567	saveDB saves the current state of the database to a file .
+568	ReadFileToString reads the first line of a file and returns it as a string .
+569	WithTemplateFromFiles adds a template to the template registry .
+570	NewLogCache creates a new LogCache .
+571	ApplyCmd returns the Cobra command for "apply" .
+572	NewCache creates a new Cache .
+573	HandleEvent handles a PullRequestEvent .
+574	LimitBody limits the request body to n bytes .
+575	AttrString returns the value of the given attribute as a string .
+576	GetAuthTokenCmd returns a command that gets an auth token for a given subject .
+577	Watch is not implemented .
+578	Equals returns true if the LedgerKey equals other .
+579	ApplySingleExtract applies a single extract to the displayer .
+580	SetRule sets the rule for the exception .
+581	GitClient returns a git . Client configured with the GitHub bot's credentials .
+582	DeleteStoragePoolVolume deletes a storage volume from a storage pool .
+583	SwitchToFrame switches the focus of future commands to the frame represented by this selection .
+584	OpCompact creates a compact operation .
+585	Do executes SetUserAgentOverride with the provided params .
+586	WithExpires sets the Expires field of the SetCookieParams .
+587	Search sends a search request to the network and returns a list of responses .
+588	first returns the minimum revision of the read set .
+589	Write implements the io . Writer interface .
+590	WriteUint32 writes a uint32 to the buffer .
+591	EachLike returns a Matcher that matches a slice of values that each match the given content .
+592	errorf returns an error with the given code and format string .
+593	ArmForSwitch returns which field name should be used for storing the value for an enum variant .
+594	ContainerExists checks if a container exists .
+595	GetLimitsResourceListFromPipeline returns the resource limits for a pipeline .
+596	sourceURL returns the source URL for the ProwJob .
+597	ServeHTTP implements the http . Handler interface .
+598	CreateContainerSnapshot creates a new snapshot of a container .
+599	Nonce returns a middleware that adds a nonce to the response header .
+600	ResponseWriter returns a http . ResponseWriter that writes to the given response .
+601	IgnoreNetOpError returns true if the error is a net . OpError with an empty error message .
+602	TsuruV1 retrieves the TsuruV1Client client .
+603	KeyEqual returns true if k1 and k2 are equal .
+604	formatPointer returns a string representation of the pointer value v .
+605	openWAL opens the write - ahead log .
+606	removeLegacyGazelle removes the legacy gazelle load statement .
+607	validateRepoName validates a repository name .
+608	Do executes SetScriptExecutionDisabled with the provided params .
+609	compressGoroutine reads from src and writes to dest . It is intended to be run in a goroutine.
+610	Open opens the snapshot with the given ID .
+611	ProjectUsedByRef returns a map of project names to a list of projects that reference them .
+612	advanceTicks advances the internal tick counter by the given number of ticks .
+613	DeleteUser deletes a user .
+614	Max returns the maximum of two addresses .
+615	ValidEnum validates a proposed value for this enum . Implements the Enum interface for LedgerEntryType .
+616	injectedSteps returns the containers and volumes needed to run the injected steps .
+617	LoadMacroFile loads a macro file from the given path .
+618	FirstPrefix returns the first prefix of the word .
+619	NewFakeOpenPluginWrapper returns a new FakeOpenPluginWrapper .
+620	UnaryClientInterceptor returns a new unary client interceptor that logs the request and response .
+621	MakeCommand returns the root command for this application .
+622	Bytes returns the item data as a byte slice .
+623	AddBody adds a body to the message .
+624	WithHTTPClient adds the HTTPClient to the delete apps app params .
+625	OCSPServer sets the OCSP server to use for certificate revocation checking .
+626	ReadUint32 reads a uint32 from the process .
+627	UpdateConfig updates the configs .
+628	getNodeOffset returns the offset of nd in the arena .
+629	Reader returns a reader for the object .
+630	OnGossipUnicast is called when a unicast packet is received .
+631	BuildNS builds the namespace nodes for the given element .
+632	EnabledReposForPlugin returns the list of orgs and repos that have the given plugin enabled .
+633	Issues returns a list of issues to be filed .
+634	tryClusterRebalance attempts to rebalance the cluster .
+635	Set sets a session .
+636	initDirs creates the required directories .
+637	Write writes the response to the given writer .
+638	String returns a string representation of the stack .
+639	ValidEnum validates a proposed value for this enum . Implements the Enum interface for ErrorCode .
+640	NewPeerAddressIp creates a new PeerAddressIp .
+641	convertSuiteMeta converts a gcs . SuitesMeta to a resultstore . Suite .
+642	UpdateServer updates the server configuration .
+643	StoragePoolVolumeCreate creates a storage volume of the storage pool .
+644	GetLevel returns the level for the given module .
+645	BindVariablesEqual returns true if the two maps are equal .
+646	LimitFromMetadata returns the limit from the metadata .
+647	WriteTo writes the config to a file .
+648	Render renders the Prefix as an HTML grid item .
+649	Shuffle shuffles a byte slice .
+650	HashDatum15 returns a hash of the pipelineInfo and data .
+651	SetDoneUntil sets the doneUntil value .
+652	AddInteraction adds a new interaction to the pact .
+653	WriteUint16 writes a uint16 to the buffer .
+654	AddException adds an exception to the exception list .
+655	addRelayItem adds a relay item to the inbound or outbound relay map .
+656	GetHostIPs returns a list of IP addresses for the host .
+657	Delete deletes all rows matching the given parameters .
+658	WithMessage sets the Message field s value .
+659	MustConfirm attempts to return a value of the underlying type from ScpStatementPledges . It panics if the underlying type is not ScpStatementConfirm .
+660	ListPeers returns a list of peers subscribed to the given topic .
+661	New creates a new ValidationError with the given message .
+662	Resize resizes the semaphore to the new capacity .
+663	HTTPSAddress returns the HTTPS address of the node .
+664	ListNics returns a list of nics .
+665	Group creates a new router group . You should add all the routes that have common middlwares or the same path prefix . For example , all the routes that use a common middlware for authorization could be grouped .
+666	VerifyMessageProviderRaw is a raw version of VerifyMessageProvider that allows you to pass in a VerifyMessageRequest .
+667	Entries returns a slice of log entries in the range [ lo , hi ) . maxSize limits the total size of the log entries returned , but <s> func ( s * GetInventorySchemaInput ) SetNextToken ( v string
+668	WriteLocalAssets writes the assets for a local cluster to the given encoder .
+669	Update updates the progress bar with the given status .
+670	EndOfMinute returns the end of the minute .
+671	SetContent sets the content of the exception .
+672	MemoryInUse returns the total memory in use by the store .
+673	WithBaseDir sets the base directory for the file finder .
+674	InitWatcher initializes a watcher for the given pattern .
+675	copyHiddenHeaders returns a copy of the given map .
+676	removeAdjectivalEnding removes adjectival endings from word .
+677	WithTimeout adds the timeout to the put apps app params
+678	WebpackCheck checks if the webpack config file is up to date .
+679	MutateManageOffer mutates the ManageOfferOp to set the OfferID .
+680	Add adds an index to the collection .
+681	URLs returns a sorted list of all URLs in the map .
+682	Restore restores a snapshot into the Raft FSM .
+683	AddChild adds a child to the part .
+684	DeepCopy is an autogenerated deepcopy function , copying the receiver , creating a new ProwJobStatus .
+685	Require sets the given flags to true .
+686	isTornEntry returns true if the data is a torn entry .
+687	dropTree drops all tables in the tree.
+688	Key returns the key of the current item .
+689	listGcsObjects lists all objects in a GCS bucket .
+690	WithPrintBackground sets the PrintBackground field s value .
+691	newGossipSender creates a new gossipSender .
+692	DeviceNames returns a list of device names in the list .
+693	AddFileAttachment adds a file attachment to the mail .
+694	NewPrefixBytes returns a new PrefixBytes from the given byte slice .
+695	Snapshot requests a snapshot to be captured and sent to the client .
+696	raftMaybeBootstrap bootstraps a new raft cluster .
+697	deviceExistsInDevicesFolder checks if a device exists in the container 's devices folder.
+698	String returns a string representation of the option .
+699	flagAsEnv converts a flag name to an environment variable name .
+700	RegisterHandlerVersion registers a handler for a given version .
+701	newDockerClient creates a new docker client.
+702	AddRoute adds a route to the trie .
+703	WithFields returns a logger with the fields added to the logger .
+704	Resume resumes the peer .
+705	Do executes the command in the provided context .
+706	SetLogger sets the logger used by gRPC library and registered plugins . It should be called before any RPCs are sent or received by this program . It is safe to call SetLogger multiple times. Each call overrides the logger set
+707	updateString updates the value of have to want if they are different .
+708	MutateTransaction implements the Mutator interface .
+709	prowToGCS converts a prow key to a GCS path .
+710	doAddConnection adds a connection to the local peer .
+711	CloseWatcher closes the watcher .
+712	MailingList returns a MailingList object for the given name .
+713	PrintRepoInfo prints a RepoInfo to w .
+714	SetEndpoints sets the endpoints for the resolver group .
+715	LoadFromData loads a configuration file from a byte slice .
+716	InstanceUsagePeriodLocator returns a locator for instance usage periods .
+717	add adds an inflight into inflights .
+718	NewPublicKey creates a new PublicKey with the specified values .
+719	AliasForSpec returns the alias for a job spec .
+720	returnConn returns a connection to the pool .
+721	NewFileCache creates a new FileCache .
+722	Stats returns a string with statistics about the node table .
+723	LoadStruct loads the properties into the struct dst .
+724	readBlockHeader reads a block header from the archive .
+725	Clone returns a copy of the configuration .
+726	newArchive50 returns a new archive50 .
+727	get returns the value of the key .
+728	NewClient creates a new client for the given cluster .
+729	handlePingReq handles a PINGREQ frame .
+730	PutUint64 writes a uint64 value to the buffer .
+731	ReceiveComment implements the CommentCounterPlugin interface .
+732	ReadResponse reads a response from the given call .
+733	GetNoDial returns true if the context has the noDial value .
+734	UpExpire updates the expire time of the session .
+735	copyContainerThinpool creates a new container by copying the source container .
+736	IsCommitDeletedErr returns true if the error is a CommitDeletedError .
+737	Environ returns a slice of strings representing all defined flags in the set . Each string is of the form "key=value" .
+738	RegisterViewPath registers view paths for template engine .
+739	Cmds returns the list of commands that the cli supports .
+740	New creates a new NodeTable .
+741	BreadthMatchAll returns all parts that match the given matcher .
+742	NewElectionCommand creates a new command for running the election example .
+743	DeleteBranch deletes a branch .
+744	getMultiIndexPaths returns the index paths for a multi - value index .
+745	MendPeer resumes a paused peer .
+746	validateNew validates a new app .
+747	ChompLeftF returns a function that removes the prefix from the beginning of the string .
+748	AddGithubResource adds a github resource to the pipeline .
+749	MarkOffset marks the given offset for the given topic and partition .
+750	New creates a new generator with the given options .
+751	StackWithCaller prints the stack trace of the current goroutine .
+752	clusterGetMemberConfig returns the list of cluster member config keys .
+753	create returns an Update for a new label .
+754	connect connects to fluentd server .
+755	readBoshRelease reads a bosh release from a tarball .
+756	clearRect clears the rectangle area with white color .
+757	init initializes the decoder for reading a new block .
+758	CrumbRequest requests a crumb from the Jenkins server .
+759	writeKey writes a private key to the given path .
+760	DecodeHTMLEntities decodes HTML entities in a string .
+761	ContainerBackupCreate creates a new backup entry in the database .
+762	Do executes this command in the provided context .
+763	DeleteUserFromGroup deletes a user from a group .
+764	goType returns the Go type for the given Thrift type .
+765	Count returns the number of elements in the selection .
+766	UnsafePut puts the key / value pair to the bucket without checking for errors . In particular , it does not check that the bucket exists . This should generally be used in conjunction with Update .
+767	InitialState returns the first state of the given key .
+768	ReleaseIPBlock releases an IP block .
+769	Error implements the error interface .
+770	UnmarshalText implements the encoding . TextUnmarshaler interface .
+771	WithPreferCSSPageSize sets the PreferCSSPageSize field s value .
+772	HasPermission returns true if any of the permissioners has the permission .
+773	NewFetcher creates a new Fetcher .
+774	DefaultCache returns a cache for the given system context .
+775	finalizeJobConfig ensures that all jobs have valid regexes and sets defaults .
+776	HashPassword hashes a password using the scrypt key derivation function .
+777	RemoveTag removes a tag from the deployment manifest .
+778	createPostRequest creates a new HTTP POST request .
+779	GetAWSCreds returns the AWS credentials from the resource .
+780	UpdateComments updates the comments for the given issue .
+781	NewStellarMessage creates a new StellarMessage instance .
+782	NewAttrsFromMap creates a new Attrs from a map .
+783	currentRaftNodes returns the current raft nodes.
+784	walk walks the tree from the root to the node specified by nodePath .
+785	HandleLog handles a log entry .
+786	findMatches returns all the PathPatterns that match the given href .
+787	ReadableN reports whether the n bytes starting at address a are readable .
+788	formatMapKey formats a map key for use in a map literal .
+789	NewServerMux returns a new ServerMux .
+790	SaveToFile saves the data to a file .
+791	Remove removes a platform from the database .
+792	WithPanicResponse sets the response body and content type for panic responses .
+793	MiddlewareFunc returns a HandlerFunc that recovers from panics and converts to an error response .
+794	WithLatitude sets the Latitude field s value .
+795	RunBotOnWebhook runs a bot on a webhook .
+796	reset resets the applySource .
+797	IsFileNotFoundErr returns true if the error is known to report that a file does not exist . It is satisfied by ErrNotExist as well as some syscall errors .
+798	VolumeSnapshotLocator returns a VolumeSnapshotLocator reference given a href .
+799	Humanize returns a human readable string from a given string .
+800	Int returns the value of the region as an int64 .
+801	parseParam parses a parameter from the given path and param .
+802	makeReviews creates a github . RequiredPullRequestReviews from a branchprotection . ReviewPolicy .
+803	undoPreset removes the preset from the pod spec .
+804	WithTimeout adds the timeout to the patch apps app routes route params .
+805	validateCommandLine validates the command line arguments .
+806	Forwarders returns a list of all forwarders for the domain .
+807	StorageVolumeDescriptionUpdate updates the description of a storage volume .
+808	needDemux determines if the event needs to be demuxed to an external plugin .
+809	RegisterInterruptHandler registers a handler to be called when the program receives an interrupt signal .
+810	NewStreamEncoder returns a new StreamEncoder that writes to w .
+811	IsAddressCovered returns true if address1 is covered by address2 .
+812	permutations returns a channel of all permutations of list .
+813	txPrintRaw prints the raw value of the argument .
+814	Nest returns a new error that wraps err with the path . If err is an AggregateError , Nest will return a new AggregateError with each error wrapped . If err is a NestedError , Nest will return a new NestedError with
+815	Do executes the command in the provided context .
+816	NewLogAdapterFor returns a new LogAdapter for the given logger .
+817	NewUnordered returns a new Unordered .
+818	Do executes SynthesizePinchGesture against the provided context .
+819	Start starts the producer .
+820	withDeadline returns WithDeadline based on the parent's deadline if it has one . Otherwise it returns a context with no deadline .
+821	Swap implements sort . Interface .
+822	buildHistogram builds a histogram of key and value sizes for the given key prefix .
+823	activatedListeners returns a map of activated listeners .
+824	Do executes SetPauseOnExceptions with the provided context and parameters .
+825	MakeFakeRepo creates a fake repository for testing purposes .
+826	Jobs returns a copy of the current jobs .
+827	SetStrategy sets the strategy for the peer list .
+828	recvNextFragment receives the next fragment from the peer .
+829	NewPainter returns a new Painter .
+830	OnGossipUnicast is called when a peer sends us a message .
+831	partialFeeder returns the template name with the first character of the basename prefixed with an underscore. If the template is not found it returns an empty string and a non - nil error.
+832	Profiles returns the list of profiles for the given project . If the project has profiles disabled , it will return the profiles for the default project .
+833	AllPostsubmits returns all Postsubmits for the given repos . If repos is empty , all Postsubmits are returned .
+834	ForRepo returns the queries that apply to the given repo .
+835	RetryAuthClient returns a retry - wrapped AuthClient .
+836	ServingURL returns a URL that serves the image stored in Blobstore with the provided key . The URL is valid for at least the given duration . If opts is non - nil , it specifies options for serving the image .
+837	NewSyslogBackendPriority creates a new SyslogBackend with the given priority and prefix .
+838	Logs returns a copy of the logs for this span .
+839	Sender returns a gossipSender for the given channelName .
+840	Servers returns the list of servers in the cluster .
+841	UnixSocket returns the path to the daemon's unix socket.
+842	Valids returns the valid values for the SelectiveStringValue .
+843	AALoadProfile loads the apparmor profile for the container .
+844	ArmForSwitch returns which field name should be used for storing the value for an instance of ManageOfferResult .
+845	Set sets a value for a given key in the current goroutine .
+846	mergeChunk merges the datum and datumStats caches into the chunk and chunkStats caches .
+847	Schedule schedules a job to be run .
+848	Compact implements the etcdserverpb . KVServer interface .
+849	Level returns the current logging level .
+850	Subject sets the subject of the certificate .
+851	NewOutgoingPhotoResend creates a new OutgoingPhotoResend .
+852	NewLocalEngine creates a new local engine .
+853	Receive implements the Receiver interface .
+854	configure sends out a ConfChange request, waits for it to be applied to the server, and returns the resulting configuration.
+855	searchIndex searches for the index in the slice of names .
+856	NewManageOfferSuccessResultOffer creates a new ManageOfferSuccessResultOffer .
+857	SetLimit sets the limit for the given appName .
+858	UpdateContainerState updates the container state .
+859	ReadUint16 reads a uint16 from the underlying reader .
+860	AddBuiltin adds a builtin resolver to the meta resolver .
+861	MultiCloudImageSettingLocator returns a reference to a MultiCloudImageSetting .
+862	Update updates the value for a given key . If the key is not present in the table , it is inserted .
+863	ContainerGetSnapshots returns a list of snapshots for the container .
+864	Write writes data to the connection .
+865	toVerb converts a string to a verb .
+866	Unmarshal parses the JSON - encoded data and stores the result in the value pointed to by v .
+867	NewTCPTransportWithLogger returns a new TCP transport with the given advertise address and connection limit . The transport takes ownership of the stream and the stream will be closed when the transport is closed .
+868	containerLXCUnload unloads the container from memory .
+869	Preview returns the statement type for the first statement in the input.
+870	GetClient returns a client for the given service and domain .
+871	xor64 is a fast 64 - bit random number generator .
+872	Term returns the term of entry i , which must be in the range [ index ( ) - len ( entries ) + 1 , index ( ) ] .
+873	AADestroy destroys the AppArmor profile for the container .
+874	Digest returns the digest of the manifest .
+875	Min returns the minimum of a and b .
+876	Get returns the item associated with the given key . ErrCacheMiss is returned for a memcache cache miss . The key must be at most 250 bytes in length and the object value must be at most 1MB in size .
+877	Encode encodes the snapshot to the given writer .
+878	Get returns the CacheEntity for the given key .
+879	NewFromCache returns a new RoundTripper that uses the provided cache and delegates to the provided RoundTripper .
+880	Release releases a lock on the semaphore .
+881	PprofAddress returns the address of the pprof listener .
+882	GetGetScpLedgerSeq retrieves the GetScpLedgerSeq value from the union , returning ok if the union ' s switch indicated the value is valid.
+883	Put inserts a key - value pair into the skiplist .
+884	Readdir reads the contents of the directory associated with file and returns an array of up to n FileInfo values, as would be returned by Lstat, in directory order. Subsequent calls on the same file will yield further FileInfos.
+885	Get returns the value associated with the given key .
+886	NewDLock returns a DLock implementation backed by etcd .
+887	OutputJson writes the output for a logging event . The string s contains the text to print after the prefix specified by the flags of the Logger . A newline is appended if the last character of s is not already a newline .
+888	calculateSize calculates the size of the LSM tree and the value log .
+889	StreamClientInterceptor returns a new streaming client interceptor that applies the given function fn to the error returned from the server .
+890	GetContainerLogfile returns the content of a container logfile .
+891	shouldSnapshot returns true if the number of log entries since the last snapshot exceeds the threshold .
+892	frameRangeMatches parses a frame range string and returns a slice of frame ranges .
+893	ConfigGetInt64 returns the value of the given key as an int64 .
+894	Respond writes the JSON encoding of value to the client .
+895	step3 is the 3rd step of the Russian stemmer .
+896	UnmarshalWithParams parses the JSON - encoded data and stores the result in the value pointed to by val . The val must be a pointer to a struct . The params string is a comma - separated list of field names . Only
+897	NewPRSignedByKeyPath creates a new PolicyRequirement that requires a signature from a key at the given path .
+898	WaitForConnection waits for the Elasticsearch connection to be ready .
+899	isSafeRetry returns true if the error is safe to retry .
+900	BoshReleaseOrEmpty returns the BoshRelease for the given name , or an empty BoshRelease if none exists .
+901	UnmarshalJSON implements json . Unmarshaler .
+902	preparePaths takes a list of paths and returns a list of directories and a list of fileseq . FileSequences .
+903	KeepAlive sends a keepalive message to the server .
+904	File returns the file from the request .
+905	zfsIsEnabled returns true if zfs is enabled on the system .
+906	String returns a string representation of the price .
+907	seekTotal returns the total balance of all accounts .
+908	Domains returns a list of all domains .
+909	isMultiImage returns true if the image is a manifest list .
+910	Do executes StopObserving with the provided params .
+911	fixLoad returns a new Load that contains only the symbols in kinds .
+912	Flush flushes the gossipSender .
+913	WriteJSON writes the JSON encoding of data into the response body .
+914	TrustedPullRequest checks if the PR is trusted.
+915	WithTimeout adds the timeout to the delete apps app params .
+916	StoragePoolVolumeGetTypeID returns the ID of the storage volume of the given type .
+917	NewDefaultStatusPolicy returns a new statusPolicy with default severity levels .
+918	Validate checks a Config instance for sanity .
+919	NewClientV3 creates a new etcd client from the given member .
+920	NewMakeMirrorCommand creates a new "etcdctl make-mirror" command to create a mirroring pipeline from a source cluster to a destination cluster.
+921	Vcpus returns the number of virtual CPUs in the VM .
+922	proposeInternalRaftRequest proposes an internal raft request .
+923	PutFileHeaderFooter is like PutFile except that it also stores the header and footer of the file .
+924	NewKey returns a new Key instance representing the provided kind , stringID , intID , and parent .
+925	Mount mounts the IPFS filesystem at the given mount point .
+926	PrettyPrintVersionNoAdditional returns a string representation of the version without any additional information .
+927	FileExistsInPath returns true if the file exists in the path .
+928	NewNetworkTransportWithConfig creates a new network transport with the given configuration .
+929	newRoot creates the root command for the go generate tool .
+930	Next returns the next record in the result set .
+931	GetCombinedStatus returns the combined status for a given ref .
+932	Aliases returns a list of aliases for the account .
+933	Do executes SetSamplingInterval with the provided params .
+934	Defaults returns a map of the default values for the schema .
+935	OpenRepository opens a repository at path p .
+936	ReturnWith returns the return statement for the method .
+937	WrapMiddlewares wraps the given middlewares around the given handler .
+938	DoesSchemaTableExist returns true if the schema table exists .
+939	L writes a line to the buffer .
+940	Commit commits a container into an image .
+941	Remove removes a plan from the storage .
+942	Close closes the listener . It will block until all connections have been closed .
+943	doCompact runs a compaction for the given level .
+944	NewLeaseRenewerCommand creates a new command for renewing leases .
+945	ListenAndServeTLS listens on the TCP network address addr and then calls Serve with handler to handle requests on incoming TLS connections .
+946	RegisterOptional registers a migration function with the given name . The migration function will be executed if it has not been executed before .
+947	checkPassword checks the password in the buffer .
+948	post sends a watch response to the watch channel .
+949	Every returns a Schedule that fires every interval .
+950	ImageAliasGet returns the alias with the given name .
+951	SetAttr sets the value of the attribute key to value .
+952	BusTypeFromID returns the bus type from the ID .
+953	GenerateECDSAKeyPairWithCurve generates a new ECDSA private key using the given curve .
+954	revokeUserCredentials revokes the given user token .
+955	newStructFLS returns a FieldLoadSaver for the given struct pointer .
+956	defaultJobBase fills in default values for a JobBase .
+957	DeleteInteractions deletes all interactions .
+958	fill reads more data into the window .
+959	WithBindingName sets the BindingName field of this ExposeDevToolsProtocolParams .
+960	projectParam returns the project parameter from the request .
+961	WithApp sets the value of the "app" path parameter .
+962	MustIpv6 panics if the value is not set .
+963	worker is the main loop for a worker .
+964	Delete deletes the entity with the given id .
+965	NewAllowTrustOpAsset is a helper routine that returns a new AllowTrustOpAsset initialized to a value .
+966	observe sends an observation to all observers.
+967	HTTPMembers returns a list of members in the cluster .
+968	AsType sets the type of the message .
+969	Put puts the given key into the store . A put request increments the revision of the store and generates one event in the event history .
+970	WithContext sets the context to be used in this call's Do method . Any pending HTTP request will be aborted if the provided context is canceled .
+971	GitHubClientWithLogFields returns a GitHub client with the given log fields .
+972	Error returns the error message .
+973	SetPartEncoding sets the encoding of a part .
+974	NewSinglePointWriter returns a new SinglePointWriter .
+975	Actual reads the state of the resource and updates the cluster .
+976	parseCode parses a string into a Code .
+977	Destroy removes the hash tree from disk .
+978	GetPeers returns the Peers value if the given union ' s type is Peers or nil otherwise.
+979	initFromOpenTracing initializes the span from an OpenTracing span .
+980	GetVolume returns a single volume .
+981	keyToReferenceValue converts a Key to a PropertyValue_ReferenceValue .
+982	Run is a helper function to run a command .
+983	WriteString writes string to response body .
+984	MustNewMaxTxSetSize returns NewMaxTxSetSize if it is set or panics otherwise .
+985	Find finds a handler for the given path .
+986	Max returns the maximum value in the range .
+987	WithWorldName sets the WorldName field s value .
+988	Handle registers the handler for the given pattern . If a handler already exists for pattern , Handle panics .
+989	Get returns the value for the given key .
+990	MustQSetHash attempts to return Uint256 value from the QSetHash union , panicking if unable to do so .
+991	NewEncoder returns a new encoder that writes to e .
+992	Acquire returns a BarrierSession if the AccessBarrier is active .
+993	leaseListCommandFunc implements the command to list leases .
+994	Infof logs a message at the info log level . The message includes any fields passed at the log site , as well as any fields accumulated on the logger .
+995	EncodeValue encodes a bind variable value into a buffer .
+996	SetFormat sets the format for the logger .
+997	GetStdLogger returns the standard logger for the target .
+998	Main is the entry point for the application .
+999	ProwJobs returns a ProwJobInformer .

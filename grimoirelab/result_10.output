@@ -1,0 +1,222 @@
+0	Parse the stream and return a generator of commits .
+1	Parse a git log file .
+2	Fetch the items
+3	Setup the command line parser for this backend
+4	Set the git path to use in the git log command
+5	Get the user information from Gerrit .
+6	Check the type of a compressed file .
+7	Remove invalid XML characters from a XML stream .
+8	Get the questions starting from from_date .
+9	Parse a StackOverflow questions JSON stream .
+10	Setup the command line parser for StackExchange backend
+11	Fetch and parse messages from a mailing list .
+12	Check if a message is valid .
+13	Copy the mbox file to a temporary file .
+14	Parse a Jira issues page .
+15	Clone a Git repository into a directory .
+16	Update the git repository .
+17	Execute a command in a subprocess .
+18	Get the log of the repository .
+19	Execute a command and return the output line by line .
+20	Fetch the items updated since the given date .
+21	Get the topic with the given topic_id .
+22	Logout from Bugzilla .
+23	Get the timestamp of the last metadata update .
+24	Generate a UUID based on SHA1 hash of the given values .
+25	Convert a CaseDict into a dict .
+26	Read the stderr of the subprocess
+27	Get the reviews starting from last_item .
+28	Get the jobs from Jenkins .
+29	Fetch items
+30	Get the builds of a job .
+31	Get the recent changes pages from the given namespaces .
+32	Get the pages of a namespace .
+33	Get the reviews from MediaWiki API .
+34	Get the maximum timestamp of a list of reviews .
+35	Fetch the reviews from the MediaWiki API .
+36	Get a post .
+37	Parse a Discourse topics page in JSON format .
+38	Get the bugs starting from from_date .
+39	Get the comments of a list of bugs in XML format .
+40	Get the history of a bug in JSON format .
+41	Get the attachments of a list of bugs in XML format .
+42	Fetch items from a category .
+43	Parse a supybot message .
+44	Parse the input stream .
+45	Parse a Supybot timestamp .
+46	Parse a Supybot log file .
+47	Get the updates starting from offset .
+48	Parse a Gerrit JSON stream .
+49	Fetch items from a Telegram channel .
+50	Get the contents starting from from_date .
+51	Get the historical content of a review .
+52	Parse a JSON stream with the summary of the contents .
+53	Get the metadata id of a review .
+54	Map custom fields to a dictionary .
+55	Filter custom fields from a list of fields .
+56	Call a Phabricator Conduit API method .
+57	Get the tasks starting from from_date .
+58	Get the transactions of a list of phids in JSON format .
+59	Fetch the items from the repository .
+60	Get the information of a list of users in JSON format .
+61	Get the information of an issue in JSON format .
+62	Get the issues starting from from_date .
+63	Call the Redmine API .
+64	Parse a JSON stream of issues .
+65	Get the information of a list of phids in JSON format .
+66	Get the information of a user .
+67	Get the RSVPs of an event .
+68	Get the comments of an event .
+69	Get the events of a group starting from from_date .
+70	Fetch items from Meetup .
+71	Fetch items from a given category .
+72	Parse the user information from the update_info .
+73	Parse the number of pages of a question in StackOverflow.
+74	Parse the answers of a given HTML question.
+75	Parse the question container .
+76	Find all the backends in the top_package .
+77	Get the questions from the API .
+78	Get the HTML question items from the question .
+79	Build the question object from the HTML pages
+80	Get the HTML page of a question .
+81	Fetch the items
+82	Fetch items from the feed .
+83	Setup the command line parser for this backend.
+84	Get the comments of a question and its answers .
+85	Get the comments of a post .
+86	Parse the arguments and return a dictionary with them .
+87	Run the backend .
+88	Activate authentication arguments parsing
+89	Initialize the archive manager .
+90	Count the number of objects in the repository .
+91	Get the message with the given key .
+92	Generate a list of months between two dates .
+93	Check if the repository is in a detached state .
+94	Convert a message into a dictionary .
+95	Get the metadata of a review .
+96	Fetch items from a category .
+97	Parse a raw article into a dictionary .
+98	Get the information of a user .
+99	Fetch the items from the repository .
+100	Get the metadata id of an item .
+101	Setup the command line parser for this backend
+102	Get the information of a channel .
+103	Get the information of a repository .
+104	Fetch items
+105	Fetch the items of a category .
+106	Get the commits starting from last_item .
+107	Discover the refs (heads and tags) of a Git repository .
+108	Read the commits from a pack file .
+109	Fetch a pack from the remote repository .
+110	Update a Git ref .
+111	Update the references of the repository .
+112	Sync the git repository .
+113	Fetch items from a Git repository .
+114	Get the organizations of a user .
+115	Get the issues starting from from_date .
+116	Get the user information from the server .
+117	Get the assignees of an issue .
+118	Get the reactions of a comment .
+119	Get the reactions of an issue .
+120	Get the reactions of an issue .
+121	Get the issue with the given id .
+122	Get the collection of items of a given issue .
+123	Get the activities of an issue .
+124	Get the URL of the project .
+125	Fetch items from a paginated API .
+126	Get the attachments of an issue .
+127	Get the data of an issue .
+128	Fetch user data from Gerrit .
+129	Get the information of a user .
+130	Get the messages of an issue .
+131	Get the category of a metadata item .
+132	Get the timestamp of the last update of a metadata item .
+133	Get the reactions of a pull review comment .
+134	Get the requested reviewers of a pull request .
+135	Get the pull requests starting from from_date .
+136	Get the requested reviewers of a pull request .
+137	Get the pull requests starting from from_date .
+138	Get the reactions of a pull request comment .
+139	Setup the rate limit handler .
+140	Update the rate limit information from the response headers .
+141	Create a HTTP session with the given parameters .
+142	Sleep if the rate limit is exhausted .
+143	Setup the command line parser for GitLab command line client
+144	Get the notes of an item .
+145	Get the notes of an issue .
+146	Get the notes of a merge request .
+147	Get the merges starting from from_date .
+148	Get the merge request with the given id .
+149	Get the versions of a merge request .
+150	Get the emojis of a note .
+151	Get GitLab paginated items from a path .
+152	Calculate the time to reset the rate limit .
+153	Initialize the metadata of the archive .
+154	Retrieve an entry from the archive .
+155	Store the data in the archive .
+156	Count the number of rows in a table .
+157	Load the metadata information of the archive .
+158	Verify the integrity of the archive .
+159	Make a hashcode from the uri , payload and headers .
+160	Create a new archive .
+161	Get the remaining number of requests for the token .
+162	Update the current rate limit .
+163	Get the fields of the review .
+164	Get the items from a JIRA URL .
+165	Parse a Taskotron JSON stream .
+166	Parse a Gerrit users JSON stream .
+167	Filter a message by chats .
+168	Fetch the items from the backend
+169	Fetch items from an archive .
+170	Fetch data from the archive .
+171	Fetch data from remote server .
+172	Fetch an article from the NNTP server .
+173	Fetch data from the remote server or from the archive .
+174	Parse the reviews in JSON format .
+175	Get the timestamp of a metadata item .
+176	Parse a mbox file .
+177	Get the list of archives to be processed .
+178	List the archives in the directory .
+179	Search for archives in the storage directory .
+180	Remove an archive .
+181	Create a new archive .
+182	Search for archives matching the given parameters .
+183	Search files in the directory tree .
+184	Activate archive arguments parsing
+185	Fetch items from a backend .
+186	Fetch items from the archive .
+187	Execute a command from a remote server .
+188	Execute a command from the archive .
+189	Execute a command in the remote server or in the archive .
+190	Get the information of a user .
+191	Parse a JSON stream of posts .
+192	Fetch the items of a category .
+193	Get the commits of a pull request .
+194	Get the commits of a pull request .
+195	Setup the command line parser for this backend
+196	Fetch items from Twitter .
+197	Fetch items from the Twitter API .
+198	Get the tweets matching the query .
+199	Setup the command line parser for this backend
+200	Fetch items
+201	Fetch items from the client .
+202	Parse the raw HTML returned by Google and get the number of hits.
+203	Get the hits for a list of keywords .
+204	Initialize the rate limit
+205	Get the number of members of a conversation .
+206	Get the merge requests starting from from_date .
+207	Get the version of a merge request .
+208	Get the emojis of an item .
+209	Get the versions of a merge .
+210	Get the subscriptions from groups.io .
+211	Fetch a URL with a payload .
+212	Find the group id for the given group name .
+213	Get the remaining API points for each token .
+214	Choose best API token to use.
+215	Check if it is needed to switch token .
+216	Get the rev-list of the repository .
+217	Get the information of the repository .
+218	Get the repository information .
+219	Remove classified data from a review .
+220	Get the issues from the given date .
+221	Get the comments of an issue .

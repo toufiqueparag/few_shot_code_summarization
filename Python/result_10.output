@@ -1,0 +1,1000 @@
+0	Extracts log probabilities from a categorical distribution .
+1	Returns a function that performs the expansion step .
+2	Returns the sum of all values in the series .
+3	Extract a subdict from a record .
+4	Close the process .
+5	Print a table of the grid search results .
+6	Generate a sequence of results from the plugins .
+7	Backup the current state of the counter .
+8	Returns the HTML snippet for the thumbnail .
+9	Parse the genetic models from the models_info string .
+10	Put a list of items into the database .
+11	Returns True if the repository exists .
+12	Reset the user's namespace.
+13	Read the data encoding the CancelResponsePayload object and decode it into its constituent parts .
+14	Replaces the case in the database with the given case object .
+15	Returns all matches for a partial selector .
+16	Prints a table of all symbols and their binary strings .
+17	Returns a prefix of value that fits in max_len columns .
+18	Inverse fast Fourier transform of a wave .
+19	Determine the encoding of a JSON string .
+20	Creates a dictionary of HTTP headers for a new span .
+21	Add an option to the parser .
+22	Return the elapsed time in seconds since the first message was submitted .
+23	Parse a fragment of HTML .
+24	Initialize a stage .
+25	Get a list of available devices .
+26	Returns the maximum value of the waveform .
+27	Computes the mean and variance of a masked time series.
+28	Iterator over events .
+29	Dump the encoding list to the file .
+30	Check if the given node is in an iterating context .
+31	Returns the status text of the response .
+32	Add a column to the dataframe .
+33	Get a metric by name .
+34	Returns a list of common names from a certificate .
+35	Trim out the arguments that are not needed for the email .
+36	Check for cancelled events on this date .
+37	Returns an iterator over the uuids of the files in the sequence .
+38	Return pull requests from the repository .
+39	Parse JSON from a response .
+40	Predict on stream .
+41	Return the widget for the given parameter .
+42	Return the git revision as a string
+43	Builds the names for the sparse parameter .
+44	Get the size of the object in bytes .
+45	Returns the last valid lockset .
+46	Apply the argument parser to the command line arguments .
+47	Return a range of lines from the input history .
+48	Parse a schema string into a Schema object .
+49	Update the user 's unenrolled list in Sailthru.
+50	Return a temporary directory that is unique to this user , and ensure it exists .
+51	Render inline styles .
+52	Render a HoloViews object in a Bokeh server context .
+53	Returns a filename for a trajectory .
+54	Run the command .
+55	Stop the heartbeat .
+56	Create a Striplog from a log - like object .
+57	Sets a cookie .
+58	A context manager that records the execution of a function .
+59	Compute missing rates using linear interpolation .
+60	Submit a task to the scheduler .
+61	Returns a list of message definitions for the given message id or symbol .
+62	Decorator to mark a function as deprecated .
+63	Returns the minute of the datetime .
+64	Check if a node is in a try...finally block .
+65	Visualize the training process .
+66	Tries to find the instance path for the given package . This method will work only if you are importing your app directly from its package . For example if your application is defined in yourapp / __init__ . py this method will work ,
+67	Delete a file or directory .
+68	Execute the slack hook .
+69	Returns a string representation of a sequence of key - value pairs .
+70	Parse a single attribute value .
+71	Return a new array of given shape and type , filled with ones .
+72	Convert PySide2 to PyQt5
+73	Returns the symmetrized Csiszar f - Divergence .
+74	Return the SHA256 fingerprint of the key .
+75	Make an overpass query and return the result as a json object .
+76	Return a list of additional files to be included in the package .
+77	Display the exception that just occurred . We remove the first stack item because it is our own code . The other stack items are appended to the list self . _last_traceback , which is printed by a call to showtraceback ( )
+78	Download url into the directory root / filename . if filename is None , it will be set to the basename of the url . if md5 is not None , file integrity will be checked with that md5 . The md5 argument is in the
+79	Called when a message is received from a node .
+80	Append a jpg image to the output .
+81	Decorator for registering an expression filter .
+82	Processes the placeholder image .
+83	Clear the bloom filter .
+84	A wrapper for tf . contrib . cudnn_rnn . CudnnCompatibleLSTMCell .
+85	Generate a renewing time for a lease .
+86	Invoked when the remote peer closes the receiver link .
+87	SockJS info handler .
+88	Start the fuzzer .
+89	Serialize a value to a string .
+90	Debugging function .
+91	Processes the given result value before it's returned to the DBAPI .
+92	Wait for a kernel to be ready , up to timeout seconds . Returns True if and only if the kernel is ready .
+93	Fetch a URL and return the response .
+94	Poll the connection for NOTIFY messages .
+95	Called when the websocket is opened
+96	Returns a list of ancestors of the given type .
+97	Compute the number of downsampling stages required to meet the Nyquist criterion for the given filter cutoff frequency .
+98	Show the given commits .
+99	Finds all global names used in a code object .
+100	Decorator to log a message before and after a function is called .
+101	Get the version of singularity being used .
+102	Fills the run table with the run information of the trajectory .
+103	Unroll a dagcircuit into a basis .
+104	Send an accept message to the reply socket .
+105	Returns the duration of the channels in seconds .
+106	Remove a component from the model .
+107	Compute the regression parameters and the chisq .
+108	Return the repository information .
+109	Update the state with the new position and objective value .
+110	Build the network .
+111	Get text from the clipboard on platforms that support the Tk GUI toolkit .
+112	Convert a stream item to a key and data pair .
+113	Counts the number of results intersecting the given coordinates .
+114	Select the next item in the list .
+115	Main function .
+116	Decide what to do with the current file .
+117	Downloads a file from google drive into root folder .
+118	Read the data encoding the CreateKeyPair request payload and decode it into its constituent parts .
+119	Add an alternative to the list of alternatives .
+120	Get the list of TrueType fonts and their filenames .
+121	Process a custom unitary gate .
+122	Sort the data by the given column .
+123	Retrieve recommendations for the current user .
+124	Convert a drive instruction to a qobj model .
+125	Discover tests .
+126	Main program .
+127	Create a new user .
+128	Prints the dictionary of ignored messages .
+129	Validate the value .
+130	Parse the command line arguments .
+131	Reads the hierarchical references from a JAMS file .
+132	Generates a batch of correlation matrices using rejection sampling .
+133	Returns the elliptic curve with the given name .
+134	Returns a dictionary of the kwargs that match the args of the function .
+135	Install the site.py file , replacing any existing one .
+136	Parse the frequency annotation from a variant .
+137	Save the access token .
+138	Write the Authentication struct to a stream .
+139	Get the batch number from the command line .
+140	Dump the object as a dict .
+141	Validate an address .
+142	Loads the covertype dataset .
+143	Get all users .
+144	Reads the schedules from the meter .
+145	Returns a list of patches that come after the given patch .
+146	Get a list of instances from Redis .
+147	Get the status of a remote upload .
+148	Returns True if the given filename should be traced .
+149	Creates a CNAME record .
+150	Gets the description for the specified subscription .
+151	Check if the line is to ignore .
+152	Set a value in the session .
+153	Convert a special handling to code .
+154	Get the argspec for a function , but don 't fail if it doesn' t have one .
+155	Sign this transaction with a private key .
+156	Returns the MNIST dataset .
+157	Move all components to the origin .
+158	Adds a message that has been renamed .
+159	Split a list into a list of lists of size num .
+160	Parse the output of the Hausdorff distance computation from the log file .
+161	Compare two uids and return the number of matching characters .
+162	Selects non - missing values .
+163	Get the list of jobs from Jenkins .
+164	Create an APEValue object from a value and kind .
+165	Ensure that the current Python version matches the given spec .
+166	Chains together a list of GeneratedPyAST objects .
+167	Retrieves a connection from the metadata database .
+168	Remove a client from the list of clients .
+169	List keys in a bucket .
+170	Run the disassemble command .
+171	Save a numpy array to an HDF5 file .
+172	Convert Choi matrix to Rauli matrix .
+173	Notify all subscribers of a property change .
+174	Ensure that the given targets exist .
+175	Returns the parent of a charged molecule .
+176	Fit a KMeans model to the data .
+177	Decode a string into a term .
+178	Set the creation date of the document .
+179	Create a new request .
+180	Creates a simple step size update policy .
+181	Return a masked array for the given geometry .
+182	Returns the number of evictions per cache level .
+183	Decorator to create constants from enum .
+184	Accept the request .
+185	Formats a list of task numbers as a markdown list with links to the tasks .
+186	Rekey a dict with ints and floats as keys .
+187	Estimate gas for a transaction with the Safe .
+188	Import a SQL table into H2O .
+189	Print model details .
+190	Retrieve a single section .
+191	Returns a disjunction of terms for the given feature name .
+192	Save a numpy array as a TIFF file .
+193	Sets the public key of the request .
+194	Return the number of objects in the repository .
+195	Render the graph to a file .
+196	Read the data encoding the ProtocolVersion object and decode it into its constituent parts .
+197	Load a document from a file .
+198	Translate a term or phrase into a GIF .
+199	Decorator to enter context managers for object attributes .
+200	Set the URL to match .
+201	Compute ROUGE - N scores for a single model
+202	Unroll a dag into a dag of basic gates .
+203	Guess the compression type of a file based on its magic number .
+204	Main function to run the algorithms .
+205	Get image from ImageFrame .
+206	Returns a list of instructions in the circuit .
+207	Read the data encoding the DeriveKey request payload and decode it into its constituent parts .
+208	Returns the uncertainty in the date due to the rate variation .
+209	Returns a list of artists related to this artist .
+210	Update parameters from another object .
+211	Scale a series by the bayesian mean and standard deviation .
+212	Return a queryset of events that are live at the given datetime .
+213	Yields all file paths for this distribution . Stolen from pip .
+214	Iterates over all step function definitions in the test .
+215	Generate segment numbers and availability times .
+216	Merge two mappings .
+217	Set attributes from a dictionary .
+218	Returns all elements of a tuple or list .
+219	Capitalize the first character of each string in the sequence .
+220	Return the file name for a given frame .
+221	Translate a shell PATTERN to a regular expression . There is no way to quote meta - characters .
+222	Check if the raise statement is raising an exception that is not a subclass of Exception .
+223	Decide if it makes sense to show a call tip .
+224	Returns a new TimeslotCollection with all timeslots shifted by the given time .
+225	Show a HoloViews object in the notebook .
+226	Returns True if the file should be treated as Python .
+227	Prints a report of the time taken to run the benchmark .
+228	Finish the BulkLoad job .
+229	Adds an exception to the list of exceptions that should be thrown .
+230	Unpack an archive into a directory .
+231	Return the path to the compiled file for the given source file .
+232	Encrypts a JSON object .
+233	Builds an enum from the given parameters .
+234	Saves the estimations in the given file .
+235	Returns a form instance based on the request .
+236	Return a dictionary with institute , case , variant and overlapping_snvs .
+237	Search for archives matching the given criteria .
+238	Returns the correct documenter class for * obj * .
+239	Parse a config file .
+240	Executes a backfill for a set of run dates .
+241	Creates an updater function that updates the current value with the next value .
+242	Connects to the storage service .
+243	Clean the subunit .
+244	Return a mask of length n with True at indices inds .
+245	Compute near - dupe hashes for a set of labels and values .
+246	Decorator to enable CORS on a Sanic route .
+247	Returns a human readable string representing a byte size .
+248	Returns the last updated time for the given node .
+249	Copy the content of a file to another file .
+250	Convert a string to a float , with support for suffixes .
+251	Returns the nearest neighbors of the given coordinates .
+252	Add a message given a message id and some optional arguments .
+253	Generate a list of n random ports around the given port .
+254	Sets the icon for the window .
+255	Parse a zone file into a JSON object .
+256	Resume the strategy .
+257	Compute the local score of the onset envelope .
+258	Run the command .
+259	Add rules to the grammar .
+260	Creates a numpy array from a list of voxels .
+261	Parse a string of the form "amp1=0.5,amp2=1.0" into a dictionary .
+262	Decorator for Google API methods . Catches errors and throws AirflowException .
+263	Convert unicode to str .
+264	Reads a file and stores the lines and arcs in the object .
+265	Checks if the student and solution ASTs are equal .
+266	Filter a BAM file based on coverage information .
+267	Matches the URL and returns a response .
+268	Perform cross - validated classification .
+269	Download the video .
+270	Download an object from S3 .
+271	Returns the selected ALPN protocol .
+272	Register this app with the specified OAuth instance .
+273	Fetch a pack from the remote repository .
+274	Check for backslash escapes in a non - raw string .
+275	Configure upload sets for the application .
+276	Checks that a variable is a list of the correct length .
+277	Return the text content of a node and its children .
+278	A context manager that wraps user code execution and catches any exceptions that are not part of the user - framework contract .
+279	Return a list of paths to the module .
+280	Prints item to file , or to sys . stdout if file is None .
+281	Register the class as a path hook .
+282	Decode the state parameter .
+283	Find the first element matching the given selector .
+284	Mask a datetime to the start of the day .
+285	List the contents of a folder .
+286	Get the next event from the stream .
+287	Profile the package and return the results .
+288	Broadcast a tensor to a list of tensors .
+289	Configure the plugin and system , based on selected options .
+290	Sets the content type of the request .
+291	Reads until the end of the stream .
+292	Decode a JSON value .
+293	Specify the joint log probability function .
+294	Add a scheduler to the optimizer .
+295	Recalculate the discounts for the cart .
+296	Imports data from a Google Cloud Storage bucket .
+297	Run a meta - analysis on a dataset .
+298	Return a dictionary mapping branch line numbers to a tuple of ( exits , missing ) .
+299	Print the latest price for the given symbol .
+300	Save a QR code into a file .
+301	Decorator to add metadata to a function .
+302	Get user info .
+303	Mine the current url .
+304	Renders the widget as an HTML string .
+305	Try to connect to a server using passwordless ssh .
+306	Update the attributes of the component .
+307	Reserve a free TCP port for the SQL proxy .
+308	Setup the scout database .
+309	Creates a database in the specified Cloud SQL instance .
+310	Streams the output of a command .
+311	Increment the value of a key by delta . If the key does not exist , it is initialized to delta .
+312	Returns the imaginary part of the FFT of the wave .
+313	Set the style of the font .
+314	Register a hook .
+315	Returns a ` tfd . MultivariateNormalDiag ` instance .
+316	Get an object from the thread local storage . If the object does not exist , it will be created using the factory .
+317	Parse an xdot directive .
+318	Return the text of the source code for an object . The argument may be a module , class , method , function , traceback , frame , or code object . The source code is returned as a single string . An IOError is raised if the
+319	Starts the webserver .
+320	Fix missing locations in the AST .
+321	Split a comma - separated string into a set of strings .
+322	Loads a child from the storage service .
+323	Validates the contents of the SecretData object .
+324	Enroll a user in a course .
+325	Compute a magnitude spectrogram from a time - series or from a spectrogram .
+326	Computes the expectation of f under the distribution p using importance sampling .
+327	Returns the relationship of the given type from the given object .
+328	Processes the spark status log and extracts the driver status .
+329	Generates a random string for use as a CSRF token .
+330	Poke the filepath to see if it has any relevant files .
+331	Calculate the averages for each node in the tree .
+332	Pad the dataset .
+333	Computes the numerical rank of one or more matrices .
+334	Returns True if the token is valid .
+335	Send a message to Slack .
+336	Decorator to register a function as a metric .
+337	Decorator for multi - dispatch functions .
+338	Root mean square error of the model .
+339	Returns a list of nodes with the given names .
+340	Computes the best partition of the given set sizes into the given number of partitions .
+341	Cancel a job task .
+342	Prints the fields in markdown format .
+343	Returns the start time of the first interval in the given channels .
+344	Get variant data for a single variant .
+345	Main entry point for the semaphore tracker process .
+346	Changes the configuration of a deployment .
+347	Returns True if the given filepath matches any of the patterns in self . only_blame_patterns .
+348	List all videos of a user .
+349	Process input from the socket .
+350	Configure logging .
+351	Returns a generator of layers .
+352	Processes a cinder event .
+353	Returns the home url for the current site .
+354	Syncs the endpoints .
+355	Process the current file .
+356	Decorator to log the time taken by a function .
+357	Get the name of the current cipher .
+358	Deserialize ``fp`` ( a ``.read()`` - supporting file - like object containing a JSON document ) to a Python object .
+359	Yield every other item from an iterable .
+360	Emit a record .
+361	Return a resource from the shared directory .
+362	Wraps a function returning a tuple ( status , data ) to a flask view returning a json response .
+363	Return the next possible completion for 'text' . This is called # successively with state == 0 , 1 , 2 , ... until it returns None . # The completion should begin with 'text' .
+364	Refer all vars from other namespaces .
+365	Downloads the directory structure file .
+366	Hook for param .
+367	Create a WSGI application that can be used by a WSGI server .
+368	Append a line to the cell buffer .
+369	Returns a dictionary with the cache stats .
+370	Open the file and prepare for parsing .
+371	Initialize the qubits to the given state .
+372	Get the file id for the given path .
+373	Converts a trace id to a string .
+374	Return the history of the IPython session .
+375	Delete a local file .
+376	Check if the given node is a mandatory method parameter .
+377	Get keyword information .
+378	Print an error message and exit .
+379	Return event with specified uid .
+380	Load an audio file , estimate its tuning , and apply pitch - correction .
+381	Return a dictionary of channel information .
+382	Retrieve summary information from a file .
+383	Start monitoring .
+384	Returns the last activity date and time of the room .
+385	Print the best score for a word .
+386	Convert a value from one currency to another .
+387	Loads the types .
+388	Check if a record is embargoed .
+389	Evaluate a hook .
+390	Applies the secant2 update to the active members of the bracketing interval.
+391	Returns an iterator over the items in the CSV file .
+392	Parse a version string into a comparable object .
+393	Returns a string with the source code of the given position .
+394	Set an option in the global options .
+395	Update the config with the password .
+396	Register this agent with the Matterhorn core .
+397	Paginate through a GET request .
+398	Asserts that the current path does not resolve to the given path .
+399	Converts the TextGrid to an Elan Eaf object .
+400	Get the encoding of a stream .
+401	Expand a benchmark name into a list of benchmark names .
+402	Initializes the app with the given config .
+403	Returns a dictionary of all the traits of a class .
+404	Get the gerrit version .
+405	Save the configuration to disk .
+406	Evaluate an oracle command and return the result .
+407	Update the segmentation mask with the segment defined by the onset and offset fronts .
+408	Plot PCA results .
+409	Create a new device type .
+410	Kill all child processes .
+411	Display HTML .
+412	Yields the names of all standard library packages .
+413	Create all tasks for a given element .
+414	Find the onsets of the given events in the given energy .
+415	Convert a message to a dictionary .
+416	Run a subprocess . Popen in non - blocking mode .
+417	Returns the line and column of the given form .
+418	Create a viewset handler for a model .
+419	Start the server .
+420	Normalize the given host .
+421	Set the timeout for a function in a state .
+422	Returns a Jinja loader for the application .
+423	Return a list of all versions of project_name available on the index .
+424	Get the releases from the github api .
+425	Create a new y - axis .
+426	Generate a number of strings from the grammar .
+427	Convert uploaded data to a python object .
+428	Context manager that creates a temporary alembic . ini file .
+429	Extracts ISO8601 dates from a dict or list of dicts .
+430	Called when the parent state machine becomes event dependent .
+431	Start tracing all threads .
+432	Subtracts the arg from the value .
+433	Compute the pseudo - constant - Q transform of an audio signal . This is a constant - Q transform with a fixed window size , which is faster to compute than the full constant - Q transform . Parameters ---------- y : np . ndarray
+434	Soft thresholding operator .
+435	Build a trainable posterior for a parameter .
+436	Select the cell above the current cell .
+437	Parse a list of gene lines and return a list of genes .
+438	Return the output of a parser .
+439	Request a PIN from Ecobee to authorize the application .
+440	Update a ref in the repository .
+441	Register a callback for a pin .
+442	Starts an interactive Python REPL with the IOTA API client initialized as variable `api`.
+443	Initialize all bars .
+444	Recursively generate all possible combinations of options .
+445	Generate a transition matrix for a Markov chain with n_states states and a given probability of staying in the same state .
+446	Exit the application .
+447	Convert HTML entities to unicode .
+448	Disable autopx .
+449	Download a single file .
+450	Called when the receiver link is closed .
+451	Raises an exception of the given type with the errors from the error queue .
+452	Set the dataset to be used for the query .
+453	Format the namedtuple using the given template .
+454	Recursively merge two dictionaries .
+455	Wrap a function with timeout .
+456	Quickly checks if a BAM file is valid .
+457	Returns True if this warning may be emitted for the current Python version .
+458	Get a list of categories .
+459	Find the best match for the given requirement .
+460	Call a Conduit API method .
+461	Get MNIST dataset .
+462	Wipe the database .
+463	Return a string with the timing and result summary .
+464	Reads a regex pattern from the reader context .
+465	Converts a model to a dictionary .
+466	Calculate background interpolation functions for analytes .
+467	Creates a new MX record .
+468	Handles an HTTP exception. By default this will invoke the registered error handlers and fall back to returning the <s> exception as response.
+469	Update the data in this data object from a pandas dataframe .
+470	Sign the input transactions starting at the given index .
+471	Returns a list of tuples containing the contig id , the position of the contig boundary and the contig name .
+472	Returns a string representation of the block stack .
+473	Computes the Gaussian error function of `x` element - wise .
+474	Get the system fee of a block .
+475	Calculates the area under the curve of a function .
+476	Returns step name from decorator .
+477	Make a request to the Luminoso API and return the JSON result .
+478	Sets the drop target for the given object and all of its children .
+479	Asserts that the given title does not exist .
+480	Returns the smallest integer that is greater than or equal to the base - 2 logarithm of x .
+481	Find the group id for the group name .
+482	Returns the location of the table .
+483	Finalize the resource estimation .
+484	Returns the values of a single axis from a dataset .
+485	Save results to file .
+486	Returns the maximum temperature of all disks in the volume .
+487	Logs in a user .
+488	Validates a full_path and returns a dictionary of its components .
+489	Write a message to the log .
+490	Pad an image to a multiple of a given number .
+491	Prints a message to the console .
+492	Unprovision an application type .
+493	Get users from Invenio 2 .
+494	Returns a string representation of the arguments of a function .
+495	Sets the callback to be called when a remote service is discovered .
+496	Evaluate the given file or code .
+497	Returns the URL for the class ( pluralized )
+498	Initialize the archive manager .
+499	Returns the static value of a tensor or None if it is not available .
+500	Transform a Pauli-basis density matrix to the computational basis.
+501	Returns a dictionary from the given JSON data .
+502	Returns the node with the given name .
+503	Recursively walk through a S3 directory and return a list of files and subdirectories .
+504	Decorator to assert that an attribute exists on the instance .
+505	Run the livereload server .
+506	Show workspace information .
+507	Return the number of CPUs in the system .
+508	Decorator for cinder event processing .
+509	Returns True if the name looks like a URL .
+510	Returns the winner of the game .
+511	Handles the 'label' trait being changed .
+512	Checks whether a hosted service name is available for use .
+513	Return the smallest positive floating point number .
+514	Set the name of a column .
+515	Return a tuple ( filename , reason ) for tracing this frame .
+516	Get feature data for a list of masks .
+517	Generate a new annotation id .
+518	Normalize whitespace in a string .
+519	Export a minimal dataset for reproducing the analysis .
+520	Prints the header of the output .
+521	Register a callback to be called when the skill is stopped .
+522	Check if a path exists in HDFS .
+523	Update the dismiss variant for a variant .
+524	Update the caseid of a case and all its variants and events .
+525	A template for constructing a fully - connected MLP with `real_nvp_template` .
+526	Returns a CSV representation of the result set .
+527	Comment user 's feed.
+528	Setup frequency axis .
+529	Add an action to a menu and the window .
+530	Return the URL to the contents of the package .
+531	Add a checklist to the card .
+532	Check if user exists .
+533	Returns a color based on the hash of the string .
+534	Render the traceback for the given exception id .
+535	Convert an amount from one currency to another .
+536	Return HTML for including jquery.formset .
+537	Called when the user tries to close the application .
+538	Returns True if the point is inside the polygon .
+539	Run GSEA prerank analysis .
+540	Diagnose a case with a phenotype or gene .
+541	Returns a pandas DataFrame with the description of the features .
+542	Validate a signed value .
+543	Bounds the waveform to the given independent variable range .
+544	Apply the next patch in the series .
+545	Execute the module .
+546	Download the object to the specified path .
+547	Main entry point for the SolveBio CLI .
+548	Make a plot of the photometric errors .
+549	Get the external ids for a series .
+550	Get metadata for an entity .
+551	Close the connection .
+552	Add user options to the core .
+553	Returns a line chart for the given metric .
+554	Create a new contact .
+555	Append a child to this node .
+556	Vectorize a density matrix .
+557	Switch to the given frame .
+558	Returns a transform that finds all elements matching the given XPath expression .
+559	Converts a PIE object to a core object .
+560	Print a stack trace .
+561	Upload a file to S3 .
+562	Returns True if all runs are completed .
+563	Evaluates this tensor in a Session .
+564	Loads the module from the given path .
+565	Returns the mimetype for the current format .
+566	Wrapper for a single run to be used with scoop .
+567	Print the first and last n rows of the DataFrame .
+568	Return the scale factors for the x , y , and z axes .
+569	Process a NAK received in the RENEWING state .
+570	Cancel the future and schedule callbacks . If the future is already done or cancelled, return False. Otherwise, change the future's state to cancelled, schedule the callbacks and return True.
+571	Attempts to reinterpret the value as the given type .
+572	Recognize speech in an audio file .
+573	Returns a DataFrame of player stats for the game .
+574	Apply perspective transformation to PIL Image.
+575	Validates the current data set and returns true if valid .
+576	Write the contents of a table to the database .
+577	Converts a tex file to a pdf file .
+578	Returns True if the given type is known to the type system .
+579	Start logging all API requests to a file .
+580	Creates a new virtual machine deployment .
+581	Recursively discovers modules in the given directory .
+582	Format a list of traceback entry tuples for printing .
+583	Returns True if the given name is declared in the current scope .
+584	Extend the request with metadata statements .
+585	Update the ID3v2.3 tag to ID3v2.4.
+586	Populate a RequirementSet from a Requirements file .
+587	Delete this object from the database .
+588	Copies the current request context and wraps a function so that it becomes associated with the copied request context . This is useful if you want to spawn a background thread and access the request data in that thread. :: @copy_current_request_context
+589	Set the source of the component .
+590	Get a token from the auth service .
+591	Deletes a certificate from a provisioning service .
+592	Send a message to the LW broker .
+593	Returns the google search url for the song name and website
+594	Decorator to log calls to a function .
+595	Put account .
+596	Lists the legal agreements that must be accepted before purchasing a top - level domain .
+597	Send notification to the requestor that the request has been accepted .
+598	Returns the hash of the block at the given height in the local best block chain .
+599	Convert a resource to HTML .
+600	Time a callable and report the result .
+601	Add a filter to the script that samples the mesh .
+602	Decorator for parse functions that adds location information to the returned node .
+603	Send an email to the user about the invoice .
+604	Decorator to wrap a filter function to work in time - lag space .
+605	Return a string describing the given index .
+606	Set an attribute on the widget .
+607	Streams a file of JSON lines .
+608	Scout view hpo
+609	Send a GCM message to a single device .
+610	Returns a feature index function for the given feature names .
+611	Prepare extensible fields .
+612	Get or create a namespace .
+613	Returns the time since the last check of the timer with the given id .
+614	Decode the packet .
+615	Writes the data to the specified files .
+616	Set the configuration files for the pipeline .
+617	Computes the vector - matrix product .
+618	Converts a `tf.DType` to a `np.dtype`.
+619	Delete a checkpoint .
+620	Generate markdown documentation for a class .
+621	Return the value of a parameter bound to a configurable .
+622	Get the controller class for the given controller .
+623	Split a string into a list of strings , taking into account shell quoting .
+624	Returns a DataFrame of the basic game log for the given year .
+625	Classify regions in a dataset using a given method .
+626	Find a variable by its symbol .
+627	Return a pandas dataframe with the token counts .
+628	Returns the year of the datetime .
+629	Merge statements with same condition tree
+630	Create a new Lexicon from a LAS 3.0 file .
+631	Add a page to the document .
+632	Returns a dictionary of messages by line number .
+633	Set the length of the bone .
+634	Add Enrichr parser to subparsers .
+635	Visualize the decision boundary of a linear classifier .
+636	Append a copy of the given element to the end of the list .
+637	Construct a field .
+638	Retrieve an article by message id or number .
+639	Converts an etree element to a Topic object .
+640	Update the header of a sigproc file .
+641	Write the XML to a file .
+642	Close the H2O connection .
+643	Makes a result ordinary again .
+644	Set a value for a metric .
+645	Run RSEM on a BAM file .
+646	Returns a metrics interface for the given thing .
+647	Fetch the questions from the given url
+648	Update the metadata for an entity .
+649	Called when the connection is shut down .
+650	Returns the signature for the given value .
+651	Return the child object of this task .
+652	Print a summary of this H2OFrame .
+653	Get the service endpoint for the given service type .
+654	Initialize the step .
+655	Checks if a url contains a given string .
+656	Main program .
+657	Apply credit notes to an invoice .
+658	Builds a dictionary of dtypes for each point format , where each dtype is a list of tuples ( field_name , field_type ) .
+659	Match incoming request against registered mock matchers .
+660	Returns a list of expected inheritance models for a variant .
+661	Build the query .
+662	Update the global message dictionary with the given message dictionary .
+663	Check if the given node is an assignment to a name or attribute which is not in an except handler .
+664	Add options to command line .
+665	Validate that a type object is valid .
+666	Creates a StoreItem from the result of a Cosmos query .
+667	Import all modules in the service .
+668	Compute invariants for a graph .
+669	Like user 's feed.
+670	Create a self signed JWKS .
+671	Prepare spark-sql command .
+672	Convert a word to HTML .
+673	Renders a template from the template folder with the given context .
+674	Builds the request data from the given request object .
+675	Add text to the current line .
+676	Returns a list of FileStructs for the given dataset .
+677	Performs a line search using the Hager - Zhang algorithm .
+678	A smart for loop that can be used in TensorFlow graphs .
+679	Called when the multiplexed connection is made .
+680	Prints out the usage of the script .
+681	Evaluate a marker expression .
+682	Check for unnecessary lambda expressions .
+683	Decorator to require a valid token for a view .
+684	Creates a vector from an iterable .
+685	Check if the line is an alias .
+686	Parse a CSV file into a list of dicts .
+687	Convert . pyx sources to C / C ++ if Cython is available .
+688	Check that the logging methods are called with the correct number of arguments .
+689	Deletes the specified hosted service .
+690	Inverse hyperbolic cosine of a wave .
+691	Export the metadata as a JSON string .
+692	Draws gradient plots for each sample in samples .
+693	Flip the orientation of the faces of the mesh .
+694	Gets the primary and secondary access keys for the specified storage account .
+695	Drop a node from the cluster .
+696	Write constraints for a table .
+697	Get the history of the session .
+698	Broadcast a value to a target shape .
+699	Returns the average of the data in counts , weighted by the values in observable .
+700	Create a new tagit action .
+701	Parse the log file and return a dictionary with the following keys : clean_len , total_trim , total_trim_perc , 5trim , 3trim , bad_reads
+702	Returns the security context for the worker pod .
+703	Returns True if the game is over , False otherwise .
+704	Returns the value of a wave at a given independent variable value .
+705	Parse a string into a pyparsing expression .
+706	Check for the existence of a directory .
+707	Spawns a new process and returns a handle to it .
+708	Converts an option group AST to code .
+709	Find a Var by its fully qualified name .
+710	Returns the hash of the given parameters .
+711	Release a semaphore .
+712	Returns the client identity from the certificate .
+713	Returns a boto3 connection to Athena .
+714	Handle a new FastAGI request .
+715	Log a histogram value .
+716	Add a new item to the checklist .
+717	Leave a project node .
+718	Terminate the manager .
+719	Connect to s3 .
+720	Serialize a user object .
+721	Returns the field types for the current index and type .
+722	Validate that the given kwargs are valid for the given function .
+723	Get the self_link of a cluster .
+724	Compute the similarity matrix of X using the given metric .
+725	Print signal information .
+726	Transforms the data .
+727	Returns a dictionary with all the information needed to generate a case report .
+728	Write a batch of items to dynamodb .
+729	Returns True if the time delta is greater than the log interval .
+730	Return the grid span of a table cell .
+731	Return a string containing the class 's config section.
+732	Converts a string to a PriceClass object .
+733	Infer the tarball url from the app . json file .
+734	Processes a tomography set .
+735	Yields the sentences in the document .
+736	Print help for the given message ids .
+737	Wraps a function which returns a value and gradients to check for None gradients .
+738	Set unfinished dag runs to failed .
+739	Add a classical register to the circuit .
+740	Create a new instance of the class from a connection string .
+741	Builds the downstream pipeline for a given task .
+742	Open a JSON or CSV file .
+743	Align the end of the hierarchies .
+744	Delete a URL .
+745	Return a table of advanced stats .
+746	Perform the action .
+747	Returns a state space model for the given parameter values .
+748	Compute the loss function .
+749	Display the graphic connection .
+750	Returns a LaTeX representation of the node .
+751	Initialize the javascript API .
+752	Decorator to make a function return a promise .
+753	Fit the model with X .
+754	Stop the server .
+755	Returns the last readed line .
+756	Flatten an iterable of iterables .
+757	Append HTML to the output .
+758	Construct an EntryPoint from a string .
+759	Get the definition header for a given object .
+760	Generates the AST for the assignment of the Python namespace variable to the Lisp namespace variable .
+761	Create a new receiver link .
+762	Computes the number of digits in the base expansion of num .
+763	Returns the traceback of the last exception .
+764	Make a list of files from the command line arguments .
+765	Render a badge for the given user .
+766	Rate the current user 's experience with the current skill.
+767	Mark a case as checked or not checked .
+768	Delete a cgroup .
+769	Called when data is received from the socket .
+770	Evaluate a list of conditions .
+771	Add a state to the state machine .
+772	Returns the path to the config file .
+773	Processes a process statement .
+774	Returns the value of a setting . If the setting doesn't exist , returns an AttributeError .
+775	Retrieve the whois database .
+776	Prints the value of a key in the database .
+777	Predict on batch .
+778	Extracts the value of a constant from a code object .
+779	Return a list of snapshots for a given cluster .
+780	Computes the Jensen - Shannon divergence between two distributions .
+781	Handle a message from the checker .
+782	Return a text representation of the traceback .
+783	Updates the state of the checklist item .
+784	Shut down this kernel.
+785	Aggregate accessibility variable .
+786	Execute a command .
+787	Fits a linear model to the response using the model matrix .
+788	Iterate over the schema and the fields .
+789	Check if the next tag is a link with the same href as the current tag . If so , append the text of the next tag to the current tag and add the next tag to the blacklist .
+790	Returns the shape of the bipartite matrix .
+791	Get the list of attributes for the given uid .
+792	Flush all pending requests .
+793	Automatically extend the reservation duration of the cart .
+794	Converts a boolean array to a list of voxel coordinates .
+795	Creates a directory and all its parents .
+796	Compute the mean squared error between two vectors .
+797	Aligns the segmentation to the beat times .
+798	Returns the inverse hyperbolic tangent of the wave .
+799	Merge two lists of statements .
+800	Format a metric string .
+801	Computes the Moore - Penrose pseudo - inverse of one or more matrices . Args : a : `Tensor` with type `float16` , `float32` , `float64` , `complex64` , or `
+802	Parse unstructured event .
+803	Process the stream .
+804	Register reporters .
+805	Returns the config dictionary .
+806	Converts a nested structure of objects to tensors.
+807	Return the symbol for a message id .
+808	Remove temporary fastq files and unpaired fastq files .
+809	Register a callback for a given event .
+810	Returns True if the given RGB values are dark .
+811	Open a named semaphore .
+812	Returns the whois data of the given domain .
+813	Get the next event from the service .
+814	Fetch the owner team for a crate .
+815	Reads a deref form .
+816	Returns a cursor at the end of the text .
+817	Delete the next patch in the series .
+818	Reset the kernel .
+819	Dispatch reply to the appropriate result object .
+820	Close the PDF object. This finalizes the file and writes the document to the disk or whatever output stream you told the object to.
+821	Claim VCF files from the given file readers .
+822	Creates a message from the response .
+823	Synchronizes access to a shared resource .
+824	Delete all buckets associated with a record .
+825	Returns a logger with the given name .
+826	Returns a list of private keys .
+827	Set a single thing in a chainmap .
+828	Read the data encoding the Credential object and decode it into its constituent parts .
+829	Parse the number of hits from the html .
+830	Parse the interfaces from the API documentation .
+831	Converts a rule number to a binary rule .
+832	Get the prediction result .
+833	Override the base class to allow the user to use the arrow keys to move around the list .
+834	Create a transfer job .
+835	Return the game directory .
+836	Uploads a set of documents to a new project .
+837	Claim the unclaimed file readers .
+838	Returns HTML code for a boolean field .
+839	Get a list of recommended tracks for one to five seeds .
+840	Check for duplicate qubits .
+841	Save a resource to a file .
+842	Validates the shape of a categorical distribution parameter .
+843	Set the humidity level for the thermostat .
+844	Define a new class .
+845	Update the backend info every interval seconds .
+846	Compute A - weighting for given frequencies .
+847	Return the module name for the given import node .
+848	Get the hashes of the commits in a pull request .
+849	Create a CRS from an EPSG code .
+850	Returns a zero - dimensional MultivariateNormalDiag distribution .
+851	Finds the multiprocessing dictionary in the dictionary passed to dictConfig .
+852	Returns a list of dates between start_date and end_date or num days from start_date .
+853	Detects the format of the given text .
+854	Sets the revocation date .
+855	Sets a piece at a given square .
+856	Demo of time - stretching an audio signal .
+857	Get the price data for a ticker .
+858	Computes the drift term of the MALA proposal .
+859	Call a list of commands in sequence .
+860	Returns the URL to redirect the user to for OAuth2 authorization .
+861	Return a license object for the given license name .
+862	Returns the serial number of the certificate .
+863	Checks if the html is a song page or not .
+864	Unsubscribe to a given subject .
+865	Search for a pattern in a string column .
+866	Return a dict representation of the state .
+867	Set attributes for all form widgets .
+868	Returns the session id .
+869	Update the clinvar_subm_id field of a submission .
+870	Compacts an HDF5 file .
+871	Starts the authorization grant flow . The user will be redirected to the service provider ( Google ) and prompted to authorize this application . After authorization is complete , the user will be redirected to the URL specified by callback_uri . The authorization code will be passed
+872	Factory for permission checkers .
+873	Decorator to patch a method on DataFrame .
+874	Read client secrets from file .
+875	Enter the debugger at the point of exception . If no exception is being handled , this is equivalent to `` % debug `` . This is useful if you suspect that an exception was silently caught somewhere and want to inspect it now .
+876	Save the token to the token file .
+877	Gets the properties of the specified cloud service .
+878	Read data and parse into blocks .
+879	Removes comments from a string .
+880	Returns a tuple of datetime objects from a date range string .
+881	Returns a dictionary of the attributes of the object .
+882	List all prefixes in a bucket .
+883	Return a gene by its HGNC symbol or alias .
+884	Polls datafeeds and processes notifications .
+885	Override the span name .
+886	Run the show_val command .
+887	Backup the trajectory to a new file .
+888	Event handler for the starting key .
+889	Add layers to the decoding stack .
+890	Returns the indices of the sequence.
+891	Select the best remaining CX gate from the list of available hardware qubits .
+892	Create a new receiver .
+893	Scale bboxes by a given factor .
+894	Expand an address into a list of tokens .
+895	Returns a pandas DataFrame with the data in the table .
+896	Returns the version of the file .
+897	Store the nodes in the tree in a depth first search manner .
+898	Called when the connection is shut down .
+899	Mouse down event handler .
+900	Insert or update a table .
+901	Set the delivery system for the basket .
+902	Returns the p 'th partition of the sequence seq.
+903	Convert a DAGCircuit to a QuantumCircuit .
+904	Returns the parent of this page .
+905	Return the action corresponding to the given alias .
+906	Set the sequence length .
+907	Return a string representation of the ppoi .
+908	Get the properties of an entry from the XML node .
+909	Roll sparse matrix along axis .
+910	Demo function .
+911	Reads the latools . cfg file and returns the file name and the configparser object .
+912	Prompts for a file name and checks if it exists . If it does , asks if it should be overwritten . If it does not , asks if it should be created .
+913	Construct a service from the given options .
+914	Compute the harmonic energy of a signal .
+915	Read the data encoding the Digest object and decode it into its constituent parts .
+916	Add parameters to the trajectory .
+917	Create a graph of the current graph .
+918	Setup the selection range .
+919	Return the first item in the collection . Calls seq on its argument . If there is no first item in the collection , returns nil .
+920	Check if the configuration is valid .
+921	Handle a POST request .
+922	Infer the type of a node . Returns None if there is ambiguity .
+923	Check if the exception inherits from StopIteration .
+924	Handles the drawing being changed .
+925	Add options to the parser .
+926	Sign the request with the api_secret .
+927	Copy the SRM file from the package to the current working directory .
+928	Shift the annotations by time .
+929	Record a magic function in the magic registry .
+930	Prepares the arguments for the line search .
+931	Outputs the JSON payload in CSV format .
+932	Convert a date string from one format to another .
+933	Checks if the student object is an instance of the given class .
+934	Parse GeoTiff keys from VLR list .
+935	Delete a queue .
+936	Save the document to a file .
+937	Save a thumbnail of the image .
+938	Share a file to dropbox .
+939	Delete all metadata blocks from the file .
+940	Plot a waveform from an audio time series . Parameters ---------- y : np . ndarray [ shape = ( n ,) ] or np . ndarray [ shape = ( 2 , n ) ] The audio time series to plot .
+941	Raise an error with the given message .
+942	Update institute with given internal_id .
+943	Minimize a scalar function of one or more variables using the BFGS algorithm .
+944	Returns a JSON string representation of the object .
+945	Get a connection to the database .
+946	Return the Pauli group for a given number of qubits . Args : number_of_qubits : int Number of qubits case : str ( 'weight' | 'tensor' ) Return the Pauli group sorted by weight or
+947	Returns True if all matchers match the request .
+948	Returns a list of all tables in the account .
+949	Returns the host and port from a server address .
+950	Loads a record from a string .
+951	Add details to the error message .
+952	View for adding a manual payment to an invoice .
+953	Main function .
+954	Called when the program is exiting .
+955	Enumerate the resonance structures of a molecule .
+956	Returns the path to the package or cwd if that cannot be found .
+957	Inserts the continuation prompt at the given cursor .
+958	Compute labels for each frame in X .
+959	Parse the number of pages in a question .
+960	Send a ping to the API .
+961	Derive a new key or secret data object from an existing key or secret data object .
+962	Send a message to a list of targets .
+963	Get the current AWS credentials .
+964	Add a definition to a category group .
+965	Returns the model data for the given model name .
+966	Inserts patches into the patchlines list .
+967	Print the line number and file name of the current line .
+968	Chain a sequence of tasks together by setting the downstream task for each task .
+969	Initialize the run context .
+970	Loads a list of transcript objects into the database .
+971	Returns a list of crates .
+972	Checks if the message contains bad headers .
+973	Returns a list of available fields for the given object .
+974	Merge two contacts .
+975	Open a CSV file and return a reader object .
+976	Scan a module for unsafe attributes .
+977	Fetch the items from the server .
+978	Sort the table by the given column .
+979	Compute FDR threshold for a set of p - values .
+980	Returns a list of tuples of the form ( tag . name , "selected taggit - tag" if tag . name in tags else "taggit - tag" ) for tag in self . model . objects . all ( ) </s
+981	Get the state of an asset .
+982	Cut off drivers of dstSignal from statements .
+983	Returns a listener function that logs the progress of a monitor .
+984	Manage the state of the executor .
+985	Returns a new connection to the database .
+986	Updates the header of the file .
+987	Create the widget .
+988	Download mail attachments by name .
+989	Returns the issuer of the certificate .
+990	Rename a file or directory .
+991	Returns a random last name .
+992	Set the time to be used for verification .
+993	Generate a YAML representation of the class .
+994	Parse the log file .
+995	Change the state of the given task instances to QUEUED .
+996	Draws the progress bar .
+997	Parse variant ids from the given fields .
+998	Add a popup to the SVG .
+999	Return a list of figures from the current figure manager . If no arguments are given , all figures are returned . If one or more figure numbers are given , only the figures with those numbers are returned .

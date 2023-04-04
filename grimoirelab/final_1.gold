@@ -1,0 +1,222 @@
+0	Parse the Git log stream .
+1	Parse a Git log file .
+2	Fetch commits .
+3	Returns the Git argument parser .
+4	Initialize repositories directory path
+5	Get user and org data for the login
+6	Check if filename is a compressed file supported by the tool .
+7	Remove control and invalid characters from an xml stream .
+8	Retrieve all the questions from a given date .
+9	Parse a StackExchange API raw response .
+10	Returns the StackExchange argument parser .
+11	Fetch and parse the messages from a mailing list
+12	Check if the given message has the mandatory fields
+13	Copy the contents of a mbox to a temporary file
+14	Parse a JIRA API raw response .
+15	Clone a Git repository .
+16	Update repository from its remote .
+17	Run a command .
+18	Read the commit log from the repository .
+19	Run a command with a non blocking call .
+20	Fetch the topics
+21	Retrive the topic with topic_id identifier .
+22	Logout from the server .
+23	Extracts and coverts the update time from a Bugzilla item .
+24	Generate a UUID based on the given parameters .
+25	Convert a message in CaseInsensitiveDict to dict .
+26	Reads self . proc . stderr .
+27	Specific fetch for gerrit 2 . 8 version .
+28	Retrieve all jobs
+29	Fetch the builds from the url .
+30	Retrieve all builds from a job
+31	Retrieve recent pages from all namespaces starting from rccontinue .
+32	Retrieve all pages from a namespace starting from apcontinue .
+33	Fetch the pages from the backend url for MediaWiki > = 1 . 27
+34	Get the max date in unixtime format from reviews .
+35	Fetch the pages
+36	Retrieve the post whit post_id identifier .
+37	Parse a topics page stream .
+38	Get the information of a list of bugs .
+39	Get the comments of the given bugs .
+40	Get the history of the given bugs .
+41	Get the attachments of the given bugs .
+42	Fetch the bugs from the repository .
+43	Parse message section
+44	Parse a Supybot IRC stream .
+45	Parse timestamp section
+46	Parse a Supybot IRC log file .
+47	Fetch the messages that a bot can read .
+48	Parse a Telegram JSON messages list .
+49	Fetch the messages the bot can read from the server .
+50	Get the contents of a repository .
+51	Get the snapshot of a content for the given version .
+52	Parse a Confluence summary JSON list .
+53	Extracts the identifier from a Confluence item .
+54	Add extra information for custom fields .
+55	Filter custom fields from a given set of fields .
+56	Call a method .
+57	Retrieve tasks .
+58	Retrieve tasks transactions .
+59	Fetch the tasks
+60	Retrieve users .
+61	Get the information of the given issue .
+62	Get the information of a list of issues .
+63	Call to get a resource .
+64	Parse a Redmine issues JSON stream .
+65	Retrieve data about PHIDs .
+66	Get the information of the given user .
+67	Fetch the rsvps of a given event .
+68	Fetch the comments of a given event .
+69	Fetch the events pages of a given group .
+70	Fetch the events
+71	Fetch the events from the server .
+72	Parse the user information of a given HTML container .
+73	Parse number of answer pages to paginate over them .
+74	Parse the answers of a given HTML question .
+75	Parse the question info container of a given HTML question .
+76	Find available backends .
+77	Retrieve a question page using the API .
+78	Fetch an Askbot HTML question body .
+79	Build an Askbot HTML response .
+80	Retrieve a raw HTML question and all it s information .
+81	Fetch the entries from the url .
+82	Fetch the entries
+83	Returns the RSS argument parser .
+84	Fetch all the comments of an Askbot question and answers .
+85	Retrieve a list of comments by a given id .
+86	Parse a list of arguments .
+87	Fetch and write items .
+88	Activate authentication arguments parsing
+89	Initialize archive based on the parsed parameters
+90	Count the objects of a repository .
+91	Return a Message representation or raise a KeyError .
+92	Generate a months range .
+93	Check if the repo is in a detached state .
+94	Convert an email message into a dictionary .
+95	NNTP metadata .
+96	Fetch the articles
+97	Parse a NNTP article .
+98	Fetch user info .
+99	Fetch the messages from the channel .
+100	Extracts the identifier from a Slack item .
+101	Returns the Slack argument parser .
+102	Fetch information about a channel .
+103	Fetch information about a repository .
+104	Fetch data from a Docker Hub repository .
+105	Fetch the Dockher Hub items
+106	Show the data of a set of commits .
+107	Get the current list of local or remote refs .
+108	Read the commits of a pack .
+109	Fetch changes and store them in a pack .
+110	Update a reference .
+111	Update references removing old ones .
+112	Keep the repository in sync .
+113	Fetch the commits
+114	Get the user public organizations
+115	Fetch the issues from the repository .
+116	Get the user information and update the user cache
+117	Get issue assignees
+118	Get reactions on issue comments
+119	Get reactions of an issue
+120	Get issue reactions
+121	Get the issue data by its ID
+122	Get a collection list of a given issue
+123	Get activities on an issue
+124	Build URL project
+125	Return the items from Launchpad API using pagination
+126	Get attachments of an issue
+127	Get data associated to an issue
+128	Get data associated to an user
+129	Get the user data by URL
+130	Get messages of an issue
+131	Extracts the category from a GitHub item .
+132	Extracts the update time from a GitHub item .
+133	Get pull review comment reactions
+134	Get pull requested reviewers
+135	Fetch the pull requests from the repository .
+136	Get pull request requested reviewers
+137	Fetch the pull requests
+138	Get reactions of a review comment
+139	Setup the rate limit handler .
+140	Update the rate limit and the time to reset from the response headers .
+141	Create a http session and initialize the retry object .
+142	The fetching process sleeps until the rate limit is restored or raises a RateLimitError exception if sleep_for_rate flag is disabled .
+143	Returns the GitLab argument parser .
+144	Get the notes from pagination
+145	Get issue notes
+146	Get merge notes
+147	Get the merge requests from pagination
+148	Get the merge full data
+149	Get the merge versions from pagination
+150	Get emojis of a note
+151	Return the items from GitLab API using links pagination
+152	Calculate the seconds to reset the token requests by obtaining the different between the current date and the next date when the token is fully regenerated .
+153	Init metadata information .
+154	Retrieve a raw item from the archive .
+155	Store a raw item in this archive .
+156	Fetch the number of rows in a table
+157	Load metadata from the archive file
+158	Check whether the archive is valid or not .
+159	Generate a SHA1 based on the given arguments .
+160	Create a brand new archive .
+161	Return token s remaining API points
+162	Update rate limits data for the current token
+163	Retrieve all the fields available .
+164	Retrieve all the items from a given date .
+165	Parse a Phabricator tasks JSON stream .
+166	Parse a Phabricator users JSON stream .
+167	Check if a message can be filtered based in a list of chats .
+168	Fetch items from the repository .
+169	Fetch the questions from an archive .
+170	Fetch data from the archive
+171	Fetch data from NNTP
+172	Fetch article data
+173	Fetch NNTP data from the server or from the archive
+174	Parse a Gerrit reviews list .
+175	Extracts the update time from a MBox item .
+176	Parse a mbox file .
+177	Retrieve the Supybot archives after the given date
+178	List the filepath of the archives stored in dirpath
+179	Search archives .
+180	Remove an archive .
+181	Create a new archive .
+182	Search archives using filters .
+183	Retrieve the file paths stored under the base path .
+184	Activate archive arguments parsing
+185	Fetch items using the given backend .
+186	Fetch items from an archive manager .
+187	Execute gerrit command with retry if it fails
+188	Execute gerrit command against the archive
+189	Execute gerrit command
+190	Fetch user data .
+191	Parse posts and returns in order .
+192	Fetch the messages .
+193	Get pull request commit hashes
+194	Get pull request commits
+195	Returns the Twitter argument parser .
+196	Fetch the tweets from the server .
+197	Fetch the tweets
+198	Fetch tweets for a given query between since_id and max_id .
+199	Returns the Groupsio argument parser .
+200	Fetch data from Google API .
+201	Fetch Google hit items
+202	Parse the hits returned by the Google Search API
+203	Fetch information about a list of keywords .
+204	Initialize rate limit information
+205	Fetch the number of members in a conversation which is a supertype for public and private ones DM and group DM .
+206	Fetch the merge requests
+207	Get merge version detail
+208	Get emojis from pagination
+209	Get merge versions
+210	Fetch the groupsio paginated subscriptions for a given token
+211	Fetch requests from groupsio API
+212	Find the id of a group given its name by iterating on the list of subscriptions
+213	Return array of all tokens remaining API points
+214	Check all API tokens defined and choose one with most remaining API points
+215	Check if we need to switch GitHub API tokens
+216	Read the list commits from the repository
+217	Get repo info about stars watchers and forks
+218	Get repository data
+219	Remove classified or confidential data from an item .
+220	Retrieve all the issues from a given date .
+221	Retrieve all the comments of a given issue .

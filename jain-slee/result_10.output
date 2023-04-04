@@ -1,0 +1,222 @@
+0	Builds the profile attribute map from the profile cmp interface class .
+1	Get all the methods of an interface and its super interfaces .
+2	Check if the class or interface implements the interface searched .
+3	Suspends the current transaction if it is associated with the current thread .
+4	Set the deployable unit this component is deployed in .
+5	Pipes the input stream to the output stream .
+6	Extracts the jar file to the specified directory .
+7	Builds a list of components from a service descriptor file .
+8	Check if the dependencies of a component are available in the component repository or in the deployable unit .
+9	Creates a temporary deployment dir for a DU
+10	Returns a set of components that refer to the specified component .
+11	Get the specs descriptor for this event type .
+12	Get the class pool for this component .
+13	Clean up the class pool .
+14	Get the set of Sbb IDs that are children of this Sbb .
+15	Set the value of this property from a String .
+16	Register the property editors for the SLEE types .
+17	Delete a file or directory and all its contents .
+18	Suspends the transaction if it is associated with the current thread .
+19	Executes actions scheduled for before commit priority
+20	Decorate the abstract class
+21	Returns a string representation of the code sources of the current policy .
+22	Returns the permissions granted to the specified CodeSource object .
+23	Called when the component is undeployed .
+24	Returns the set of resource adaptor entity links used by this service .
+25	Remove the replicated data from the cache .
+26	End the activity context .
+27	Returns a sorted set of SbbEntityIDs attached to this ActivityContext .
+28	Detach a SBB entity from the activity context .
+29	Associates the specified value with the specified key in this node . If the map previously contained a mapping for this key , the old value is replaced .
+30	Attach a SBB entity to this SBB entity .
+31	Attach a timer to this activity context .
+32	Removes naming bindings for this activity context
+33	Add a name binding to this activity context .
+34	Set the value of a CMP field in the activity context .
+35	Returns the set of activity context handles associated with this activity context .
+36	Remove all timers attached to this activity context .
+37	Remove a name binding from the cache .
+38	Attach a SBB entity to this activity context .
+39	Returns a copy of the cmp attributes map .
+40	Attach a timer to this SBB entity .
+41	Returns true if there are no timers attached to this activity context .
+42	Returns the names of all timers attached to this activity context .
+43	Called when a name is bound to the cache .
+44	Remove a name from the list of names bound to this object .
+45	Returns true if no names are bound to this node .
+46	Returns a copy of the names bound to this context .
+47	Set the value of a CMP field .
+48	Get the value of a CMP field .
+49	Detach a timer from this activity context .
+50	Detach a SBB entity from this SBB entity .
+51	Returns a set of SbbEntityID objects representing the Sbb Entities attached to this Activity Context .
+52	Returns true if there are no SBB entities attached to this SBB entity .
+53	Creates a new object pool for the specified service and sbb component .
+54	Returns true if this collection contains the specified element .
+55	Converts a tracer name to a log4j logger name .
+56	Generates the concrete class that implements the SbbLocalObject interface .
+57	Fire an event on an activity .
+58	Check preconditions for firing an event .
+59	Resume a transaction .
+60	Returns the names of all tracers that have an explicitly set level .
+61	Create a tracer with the specified name .
+62	Checks if the passed tracer name is valid .
+63	Send a trace notification to the trace MBean .
+64	Process the usage parameters interface of the component .
+65	Returns true if this collection contains all of the elements in the specified collection .
+66	End an activity .
+67	Validates a state transition .
+68	End an activity .
+69	Get the object pool for the specified service and sbb .
+70	Create the getter and setter methods for the SbbEntity object .
+71	Checks if the passed tracer name is legal
+72	Make a safe proxy call
+73	Create the default usage parameter getter method in the concrete sbb class .
+74	Get the value of a field in the activity context .
+75	Get the ActivityContextInterface for the specified activity object .
+76	Checks if the deployment unit has referring components that are not part of the deployment unit .
+77	Create the getSbbActivityContextInterface method in the concrete sbb class .
+78	Returns the uninstall actions for this deployable unit .
+79	Set the value of a field in the activity context .
+80	Get the real field name for the given field name .
+81	Returns the list of install actions to be executed .
+82	Removes from this set all of its elements that are contained in the specified collection .
+83	Checks if the DU contains components that are already deployed .
+84	Returns a collection of the external dependencies of this deployment unit .
+85	Add a component to the DU .
+86	Invoke a method on the SbbConcrete object and return void .
+87	Generate concrete methods for the sbb aci interface
+88	Generates the concrete class for the Activity Context Interface .
+89	Start an activity .
+90	Create the fire event methods for the concrete sbb class .
+91	Starts the SLEE .
+92	Switch the classloader of the current thread to the classloader of the profile object .
+93	Checks if the component has all its dependencies satisfied .
+94	Create a default constructor for the concrete sbb class .
+95	Start an activity .
+96	Schedule the end of all activities for this RA entity .
+97	Removes the entity from the SLEE .
+98	Binds an object to a name in the namespace of this context .
+99	Deactivate the entity .
+100	Activate the entity .
+101	Notifies the resource adaptor object that the SLEE is stopping .
+102	Invoked when the SLEE is running .
+103	Update the configuration properties of the resource adaptor entity .
+104	Copy methods from a source class to a destination class .
+105	Returns a set of all SbbEntityIDs in the tree .
+106	Returns the logger for the given log record .
+107	Remove the specified sbb entity from the SLEE .
+108	Returns true if notifications are enabled for the specified parameter name .
+109	Returns a set of resource adaptor entity links referenced by the service component which not exists in the SLEE .
+110	Installs a service component .
+111	Get the resource adaptor interface object for the specified resource adaptor type .
+112	Uninstalls a service from the SLEE .
+113	Logs a LogRecord .
+114	Show the status of the deployer .
+115	Processes the internal undeployment of a deployable unit .
+116	Uninstall a deployable unit .
+117	Install a deployable unit .
+118	Updates the list of deployed components .
+119	Returns the usage parameter sets for the specified sbb .
+120	Send a usage notification to all registered listeners .
+121	Initialize the notification info for the usage mbean .
+122	Find the next sbb entity that can handle the event .
+123	Returns a map of all the named bindings in the current context .
+124	Lookup a name in the cache .
+125	Reset all usage parameters for this SBB entity .
+126	Fires an event to an activity .
+127	Determine if the specified resource adaptor entity link name is referenced by any service component in the SLEE .
+128	Invoke the serviceActive method on the resource adaptor object .
+129	Unbinds the name from the cache .
+130	Notifies the resource adaptor object that an activity has ended .
+131	Raises an alarm .
+132	Get the methods from the interface and its super interfaces .
+133	Get the abstract methods from the abstract sbb class .
+134	Get the usage parameter set with the specified name for the specified SBB entity .
+135	Get the profile CMP object for the specified profile ID .
+136	Create an inheritance link between the concrete class and the super class .
+137	Copy all methods from the source class to the destination class .
+138	Fires an event object to the specified activity context .
+139	Derrefer an activity handle .
+140	Fire an event to the SLEE .
+141	Get the ObjectName of the usage mbean for the specified usage parameter set .
+142	Validate a directory .
+143	Returns true if the given notification source is the owner of the alarm with the given ID .
+144	Resumes the event context
+145	Update the configuration properties of the resource adaptor object .
+146	Unset the fault tolerant resource adaptor context for the resource adaptor object .
+147	Unset the resource adaptor context of the resource adaptor object .
+148	Verify the new configuration properties and switch to them .
+149	Removes this MBean from the MBeanServer .
+150	Unconfigure the resource adaptor object .
+151	Notifies the resource adaptor object that the resource adaptor entity is inactive .
+152	Notifies the resource adaptor object that the resource adaptor entity is stopping .
+153	Downloads the DU from the given URL and returns the downloaded file .
+154	Finds the resource with the given name . A resource is some data ( images , audio , text , etc ) that can be accessed by class code in a way that is independent of the location of the code . The name of a resource is a
+155	Resets the cache flags for this tracer and its childs .
+156	Assigns the trace level based on the log4j level .
+157	Synchronize the level of this tracer with the level of the log4j logger .
+158	Accepts a deployable unit .
+159	Initialize the deployer .
+160	Starts a deployable unit .
+161	Stop a deployable unit .
+162	Show the status of the deployer .
+163	Shutdown the SLEE .
+164	Initialize the SLEE .
+165	Finds the class with the specified name from the local class loader .
+166	Finds the resources with the given name . This method delegates to the parent class loader first , then tries to find the resource using the URLs stored in this class loader .
+167	Add a direct dependency to this class loader domain .
+168	Get all dependencies of this domain .
+169	Binds an object to a given key .
+170	Rebinds a name to a target object . All intermediate contexts and the target context ( that named by all but terminal atomic component of the name ) must already exist .
+171	Unfolds an array of objects into a string .
+172	Resolve an entity .
+173	Remove the object pool for the specified profile table .
+174	Creates a new object pool for the specified profile table .
+175	Create and register a profile mbean for the specified profile .
+176	Add a profile call to the transaction context .
+177	Get a profile object from the profile table .
+178	Schedule actions to be executed on transaction end .
+179	Checks if the current transaction is the same as the one associated with this context .
+180	Removes the profile table from the SLEE .
+181	Determine if a profile with the specified name exists in the profile table .
+182	Fire a Profile Added or Updated Event if needed
+183	Get a profile object valid in the current transaction .
+184	Check if the profile class is visible to the current thread context class loader .
+185	Get the usage parameter set with the specified name from the specified profile object .
+186	Get the profile cmp 1.0 wrapper for this profile object .
+187	Generate the getUsageParameterSet method in the profile concrete class .
+188	Get a ProfileLocalObject for this profile object .
+189	Add an annotation to a class , method or field .
+190	Unset the profile context of the profile object .
+191	Retrieves the profile identifier of the profile in the specified profile table that has the specified indexed attribute with the specified value .
+192	Get the entity manager for the current transaction .
+193	Obtain a ProfileTableActivity object for the specified profile table .
+194	Add the member values to the annotation
+195	Handle a static query invocation on a profile table .
+196	Initialize the profile object with the default profile .
+197	Sets the profile context for this profile object .
+198	Create an inheritance link between the concrete class and the super class .
+199	Creates a new class with the specified name and interfaces .
+200	Retrieves a collection of ProfileID objects representing all profiles in the specified profile table .
+201	Display the result of the command .
+202	Makes the getter method name for the field
+203	Convert the string to the type of the field .
+204	Builds the tree of loggers .
+205	Extracts the message from the result string .
+206	Returns a list of logger names that match the given regular expression .
+207	Add a logger to the logging system .
+208	Clears all loggers .
+209	Reset all loggers to their default levels .
+210	Converts the last access time to a TTL
+211	Add a socket handler to a logger .
+212	Removes a handler from a logger .
+213	Called after a management method invocation on a profile object .
+214	Get the JMX ObjectName for a profile .
+215	Called before a CMP field is set .
+216	Called after a CMP field is set .
+217	Called before a CMP field is read from the profile .
+218	Called after a CMP field is read from the database .
+219	Invoked before a management method invocation on a profile object .
+220	Close the profile object .
+221	Change the state of the profile to write mode .

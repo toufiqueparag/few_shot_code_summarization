@@ -1,0 +1,530 @@
+0	Check if bucket_name exists .
+1	Checks if a key exists in a bucket
+2	Lists prefixes in a bucket under prefix
+3	Lists keys in a bucket under prefix and not containing delimiter
+4	Get a set of records from a Hive query .
+5	Get a pandas dataframe from a Hive query
+6	Loads a local file into Hive
+7	Loads a local file to S3
+8	Returns a boto3 . s3 . Object
+9	Takes an input string and outputs another string as specified in the output format
+10	This method schedules the tasks for a single DAG by looking at the active DAG runs and adding task instances that should run to the queue .
+11	Returns a snakebite HDFSClient object .
+12	Returns the state of a TaskInstance at the command line . >>> airflow task_state tutorial sleep 2015 - 01 - 01 success
+13	Returns a sqlite connection object
+14	Checks that a key matching a wildcard expression exists in a bucket
+15	Returns a boto3 . s3 . Object object matching the wildcard expression
+16	Checks that a prefix exists in a bucket
+17	For all DAG IDs in the SimpleDagBag look for task instances in the old_states and set them to new_state if the corresponding DagRun does not exist or exists but is not in the running state . This normally should not happen but it can if the state of DagRuns are changed manually .
+18	Creates a new instance of the named executor . In case the executor name is not know in airflow look for it in the plugins
+19	Returns a Hive connection object .
+20	Returns http session for use with requests
+21	Performs the request
+22	Grabs extra options like timeout and actually runs the request checking for the result
+23	A small helper function to convert a string to a numeric value if appropriate
+24	Executes the sql and returns a pandas dataframe
+25	Runs a command or a list of commands . Pass a list of sql statements to the sql parameter to get them to execute sequentially
+26	A generic way to insert a set of tuples into a table a new transaction is created every commit_every rows
+27	Returns a mssql connection object
+28	Sets the autocommit flag on the connection
+29	SlackAPIOperator calls will not fail even if the call is not unsuccessful . It should not prevent a DAG from completing in success
+30	Loads a string to S3
+31	Loads bytes to S3
+32	Run migrations in offline mode .
+33	Run migrations in online mode .
+34	Return true if the ticket cache contains conf information as is found in ticket caches of Kerberos 1 . 8 . 1 or later . This is incompatible with the Sun Java Krb5LoginModule in Java6 so we need to take an action to work around it .
+35	Returns a datetime object representing the last time the file was modified
+36	Transfers a local file to the remote location .
+37	Transfers the remote file to a local location .
+38	Returns a list of files on the remote system .
+39	Returns a FTP connection object
+40	BACKPORT FROM PYTHON3 FTPLIB .
+41	Returns verticaql connection object
+42	Execute hql in target schema and write results to a csv file .
+43	Check if table exists
+44	An endpoint helping check the health status of the Airflow instance including metadatabase and scheduler .
+45	Opens a connection to the cloudant service and closes it automatically if used as context manager .
+46	Check for the existence of a path in HDFS by querying FileStatus .
+47	Establishes a connection depending on the security mode set via config or environment variable .
+48	r Uploads a file to HDFS .
+49	returns a json response from a json serializable python object
+50	Opens a ssh connection to the remote host .
+51	Returns a BigQuery service object .
+52	Returns a BigQuery PEP 249 connection object .
+53	Returns a Google Cloud Storage service object .
+54	Get a file from Google Cloud Storage .
+55	Self destruct task if state has been moved away from running externally
+56	Returns an authorized HTTP object to be used to build a Google cloud service hook connection .
+57	Returns the Credentials object for Google API
+58	Runs command and returns stdout
+59	Execute a BigQuery query multiple times with different parameters .
+60	Helper method that escapes parameters to a SQL query .
+61	Helper method that binds parameters to a SQL query .
+62	Executes a BigQuery query and returns the job ID .
+63	Helper method for fetchone which returns the next row from a buffer . If the buffer is empty attempts to paginate through the result set for the next page and load it into the buffer .
+64	Helper method that casts a BigQuery row to the appropriate data types . This is useful because BigQuery returns all fields as strings .
+65	This function decides whether or not to Trigger the remote DAG
+66	Queries mysql and returns a cursor to the results .
+67	Takes a cursor and writes the BigQuery schema in . json format for the results to a local file system .
+68	Helper function that maps from MySQL fields to BigQuery fields . Used when a schema_filename is set .
+69	Uploads a local file to Google Cloud Storage .
+70	Allocate IDs for incomplete keys .
+71	Commit a transaction optionally creating deleting or modifying some entities .
+72	Lookup some entities by key .
+73	Roll back a transaction .
+74	Run a query for entities .
+75	Begins a new transaction .
+76	Run an pig script using the pig cli
+77	Send email using backend specified in EMAIL_BACKEND .
+78	Send an email with html content
+79	Transforms a SQLAlchemy model instance into a dictionary
+80	Clear out the database
+81	Function decorator that provides a session if it isn t provided . If you want to reuse a session or run the function as part of a database transaction you pass it to the function if not this wrapper will create one and close it for you .
+82	Function decorator that Looks for an argument named default_args and fills the unspecified arguments from it .
+83	Get a set of dates as a list based on a start end and delta delta can be something that can be added to datetime . datetime or a cron expression as a str
+84	Grant authorized view access of a dataset to a view table . If this view has already been granted access to the dataset do nothing . This method is not atomic . Running it may clobber a simultaneous update .
+85	creates a new empty table in the dataset ; If the table already exists update the existing table . Since BigQuery does not natively allow table upserts this is not an atomic operation .
+86	A list of states indicating that a task either has not completed a run or has not even started .
+87	Initializes all components required to run a dag for a specified date range and calls helper method to execute the tasks .
+88	Changes the state of task instances in the list with one of the given states to QUEUED atomically and returns the TIs changed in SimpleTaskInstance format .
+89	Returns a pretty ascii table from tuples
+90	Uploads the file to Google cloud storage
+91	Returns a Google Cloud Dataproc service object .
+92	Execute sqoop job
+93	Imports a specific query from the rdbms to hdfs
+94	Imports table from remote location to target dir . Arguments are copies of direct sqoop command line arguments
+95	Given a context this function provides a dictionary of values that can be used to externally reconstruct relations between dags dag_runs tasks and task_instances . Default to abc . def . ghi format and can be made to ABC_DEF_GHI format if in_env_var_format is set to True .
+96	Checks whether a partition with a given name exists
+97	Creates a job flow using the config from the EMR connection . Keys of the json extra hash may have the arguments of the boto3 run_job_flow method . Overrides for this config may be passed as the job_flow_overrides .
+98	This function creates the command list from available information
+99	This function prepares a list of hiveconf params from a dictionary of key value pairs .
+100	Construct the spark - sql command to execute . Verbose output is enabled as default .
+101	Call the SparkSqlHook to run the provided sql query
+102	Launch a process to process the given file .
+103	For the DAGs in the given DagBag record any associated import errors and clears errors for files that no longer have them . These are usually displayed through the Airflow UI so that users know that there are issues parsing DAGs .
+104	Check if the process launched to process this file is done .
+105	Launch the process and start processing the DAG .
+106	Respond to executor events .
+107	Traverse a directory and look for Python files .
+108	Update this with a new set of paths to DAG definition files .
+109	Sleeps until all the processors are done .
+110	This should be periodically called by the manager loop . This method will kick off new processes to process DAG definition files and read the results from the finished processors .
+111	Process a Python file containing Airflow DAGs .
+112	Runs forever monitoring the child processes of
+113	Returns whether or not this dependency is met for a given task instance . A dependency is considered met if all of the dependency statuses it reports are passing .
+114	Wrapper around the private _get_dep_statuses method that contains some global checks for all dependencies .
+115	Returns an iterable of strings that explain why this dependency wasn t met .
+116	Delete an existing table from the dataset ; If the table does not exist return an error unless ignore_if_missing is set to True .
+117	Integrate plugins to the context .
+118	Checks for the existence of a file in Google Cloud Storage .
+119	Returns the SQL literal of the cell as a string .
+120	Returns a JSON with a task s public instance variables .
+121	Sends a single datapoint metric to DataDog
+122	Queries datadog for a specific metric potentially with some function applied to it and returns the results .
+123	Loads a pandas DataFrame into hive .
+124	Convert a column of a dataframe to UNIX timestamps if applicable
+125	Sign into Salesforce only if we are not already signed in .
+126	Make a query to Salesforce .
+127	Write query results to file .
+128	Get a list of all available fields for an object .
+129	Get all instances of the object from Salesforce . For each model only get the fields specified in fields .
+130	Get the description of an object from Salesforce . This description is the object s schema and some extra metadata that Salesforce stores for each object .
+131	Trigger a new dag run for a Dag with an execution date of now unless specified in the data .
+132	Checks if a task is either queued or running in this executor
+133	poke for a non empty directory
+134	poke matching files in a directory with self . regex
+135	Remove any existing DAG runs for the perf test DAGs .
+136	Override the scheduler heartbeat to determine when the test is complete
+137	Print operational metrics for the scheduler test .
+138	Toggle the pause state of the DAGs in the test .
+139	Remove any existing task instances for the perf test DAGs .
+140	Checks if an blob_name is updated in Google Cloud Storage .
+141	Convert an array of time durations in seconds to the specified time unit .
+142	Checks for the existence of a table in Google BigQuery .
+143	Run the task command .
+144	Get the task runner that can be used to run the given job .
+145	Creates the directory specified by path creating intermediate directories as necessary . If directory already exists this is a no - op .
+146	Create the specified cgroup .
+147	A callback that should be called when this is done running .
+148	Delete the specified cgroup .
+149	Execute the python dataflow job .
+150	Uncompress gz and bz2 files
+151	Get a datetime object representing n days ago . By default the time is set to midnight .
+152	Queries Postgres and returns a cursor to the results .
+153	Call Zendesk API and return results
+154	Sleep for the time specified in the exception . If not specified wait for 60 seconds .
+155	Processes the log files and extracts useful information out of it .
+156	Construct the command to poll the driver status .
+157	Remote Popen to execute the spark - submit job
+158	Parses some DatabaseError to provide a better error message
+159	Updates the counters per state of the tasks that were running . Can re - add to tasks to run in case required .
+160	Checks if the executor agrees with the state of task instances that are running
+161	Returns a Redis connection .
+162	Exports Hive table to remote location . Arguments are copies of direct sqoop command line Arguments
+163	Check if a prefix exists on Azure Blob storage .
+164	Check if a blob exists on Azure Blob Storage .
+165	Utility function to perform an API call with retries
+166	The purpose of this function is to be robust to improper connections settings provided by users specifically in the host field .
+167	List all objects from the bucket with the give string prefix in name
+168	Deletes an object from the bucket .
+169	Creates a new instance of the configured executor if none exists and returns it
+170	Get pool by a given name .
+171	Create a pool with a given parameters .
+172	Create a pool .
+173	Delete pool .
+174	Get all pools .
+175	Delete pool by a given name .
+176	Copies an object from a bucket to another with renaming if requested .
+177	Returns a Google MLEngine service object .
+178	Creates the Version on Google Cloud ML Engine .
+179	Sets a version to be the default . Blocks until finished .
+180	Lists all available versions of a model . Blocks until finished .
+181	Deletes the given version of a model . Blocks until finished .
+182	Create a Model . Blocks until finished .
+183	Gets a Model . Blocks until finished .
+184	Replaces invalid MLEngine job_id characters with _ .
+185	Waits for the Job to reach a terminal state .
+186	Gets a MLEngine job based on the job name .
+187	Launches a MLEngine job and wait for it to reach a terminal state .
+188	Creates Operators needed for model evaluation and returns .
+189	Attempts to execute TaskInstances that should be executed by the scheduler .
+190	Takes task_instances which should have been set to queued and enqueues them with the executor .
+191	Computes the dag runs and their respective task instances for the given run dates and executes the task instances . Returns a list of execution dates of the dag runs that were executed .
+192	Close and upload local log file to remote storage S3 .
+193	Builds an ingest query for an HDFS TSV load .
+194	Export entities from Cloud Datastore to Cloud Storage for backup .
+195	Gets the latest state of a long - running operation .
+196	Deletes the long - running operation .
+197	Poll backup operation state until it s completed .
+198	Import a backup from Cloud Storage to Cloud Datastore .
+199	Upload a string to Azure Blob Storage .
+200	Write batch items to dynamodb table with provisioned throughout capacity .
+201	Get the concurrency maps .
+202	Cancel all started queries that have not yet completed
+203	Executes SQL using psycopg2 copy_expert method . Necessary to execute COPY command without access to a superuser .
+204	Reads a key from S3
+205	Parses a config file for s3 credentials . Can currently parse boto s3cmd . conf and AWS SDK config formats
+206	Defines any necessary environment variables for the pod executor
+207	When using git to retrieve the DAGs use the GitSync Init Container
+208	Defines any necessary secrets for the pod executor
+209	Send an email with html content using sendgrid .
+210	Creates a snapshot of a cluster
+211	Restores a cluster from its snapshot
+212	Gets a list of snapshots for a cluster
+213	Delete a cluster and optionally create a snapshot
+214	Return status of a cluster
+215	Ensure all logging output has been flushed
+216	Invoke Lambda Function
+217	Contextmanager that will create and teardown a session .
+218	Make a naive datetime . datetime in a given time zone aware .
+219	Make an aware datetime . datetime naive in a given time zone .
+220	Wrapper around datetime . datetime that adds settings . TIMEZONE if tzinfo not specified
+221	Properly close pooled database connections
+222	Try to use a waiter from the below pull request
+223	Gets the size of a file in Google Cloud Storage .
+224	Returns the section as a dict . Values are converted to int float bool as required .
+225	parses the logs of the spark driver status query process
+226	Will test the filepath result and test if its size is at least self . filesize
+227	Will filter if instructed to do so the result to remove matching criteria
+228	Awaits for Google Cloud Dataproc Operation to complete .
+229	Patch information in an existing table . It only updates fileds that are provided in the request object .
+230	Gets the CRC32c checksum of an object in Google Cloud Storage .
+231	Gets the MD5 hash of an object in Google Cloud Storage .
+232	Creates a new empty table in the dataset . To create a view which is defined by a SQL query parse a dictionary to view kwarg
+233	Delete all DB records related to the specified Dag .
+234	Creates a new bucket . Google Cloud Storage uses a flat namespace so you can t create a bucket with a name that is already in use .
+235	Fetch the hostname using the callable from the config or using socket . getfqdn as a fallback .
+236	We need to get the headers in addition to the body answer to get the location from them This function uses jenkins_request method from python - jenkins library with just the return call changed
+237	Get the underlying botocore . Credentials object .
+238	Read a file from Azure Blob Storage and return as a string .
+239	Returns an SFTP connection object
+240	Establish a connection to druid broker .
+241	Decorator to log user actions
+242	Decorator to make a view compressed
+243	Call the SlackWebhookHook to post the provided Slack message
+244	Construct the Discord JSON payload . All relevant parameters are combined here to a valid Discord JSON payload .
+245	Execute the Discord webhook call
+246	Call the DiscordWebhookHook to post message
+247	Given a Discord http_conn_id return the default webhook endpoint or override if a webhook_endpoint is manually supplied .
+248	Decorates function to execute function at the same time submitting action_logging but in CLI context . It will call action logger callbacks twice one for pre - execution and the other one for post - execution .
+249	Builds metrics dict from function args It assumes that function arguments is from airflow . bin . cli module s function and has Namespace instance where it optionally contains dag_id task_id and execution_date .
+250	returns aws_access_key_id aws_secret_access_key from extra
+251	Returns a snowflake . connection object
+252	Close and upload local log file to remote storage Wasb .
+253	Remove an option if it exists in config from a file or default config . If both of config have the same option this removes the option in both configs unless remove_default = False .
+254	Reads a key with S3 Select .
+255	A generic way to insert a set of tuples into a table .
+256	Write batch records to Kinesis Firehose
+257	Get the connection uri for pinot broker .
+258	Establish a connection to pinot broker through pinot dbqpi .
+259	Handles error callbacks when using Segment with segment_debug_mode set to True
+260	Return a dict of column name and column type based on self . schema if not None .
+261	Yield successive chunks of a given size from a list of items
+262	Reduce the given list of items by splitting it into chunks of the given size and passing each chunk through the reducer
+263	Saves the lineage to XCom and if configured to do so sends it to the backend .
+264	Checks the status code and raise an AirflowException exception on non 2XX or 3XX status codes
+265	Return a AzureDLFileSystem object .
+266	Upload a file to Azure Data Lake .
+267	Check if a file exists on Azure Data Lake .
+268	Queries cassandra and returns a cursor to the results .
+269	Converts a user type to RECORD that contains n fields where n is the number of attributes . Each element in the user type class will be converted to its corresponding data type in BQ .
+270	Returns a cassandra Session object
+271	Fetches PyMongo Client
+272	Fetches a mongo collection object for querying .
+273	Executed by task_instance at runtime
+274	Dumps a database table into a tab - delimited file
+275	Get results of the provided hql in target schema .
+276	Fetches the operation from Google Cloud
+277	Given an operation continuously fetches the status from Google Cloud until either completion or an error occurring
+278	Converts a python dictionary to the proto supplied
+279	Gets details of specified cluster
+280	Creates a cluster consisting of the specified number and type of Google Compute Engine instances .
+281	Append labels to provided Cluster Protobuf
+282	Checks if a record exists in Cassandra
+283	Return the FileService object .
+284	Check if a directory exists on Azure File Share .
+285	Check if a file exists on Azure File Share .
+286	Return the list of directories and files stored on a Azure File Share .
+287	Create a new directory on a Azure File Share .
+288	Upload a file to Azure File Share .
+289	Upload a string to Azure File Share .
+290	Upload a stream to Azure File Share .
+291	Checks if a table exists in Cassandra
+292	Whether the user has this perm
+293	FAB leaves faulty permissions that need to be cleaned up
+294	Get all the roles associated with the user .
+295	Add the new permission view_menu to ab_permission_view_role if not exists . It will add the related entry to ab_permission and ab_view_menu two meta tables as well .
+296	Returns a set of tuples with the perm name and view menu name
+297	Whether the user has this role name
+298	Admin should have all the permission - views . Add the missing ones to the table for admin .
+299	Initialize the role with the permissions and related view - menus .
+300	Encrypts a plaintext message using Google Cloud KMS .
+301	Processes DateTimes from the DB making sure it is always returning UTC . Not using timezone . convert_to_utc as that converts to configured TIMEZONE while the DB might be running with some other setting . We assume UTC datetimes in the database .
+302	Establish an AWS connection for retrieving logs during training
+303	Create a tuning job
+304	Create a training job
+305	Check if an S3 URL exists
+306	Extract the S3 operations from the configuration and execute them .
+307	Opens the given file . If the path contains a folder with a . zip suffix then the folder is treated as a zip archive opening the file inside the archive .
+308	function to check expected type and raise error if type is not correct
+309	Coerces content or all values of content if it is a dict to a string . The function will throw if content contains non - string or non - numeric types .
+310	Handles the Airflow + Databricks lifecycle logic for a Databricks operator
+311	Creates a copy of an object that is already stored in S3 .
+312	How many Celery tasks should be sent to each worker process .
+313	Fetch and return the state of the given celery task . The scope of this function is global so that it can be called by subprocesses in the pool .
+314	Create a transform job
+315	Determines whether a task is ready to be rescheduled . Only tasks in NONE state with at least one row in task_reschedule table are handled by this dependency class otherwise this dependency is considered as passed . This dependency fails if the latest reschedule request s reschedule date is still in future .
+316	Deletes the specified Cloud Function .
+317	Uploads zip file with sources .
+318	Updates Cloud Functions according to the specified update mask .
+319	Creates a new function in Cloud Function in the location specified in the body .
+320	Returns the Cloud Function with the given name .
+321	Method returns dataset_resource if dataset exist and raised 404 error if dataset does not exist
+322	Method returns full list of BigQuery datasets in the current project
+323	Waits for the named operation to complete - checks status of the async call .
+324	Retrieves instance template by project_id and resource_id . Must be called with keyword arguments rather than positional .
+325	Sets machine type of an instance defined by project_id zone and resource_id . Must be called with keyword arguments rather than positional .
+326	Starts an existing instance defined by project_id zone and resource_id . Must be called with keyword arguments rather than positional .
+327	Retrieves connection to Google Compute Engine .
+328	Delete a file from Azure Blob Storage .
+329	List files in Azure Data Lake Storage
+330	Launch DagFileProcessorManager processor and start DAG parsing loop in manager .
+331	Clears import errors for files that no longer exist .
+332	Kill all child processes on exit since we don t want to leave them as orphaned .
+333	Helper method to clean up processor_agent to avoid leaving orphan processes .
+334	Print out stats about how files are getting processed .
+335	Occasionally print out stats about how fast the files are getting processed
+336	Refresh file paths from dag dir if we haven t done it for too long .
+337	Parse DAG files in a loop controlled by DagParsingSignal . Actual DAG parsing loop will run once upon receiving one agent heartbeat message and will report done when finished the loop .
+338	Use multiple processes to parse and generate tasks for the DAGs in parallel . By processing them in separate processes we can get parallelism and isolation from potentially harmful user code .
+339	Helper method to clean up DAG file processors to avoid leaving orphan processes .
+340	Send termination signal to DAG parsing processor manager and expect it to terminate all DAG file processors .
+341	Parse DAG files repeatedly in a standalone loop .
+342	Replaces many documents in a mongo collection .
+343	Deletes a Cloud SQL instance .
+344	Updates settings of a Cloud SQL instance .
+345	Creates a new Cloud SQL instance .
+346	Retrieves a resource containing information about a Cloud SQL instance .
+347	Loads a file object to S3
+348	Display the logs for a given training job optionally tailing them until the job is complete .
+349	Return the training job info associated with job_name and print CloudWatch logs
+350	Create an endpoint
+351	Check status of a SageMaker job
+352	Returns a string contains start time and the secondary training job status message .
+353	Returns true if training job s secondary status message has changed .
+354	Creates an Amazon S3 bucket .
+355	Tar the local file or directory and upload to s3
+356	Updates a database resource inside a Cloud SQL instance .
+357	Retrieves a database resource from a Cloud SQL instance .
+358	Deletes a database from a Cloud SQL instance .
+359	Creates a new database inside a Cloud SQL instance .
+360	Publish a message to a topic or an endpoint .
+361	Checks the mail folder for mails containing attachments with the given name .
+362	Retrieves mail s attachments in the mail folder by its name .
+363	Gets all attachments by name for the mail .
+364	Gets the file including name and payload .
+365	Downloads mail s attachments in the mail folder by its name to the local directory .
+366	Pokes for a mail attachment on the mail server .
+367	Patches Instance Group Manager with the specified body . Must be called with keyword arguments rather than positional .
+368	Inserts instance template using body specified Must be called with keyword arguments rather than positional .
+369	Retrieves Instance Group Manager by project_id zone and resource_id . Must be called with keyword arguments rather than positional .
+370	Returns version of the Cloud SQL Proxy .
+371	Reserve free TCP port to be used by Cloud SQL Proxy
+372	Delete the dynamically created connection from the Connection table .
+373	Retrieve Cloud SQL Proxy runner . It is used to manage the proxy lifecycle per task .
+374	Retrieve database hook . This is the actual Postgres or MySQL database hook that uses proxy or connects directly to the Google Cloud SQL database .
+375	Starts Cloud SQL Proxy .
+376	Clean up database hook after it was used .
+377	Create connection in the Connection table according to whether it uses proxy TCP UNIX sockets SSL . Connection ID will be randomly generated .
+378	Stops running proxy .
+379	Poll the status of submitted athena query until query state reaches final state . Returns one of the final states
+380	Fetch the status of submitted athena query . Returns None or one of valid query states .
+381	check if aws conn exists already or create one and return it
+382	Run Presto Query on Athena
+383	Run Presto query on athena with provided config and return submitted query_execution_id
+384	Waits until the job reaches the expected state .
+385	Method to stream data into BigQuery one record at a time without needing to run a load job
+386	How many Celery tasks should each worker process send .
+387	If there are tasks left over in the executor we set them back to SCHEDULED to avoid creating hanging tasks .
+388	Construct a TaskInstance from the database based on the primary key
+389	Create all the intermediate directories in a remote host
+390	Exports data from a Cloud SQL instance to a Cloud Storage bucket as a SQL dump or CSV file .
+391	Creates a new database in CosmosDB .
+392	Checks if a collection exists in CosmosDB .
+393	Deletes an existing collection in the CosmosDB database .
+394	Get a document from an existing collection in the CosmosDB database .
+395	Get a list of documents from an existing collection in the CosmosDB database via SQL query .
+396	Creates a new collection in the CosmosDB database .
+397	Return a cosmos db client .
+398	Deletes an existing database in CosmosDB .
+399	Checks if a database exists in CosmosDB .
+400	Delete an existing document out of a collection in the CosmosDB database .
+401	Insert a list of new documents into an existing collection in the CosmosDB database .
+402	Gets information about a particular instance .
+403	Invokes a method on a given instance by applying a specified Callable .
+404	Creates a new Cloud Spanner instance .
+405	Updates an existing Cloud Spanner instance .
+406	Deletes an existing Cloud Spanner instance .
+407	Creates a new database in Cloud Spanner .
+408	Provides a client for interacting with the Cloud Spanner API .
+409	Returns the extra property by deserializing json .
+410	Create a new container group
+411	Delete a container group
+412	Get the messages of a container group
+413	Get the state and exitcode of a container group
+414	Test if a container group exists
+415	Get the tail from logs of a container group
+416	Extract error code from ftp exception
+417	Given task instance try_number filename_template return the rendered log filename
+418	Deletes the specified Cloud Bigtable instance . Raises google . api_core . exceptions . NotFound if the Cloud Bigtable instance does not exist .
+419	Creates new instance .
+420	Creates the specified Cloud Bigtable table . Raises google . api_core . exceptions . AlreadyExists if the table exists .
+421	Updates number of nodes in the specified Cloud Bigtable cluster . Raises google . api_core . exceptions . NotFound if the cluster does not exist .
+422	Deletes the specified table in Cloud Bigtable . Raises google . api_core . exceptions . NotFound if the table does not exist .
+423	Drops a database in Cloud Spanner .
+424	Updates DDL of a database in Cloud Spanner .
+425	Retrieves a database in Cloud Spanner . If the database does not exist in the specified instance it returns None .
+426	Load AirflowPlugin subclasses from the entrypoints provided . The entry_point group should be airflow . plugins .
+427	Check whether a potential object is a subclass of the AirflowPlugin class .
+428	Gets the AwsGlueCatalogHook
+429	Checks for existence of the partition in the AWS Glue Catalog table
+430	Retrieves the partition values for a table .
+431	Gets the returned Celery result from the Airflow task ID provided to the sensor and returns True if the celery result has been finished execution .
+432	Retrieves the dynamically created connection from the Connection table .
+433	Decorator that provides fallback for Google Cloud Platform project id . If the project is None it will be replaced with the project_id from the service account the Hook is authenticated with . Project id can be specified either via project_id kwarg or via first parameter in positional args .
+434	Create X - axis
+435	generate javascript code for the chart
+436	generate HTML div
+437	Parse options and process commands
+438	Create Y - axis
+439	generate HTML header content
+440	Create perm - vm if not exist and insert into FAB security model for all - dags .
+441	Returns all task reschedules for the task instance and try number in ascending order .
+442	Set the access policy on the given DAG s ViewModel .
+443	Delete the given Role
+444	Sets tasks instances to skipped from the same dag run .
+445	Composes a list of existing object into a new object in the same storage bucket_name
+446	Retrieves connection to Cloud Vision .
+447	Defines the security context
+448	Check for message on subscribed channels and write to xcom the message with key message
+449	Configure a csv writer with the file_handle and write schema as headers for the new file .
+450	Fetches a field from extras and returns it . This is some Airflow magic . The grpc hook type adds custom UI elements to the hook page which allow admins to specify scopes credential pem files etc . They get formatted as shown below .
+451	Translate a string or list of strings .
+452	Retrieves connection to Cloud Translate
+453	Get the physical location of the table
+454	Get the information of the table
+455	Function decorator that intercepts HTTP Errors and raises AirflowException with more informative message .
+456	Deletes a transfer job . This is a soft delete . After a transfer job is deleted the job and all the transfer executions are subject to garbage collection . Transfer jobs become eligible for garbage collection 30 days after soft delete .
+457	Cancels an transfer operation in Google Storage Transfer Service .
+458	Convert native python datetime . date object to a format supported by the API
+459	Convert native python datetime . time object to a format supported by the API
+460	Lists long - running operations in Google Storage Transfer Service that match the specified filter .
+461	Resumes an transfer operation in Google Storage Transfer Service .
+462	Pauses an transfer operation in Google Storage Transfer Service .
+463	Creates a transfer job that runs periodically .
+464	Updates a transfer job that runs periodically .
+465	Gets the latest state of a long - running operation in Google Storage Transfer Service .
+466	Ensures that certain subfolders of AIRFLOW_HOME are on the classpath
+467	Send Dingding message
+468	Get Dingding endpoint for sending message .
+469	Retrieves connection to Cloud Speech .
+470	Recognizes audio input
+471	Retrieves connection to Cloud Text to Speech .
+472	Synthesizes text input
+473	Go through the dag_runs and update the state based on the task_instance state . Then set DAG runs that are not finished to failed .
+474	Overwrite HttpHook get_conn because this hook just needs base_url and headers and does not need generic params
+475	Get Opsgenie api_key for creating alert
+476	Call the OpsgenieAlertHook to post message
+477	Execute the Opsgenie Alert call
+478	Construct the Opsgenie JSON payload . All relevant parameters are combined here to a valid Opsgenie JSON payload .
+479	Given a number of tasks builds a dependency chain .
+480	Classifies a document into categories .
+481	A convenience method that provides all the features that analyzeSentiment analyzeEntities and analyzeSyntax provide in one call .
+482	Gets template fields for specific operator class .
+483	A role that allows you to include a list of template fields in the middle of the text . This is especially useful when writing guides describing how to use the operator . The result is a list of fields where each field is shorted in the literal block .
+484	Retrieves connection to Cloud Natural Language service .
+485	Finds named entities in the text along with entity types salience mentions for each entity and other properties .
+486	Deferred load of Fernet key .
+487	Make an XCom available for tasks to pull .
+488	Like a Python builtin dict object setdefault returns the current value for a key and if it isn t there stores the default value and returns it .
+489	Clears a set of task instances but makes sure the running ones get killed .
+490	Return the try number that this task number will be when it is actually run .
+491	Generates the shell command required to execute this task instance .
+492	Get the very latest state from the database if a session is passed we use and looking up the state becomes part of the session otherwise a new session is used .
+493	Forces the task instance s state to FAILED in the database .
+494	Refreshes the task instance from the database based on the primary key
+495	Returns the number of slots open at the moment
+496	Clears all XCom data from the database for the task instance
+497	Returns a tuple that identifies the task instance uniquely
+498	Checks whether the dependents of this task instance have all succeeded . This is meant to be used by wait_for_downstream .
+499	Get datetime of the next retry if the task instance fails . For exponential backoff retry_delay is used as base and will be converted to seconds .
+500	Checks on whether the task instance is in the right state and timeframe to be retried .
+501	Returns a boolean as to whether the slot pool has room for this task to run
+502	Sets the log context .
+503	Pull XComs that optionally meet certain criteria .
+504	Prints a report around DagBag loading stats
+505	Adds the DAG into the bag recurses into sub dags . Throws AirflowDagCycleException if a cycle is detected in this dag or its subdags
+506	Given a file path or a folder this method looks for python modules imports them and adds them to the dagbag collection .
+507	Returns a set of dag runs for the given search criteria .
+508	Gets the DAG out of the dictionary and refreshes it if expired
+509	Returns the task instances for this dag run
+510	Returns the DagRun for this TaskInstance
+511	Verifies the DagRun by checking for removed tasks or tasks that are not in the database yet . It will set state to removed or add the task if required .
+512	Returns the last dag run for a dag None if there was none . Last dag run can be any type of run eg . scheduled or backfilled . Overridden DagRuns are ignored .
+513	Creates a dag run from this dag including the tasks associated with this dag . Returns the dag run .
+514	Returns the task instance specified by task_id for this dag run
+515	The previous DagRun if there is one
+516	Fail given zombie tasks which are tasks that haven t had a heartbeat for too long in the current DagBag .
+517	The previous SCHEDULED DagRun if there is one
+518	Determines the overall state of the DagRun based on the state of its TaskInstances .
+519	Get link to qubole command result page .
+520	A restful endpoint that returns external links for a given Operator
+521	Check for message on subscribed queue and write to xcom the message with key messages
+522	Send message to the queue
+523	Create queue using connection object
+524	Creates additional_properties parameter based on language_hints web_detection_params and additional_properties parameters specified by the user
+525	Publish the message to SQS queue
+526	Queries MSSQL and returns a cursor of results .
+527	Performs video annotation .
+528	Returns Gcp Video Intelligence Service client
+529	If the path contains a folder with a . zip suffix then the folder is treated as a zip archive and path to zip is returned .

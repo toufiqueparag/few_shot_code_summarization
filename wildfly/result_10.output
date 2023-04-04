@@ -1,0 +1,431 @@
+0	Fire a naming event to all listeners that are interested in the event .
+1	Remove a listener from the registry .
+2	Add a listener to the naming store .
+3	Create a new CannotProceedException with the provided resolved object and remaining name .
+4	Unbind the resource from the naming store .
+5	Get the current namespace context selector .
+6	Bind the resource into the naming store .
+7	Get the absolute name of this node .
+8	Create a new JndiName from a string .
+9	Check that a value is not null .
+10	Process a deployment for ironjacamar . xml files . Will parse the xml file and attach a configuration discovered during processing .
+11	Find a field in a class hierarchy .
+12	Find a method on a class .
+13	Get the object instance for a reference .
+14	Remove a deployment from the registry .
+15	Register a resource adapter deployment .
+16	Create a new ModularReference instance .
+17	Create a new ModularReference instance .
+18	Create a new ModularReference instance .
+19	Create a new HTTP endpoint .
+20	Get an optional attachment from a deployment unit .
+21	Get the attachment from the deployment unit . If the attachment is not present an exception is thrown .
+22	Get the servlet metadata for a given servlet name .
+23	Get the endpoint class name from the servlet metadata .
+24	Create a new servlet mapping .
+25	Get the EJBSecurityMetaData for the given endpoint .
+26	Create a new servlet metadata instance .
+27	Create a new WebResourceCollectionMetaData instance and add it to the provided WebResourceCollectionsMetaData instance .
+28	Create a new security constraint and add it to the list of security constraints .
+29	Get the init params for a servlet .
+30	Create a new AuthConstraintMetaData instance and add it to the provided SecurityConstraintMetaData instance .
+31	Get the web resource collections for a security constraint .
+32	Get the context params from the jboss - web . xml . If the context params are not present then create a new list and add it to the jboss - web . xml .
+33	Get the login config from the jboss - web . xml . If it does not exist create a new one and set it on the jboss - web . xml .
+34	Get the security constraints from the jboss - web . xml . If there are none , create a new list and set it on the jboss - web . xml .
+35	Get the servlet mappings from the JBossWebMetaData . If the servlet mappings are not present then create a new list and set it on the JBossWebMetaData .
+36	Get the servlet url pattern mappings for the POJO endpoints .
+37	Get the security meta data from the security constraints .
+38	Set the config name and config file from the jboss - webservices . xml and web . xml descriptors .
+39	Create JBoss agnostic meta data for POJO webservice deployment .
+40	Get the servlets metadata from the jboss - web metadata . If it does not exist create it .
+41	Get the url patterns from the web deployment descriptor .
+42	Get the servlet class mappings for the POJO endpoints .
+43	Create a new UserDataConstraintMetaData instance and add it to the security constraint .
+44	Get the JBossWebMetaData from the deployment unit .
+45	Modify the deployment based on the jboss - web . xml configuration .
+46	Create a new ParamValueMetaData instance and add it to the provided list .
+47	Configure the servlet class names for the endpoints .
+48	Create a new ParamValueMetaData instance .
+49	Set the context root for the deployment .
+50	Get the transport class name from the deployment .
+51	Create a new deployment model for a deployment unit .
+52	Process a deployment for jboss - service . xml files . Will parse the xml file and attach a configuration discovered during processing .
+53	Add the module dependencies for the EE subsystem .
+54	Look up the JNDI for the given context name .
+55	Start the Weld container .
+56	Load a class from the module class loader .
+57	Get a resource from the module class loader .
+58	Get the resources from the module class loader .
+59	Add a dependency to the module specification .
+60	Close the naming store .
+61	Start the naming store .
+62	Get the persistence provider adaptor for the given persistence unit .
+63	Push the current call stack onto the thread local stack .
+64	Get the list of persistence providers .
+65	Clear the cached deployment specific providers .
+66	Perform post - parse steps on the persistence unit metadata .
+67	Add a service for each persistence unit .
+68	Pop the current call stack .
+69	DeploymentUnitProcessor responsible for adding the EJB client module as a dependency to the deployment
+70	Rebind an object to a name .
+71	Add a component description to the module .
+72	Determine if a deployment is a JAX - RS deployment .
+73	Add a component to the registry .
+74	Get the components for a given component name and view name .
+75	Add a service to all bean deployment archives .
+76	Add a classloader to the set of deployment classloaders .
+77	Create the web application descriptor .
+78	Create the web . xml descriptor from the JBossWebMetaData .
+79	Get the auth-method from the deployment .
+80	Build the JBoss agnostic meta data for the EJB webservice deployment .
+81	Get the annotated classes for a set of URIs .
+82	Process the injection targets for a resource .
+83	Get the class level injection type .
+84	Add a pre - destroy interceptor to the interceptor chain .
+85	Get the interceptors for a view method .
+86	Add a method level interceptor to the set of method interceptors .
+87	Add a dependency to the component .
+88	Get the client interceptors for a method .
+89	Add an interceptor to all methods on the proxy .
+90	Add a client interceptor for a method .
+91	Get the interceptors for a component method .
+92	Get the service name for this view .
+93	Get all interceptors for this description .
+94	Set the component create service factory .
+95	Associates the specified value with the specified key in this map . If the map previously contained a mapping for the key , the old value is replaced .
+96	Resolve the view name .
+97	Remove a security domain from the registry .
+98	Get the entity manager for the given persistence unit scoped name .
+99	Pop the current call stack .
+100	Add a view configurator to add the CMTTxInterceptor to the view .
+101	Get the service name of the context for a module .
+102	Create a service name for a component context .
+103	Create a BindInfo for an environment entry .
+104	Add Weld integration .
+105	Create a new cache .
+106	Create a new component instance .
+107	Process the xml managed beans .
+108	Get the components for a given view name .
+109	Process the phase listeners from the faces - config . xml files .
+110	Create a view configuration for a given view class .
+111	Add a view interceptor .
+112	Add an interceptor to the view .
+113	Get the components for a given name .
+114	Release the lock for the given instance .
+115	Merge the deployment data from a sub deployment into this deployment .
+116	Register the interceptors for the session bean .
+117	Begin a SFSB creation .
+118	End the creation of a SFSB .
+119	Create a BindInfo instance from a jndi name .
+120	Get the class description for a given class name .
+121	Lookup the persistence provider for the specified persistence unit .
+122	Stop the web application .
+123	Start the webapp and return the context .
+124	Deploy the deployment aspects .
+125	Add a timeout interceptor for a given method .
+126	Get the interceptors for a given method .
+127	Get the type of the class .
+128	Get the component type of a parameterized type .
+129	Lookup the value in the indexes .
+130	Create a service name for a bean .
+131	Create a service name for a POJO bean .
+132	Get the value of the injection point .
+133	Check the type names and type infos arrays for validity .
+134	Convert a Type to a Class .
+135	Convert a value to the specified class .
+136	Get the types of the parameters .
+137	Process the annotations for the deployment unit .
+138	Get the service name for the deployment service .
+139	Add the ear prefix to a configured name if it is relative .
+140	Get the timers that are waiting on transaction completion .
+141	Set the next timeout .
+142	Set the timer state .
+143	Return a string representation of the transaction status .
+144	Get a bean instance from the pool . If the pool is empty , create a new instance .
+145	Increment the read lock count .
+146	Decrease the read lock count .
+147	Retry the timeout .
+148	Perform post - timeout processing .
+149	Get the directory for a given timed object id .
+150	Load the timers from the file .
+151	Validate a descriptor .
+152	Create a new injection source for the view binding .
+153	Add a URL context factory for a given scheme .
+154	Get the lock owner for the current transaction .
+155	Load a persistence provider module by name .
+156	Register the endpoint handlers for a given endpoint class .
+157	Get the endpoint name from the servlet metadata .
+158	Get the service name of the context for this component .
+159	Get the context root for a deployment .
+160	Add a dependency on the remote transaction service if the component has a remote view .
+161	Handle the case where a stateless session bean has an ejbCreate or ejbRemove method .
+162	Get the JAXWS EJB endpoints for a deployment unit .
+163	Write an attribute to the stream .
+164	Get the list of POJO endpoints for a deployment unit .
+165	Initialize the ORB for an applet .
+166	Determine if a method is a mutator .
+167	Fix up the names of any entries which clash with other entries .
+168	Determine if all fields in a class are public .
+169	Check if the given string is a reserved IDL keyword .
+170	Lookup a link .
+171	Fixup overloaded operation names .
+172	Convert a setter name to an attribute name .
+173	Add a property to the environment .
+174	Initialize the method handles for the javax . rmi . CORBA . Stub . connect ( org . omg . CORBA . ORB ) and javax . rmi . PortableRemoteObject . toStub ( java .
+175	Read the name of the attribute from the accessor method name .
+176	Determine if a method has any exceptions that are not java . rmi . RemoteException .
+177	Create an ORB instance .
+178	Escape a name for use in an IR .
+179	Get the signature for a class .
+180	Parse a component from a string .
+181	Insert the value into the Any .
+182	Remove an environment property from the environment .
+183	Read the parameters from the input stream .
+184	Lookup the analysis for a class .
+185	Create a new ContainerAnalysis instance for the given class .
+186	Calculate the operation analysis map .
+187	Write the return value to the output stream .
+188	Generate an anonymous object id .
+189	Create a CORBA object reference for a given EJBLocator .
+190	Parse a string into a name .
+191	Write an exception to the output stream .
+192	Convert a Remote object into a CORBA object .
+193	Get the next batch of bindings .
+194	Returns the next element in the iteration .
+195	Get the IDL module name for this class .
+196	Convert an int to a hex string .
+197	Convert a long to a hex string .
+198	Determine if a method is an accessor method .
+199	Convert a CORBA servant to a CORBA reference .
+200	Deactivate the IRObject .
+201	Map a CosNaming Binding to a JNDI Binding .
+202	Convert a stringified name to a vector of components .
+203	Get the analysis for a class .
+204	Add a class to the repository .
+205	Convert a java identifier to an IDL identifier .
+206	Destroy a subcontext .
+207	Get the TypeCode for a constant .
+208	Add a typecode to the map .
+209	Call the unbind method on the naming context .
+210	Bind an object to a name .
+211	Get the IDL name for a class .
+212	Lookup the object value of a binding node in the tree .
+213	Ensure that a package exists in the repository .
+214	Add all the interfaces for a container .
+215	Get the value members of this value .
+216	Add abstract base valuetypes to the repository .
+217	Get the PrimitiveAnalysis for a primitive class .
+218	Set the IDL name of this attribute .
+219	Get the value members for this value .
+220	Create a new naming context .
+221	Add an interface to the repository .
+222	Get the signature of a method .
+223	Call the destroy method on the naming context .
+224	Write the parameters to the output stream .
+225	Read an exception from the input stream .
+226	Get the IDLType for a TypeCode .
+227	List the bindings of a context .
+228	Insert a primitive value into an Any .
+229	Create a new context using the provided URL .
+230	Add a value to the repository .
+231	Return the IDL name for a primitive type .
+232	Create a subcontext with the given name .
+233	Add an exception to the IR.
+234	Get the component view for this service .
+235	Get the view method that matches the SEI method .
+236	Determine if the two methods are the same .
+237	Build the EJB meta data for a given EJB endpoint .
+238	Collect the JDR report .
+239	Collect JDR data from a standalone server .
+240	Set the annotation indexes for each persistence unit in the holder .
+241	Deploy the POJO module if the deployment contains a bean factory .
+242	Parse the core - environment element .
+243	Parse the process - id element .
+244	Instantiate a bean using the provided configuration .
+245	Create a joinpoint for the lifecycle method and dispatch it .
+246	Configure a bean instance with the given configuration .
+247	Get the security domain for the current context .
+248	Ensure that the security domains are the same .
+249	Put private data into the context .
+250	Throws an exception indicating that an unexpected element was encountered .
+251	Add a message destination mapping .
+252	Resolve a message destination name to a set of JNDI names .
+253	Create a stub class for the given class .
+254	Get the current transaction .
+255	Save the persistence provider adaptor for the deployment unit .
+256	Get the method interface for the invocation .
+257	Create a handle for the given locator .
+258	Get the most recent version of the timer .
+259	Check if the current invocation is allowed to invoke the given method type .
+260	Check if the current invocation is allowed to be executed in the current transaction synchronization context .
+261	Add a pre - passivate interceptor .
+262	Remove a URL context factory .
+263	Get the deferred entity managers .
+264	Get the JNDI name from the model node .
+265	Find the parent ModuleClassLoader .
+266	Add a new persistence provider to the list of providers for a deployment .
+267	Get all the classloaders for the deployment and its subdeployments .
+268	Get the current invocation stack for the current thread .
+269	Add a step to the context to refresh the participant .
+270	Parse the xts environment element .
+271	Check that only one of the elements is present .
+272	Determine the default persistence unit name .
+273	Compute the masked password .
+274	Initialize the security vault .
+275	Start a vault session .
+276	Display the attribute creation message .
+277	Initialize the command line options .
+278	Display the vault configuration .
+279	Get the current call stack for the current thread .
+280	Check that only one of the two elements is present .
+281	Determine if the persistence unit requires a class file transformer .
+282	Parse the credential element .
+283	Compute the slot for the given JSF version .
+284	Check the integrity of the JSF version . If the JSF version is not complete ( i . e . missing API , IMPL or INJECTION module ) , it will be removed from the active versions .
+285	Load the module ids manually .
+286	Stop the Weld container .
+287	Skip the given amount of bytes from the input stream .
+288	Add a log to the archive .
+289	Check the database for the existence of the timer table . If it does not exist , create it .
+290	Generate the vault configuration .
+291	Get all container interceptors .
+292	Get the JNDI name from the model node .
+293	Inject a value into an object .
+294	Get all the component classes from the web deployment .
+295	Process the management information and attach it to the deployment unit .
+296	Process the annotations for a deployment .
+297	Pop the run - as identity from the security context .
+298	Set the run - as identity for the current thread .
+299	Create the resource roots for the deployment .
+300	Parse the default - context - propagation element .
+301	Get the canonical names of the parameter types for a method .
+302	Wait for a service to be available .
+303	Create a management resource for the given statistics .
+304	Get the transaction scoped entity manager for the persistence unit . If one does not exist , create it .
+305	Loads the available validation providers .
+306	Add a context param to the web metadata to indicate if the deployment is CDI enabled .
+307	Get the root deployment unit for a given deployment unit .
+308	Determine if the class type matches the property type .
+309	Determine if the persistence unit is allowed to use two phase bootstrap .
+310	Add an interceptor factory to the list of around construct interceptor factories .
+311	Handle the request .
+312	Resolve the runtime name of a resource .
+313	Save the context for each factory .
+314	Add a factory to the chain .
+315	Get the server config dependencies .
+316	Reject attributes which are defined and have a default value .
+317	Determine if the default data source should be used for this persistence unit .
+318	Determine the type of pattern .
+319	Update the server configuration .
+320	Prepare the deployment unit for the given context .
+321	Rename an attribute .
+322	Make all top level bean deployment archives visible from static modules .
+323	Get the virtual file for the resteasy - spring jar .
+324	List the resources at the given path .
+325	Pop the identity from the state cache .
+326	Get the request URI .
+327	Get the EJBEndpoint for a given class name .
+328	Get the JBossPortComponentMetaData for a given ejb name .
+329	Create a composite operation from a list of operations .
+330	Create a ModelNode for a read attribute operation .
+331	Create a write attribute operation .
+332	Extract the dialects from the sql properties .
+333	Investigate the database dialect .
+334	Identify the dialect from the driver name .
+335	Build the transformers for the 2.1.0 version of the subsystem .
+336	Convert a ModelNode to an enum value .
+337	Create a new session .
+338	Get a method from a class .
+339	Get a constructor for a class .
+340	Get the declared fields of a class .
+341	Get the declared methods of a class .
+342	Parse a configuration element and add it to the list of operations to be executed .
+343	Create the subsystem root model node .
+344	Register the transformers for the current and previous model versions .
+345	Check if JTS is enabled .
+346	Get the path address from the operation .
+347	Get the value of an attribute .
+348	Get the parameters from the model node and map them to the expected names .
+349	Get the available connectors for a given server .
+350	Resolve an attribute from the model . If the attribute is undefined then null is returned .
+351	Get the ActiveMQ component control for the given operation .
+352	Get the name of the server to use .
+353	Create an add operation handler for a child resource .
+354	Convert the security role from camel case to the new format .
+355	Unbind a JNDI name .
+356	Remove any JNDI aliases for the given entries .
+357	Lookup the value from the naming context .
+358	Set the node name in the prepared statement .
+359	Invoke beforeCompletion on all registered Synchronization instances .
+360	Register a synchronization .
+361	Register an EndpointConfig for a given endpoint class .
+362	Get the name of the logger .
+363	Send a state change notification .
+364	Shutdown the component . This will block until all invocations have completed .
+365	Create an operation to undefine an attribute .
+366	Create an add operation for the given address and parameters .
+367	Set the address of an operation .
+368	Add a post construct interceptor factory to the list of post construct interceptors .
+369	Add a post activate interceptor to the interceptor chain .
+370	Substitute all occurrences of a string with another string .
+371	Add cache dependencies to the given properties .
+372	Determine if the scoped persistence unit name identifies the cache region name .
+373	Add the messaging - activemq extension to the model if it is not already present .
+374	Create the TransportConfiguration for the in - vm connector .
+375	Creates the IO subsystem if it does not exist .
+376	Create the welcome content handler .
+377	Get the service name for the job operator for the given deployment unit .
+378	Add a dependency on the persistence provider module .
+379	Create an add operation for the given address and index .
+380	Initialize the job repository .
+381	Migrate the generic transport to use the new Artemis classes .
+382	Parse the connection - definition element .
+383	Determine if the type is a primitive type or a type that can be converted from a string .
+384	Check if the parameter is allowed for the resource type .
+385	Check if the resource adapter is defined in the server .
+386	Get the actions as a string .
+387	Determine if this permission implies the passed permission .
+388	Get the connection factory .
+389	Determine if the current thread is associated with a transaction .
+390	Get the transaction synchronization registry .
+391	Create a consumer that closes a resource .
+392	Determine if the operation includes defaults .
+393	Create a resource definition for an elytron trust manager .
+394	Create a resource definition for an Elytron KeyStore .
+395	Create the resource definition for the key - managers resource .
+396	Determine if the mixed synchronization type checking should be skipped .
+397	Invoke the endpoint .
+398	Authenticate a user with the given username and password .
+399	Get the job xml names for a given job name .
+400	Get the permission for a given name .
+401	Add the remote transport provider to the builder .
+402	Add a private credential to the subject .
+403	Attempt to cancel the task . If the task is in the waiting state it will be cancelled . If the task is in the started state then the task will not be cancelled but the flag will be set .
+404	Run the task if it has not been cancelled .
+405	Add transformations common to all resources representing a JGroups subsystem resource .
+406	Increment the active transaction count and register a synchronization for the transaction .
+407	Resume the deployment repository and resume the local transaction context .
+408	Suspend the EJB container .
+409	Start the service .
+410	Stop the service .
+411	Called when an invocation has completed . If the invocation was the last active invocation and the server is suspended then the server is shutdown .
+412	Derive useful information from the HttpServletRequest .
+413	Convert a string to a date .
+414	Registers a listener for transaction completion .
+415	Determine if a method is annotated with a method level annotation .
+416	Process the attributes of an element .
+417	Handle the case where the timer was stopped and then started again .
+418	Create a builder for a listener resource .
+419	Observe the ProcessAnnotatedType event for HealthCheck classes .
+420	Remove all health checks from the health reporter .
+421	Infer the destination name from the address .
+422	Check if the resource adapter is an external pooled connection factory .
+423	Get the extra parameters from the provided map .
+424	Get the service name for a capability .
+425	Collects the metrics for the given resource .
+426	Validate default values for parameters .
+427	Check the parameter type .
+428	Validate the default value of a parameter against the base type of the parameter .
+429	Lookup the DefaultValue annotation from the array of annotations .
+430	Mark a deployment unit as containing a jboss - service . xml file .

@@ -1,0 +1,1000 @@
+0	A grid is used to harmonize negative space in a layout .
+1	Finds the package name for a given filepath .
+2	Checks the arguments passed to a function against the expected types .
+3	Extracts the description from the readme .
+4	Remove all of the `_pivot` entries between this and the related models .
+5	Handles actions .
+6	Zooms to the minimum of showing all of the child markers , or the extents of this cluster .
+7	A plugin spec is a string that describes a plugin . It can be in one of the following forms : * `plugin-name` * `plugin-name@version` * `@scope/plugin-name` * `@scope/plugin
+8	Finds the value of an attribute in a list of attribute forms .
+9	Finds the parent class of a class .
+10	Setup a watcher for the data .
+11	Validates the system . js file in the repository .
+12	Get the static value of a node .
+13	Add regions to your app . Accepts a hash of named strings or Region objects that are added to the app as property references .
+14	Returns the text that should be displayed on the back button .
+15	Get the effective type of the argument at the specified index of a decorator .
+16	Gets the effective argument for a given argument index .
+17	Creates a new Token .
+18	Filter relations from the included data .
+19	Calls the function with the specified context and arguments .
+20	Reads the robots.txt file and processes it line by line .
+21	Convert sort key to where condition .
+22	Renders the collection of views and overrides the render method to handle rendering the collection as well as the emptyView .
+23	Calculates coverage for a module .
+24	Renders body to a PIXI.Graphics object, with the given current transforms.
+25	Sets up observers for each passed attribute binding and creates a map of attribute bindings.
+26	Show a view in the region .
+27	Creates a Jasmine test suite that loads a module using RequireJS .
+28	Matches an object against a sequence of matchers .
+29	Wraps a callback - based invocation in a promise .
+30	Render the view , defaulting to underscore . js templates . Override this method to provide your own template rendering logic .
+31	Clear the template cache .
+32	Removes each object in the passed enumerable from the set .
+33	Proxies a request to a target server .
+34	Delegate is a tiny library for managing delegated events in the DOM .
+35	Return string representation of argument .
+36	Returns the next date from a schedule definition .
+37	Called when a record is rolled back after a failed ` save ` .
+38	Creates a new instance of a schema .
+39	Returns a new object containing only the properties specified .
+40	Initializes the pattern .
+41	Updates the number of selected items in the target control .
+42	Parses the given remote path and returns the corresponding bundle id and local path .
+43	Returns the path to the plugin file relative to the project directory .
+44	Label the current item as done .
+45	Returns true if the given value is not an empty string , array , or object .
+46	Initialize keyboard shortcuts .
+47	Renders the given view into the main container .
+48	Stops all instances of a module .
+49	A group of items can be formatted to share the same width .
+50	Returns the intersection point of two line segments .
+51	Add runtime events .
+52	Serialize a model for the view . If the model is not defined , return data from the serializeData method .
+53	Add routes to the app .
+54	Channel constructor .
+55	Sets the constructor property of a child to the parent .
+56	Creates a documentFragment buffer from the views bufferedChildren .
+57	Pre - watchify options .
+58	Represents an error from the driver .
+59	Creates an object with getter and setter methods for accessing a variable in a container .
+60	Get exceptions for the given options .
+61	Post a form to the API .
+62	Initializes a new transaction object from the options .
+63	Classify a value as a , an , or a - or - an .
+64	Event Bus
+65	Counts the number of lines in a if statement .
+66	Update an individual filter .
+67	Fires the select event
+68	Adds many markers to the cluster.
+69	Fixes the references.d.ts file to include the tns-core-modules.d.ts and lib.d.ts files .
+70	Wrap a function around another function .
+71	Handle events .
+72	Given a workInProgress node with an owner component that opens or closes , // puts any of the siblings into the refs set. // Returns true if we have new refs, false if no refs were added.
+73	Serializes a record , including its attributes and relationships .
+74	Find the common parent of two nodes .
+75	Flow.js is a JavaScript library providing multiple simultaneous, stable and resumable uploads via the HTML5 File API .
+76	Gets the single call signature from a type if it exists .
+77	Generate expiry times for a response .
+78	Returns the name of the data type by its code .
+79	Checks the status code and content - type of a response .
+80	Sends a request to the server side .
+81	Decrements the value of a property by the passed number .
+82	Handle a resource .
+83	Returns the offset of the node relative to the viewport .
+84	Maps the response from the service to the response expected by the client .
+85	Returns a pretty date string .
+86	Edit an address book .
+87	Upload package to web cache server .
+88	Destroys the view and all of the view's child views .
+89	Wrapper or result .
+90	A group of buttons can be formatted to show different levels of emphasis .
+91	deleteProperty ( trap ) The deleteProperty trap is used to delete a property on the target object .
+92	Get mouse position .
+93	Add parser for a given file type .
+94	Normalizes the objectStores array to ensure that each objectStore has a preprocessor function .
+95	InvalidSlugError is thrown when a slug is invalid .
+96	An advertisement displays third - party promotional content .
+97	Returns the number of bytes uploaded by this file.
+98	Returns the url for making api calls
+99	Generates a unique name for a variable .
+100	Run a series of tasks in sequence .
+101	Get the head commit for the given systemId and environment .
+102	Upgrades the schema of the native database .
+103	Emits a temporary variable declaration and assigns it the value of the provided expression .
+104	Adds event handlers to the pipeline .
+105	Generates a container slug from the language , project and resource slugs .
+106	Check decorators for a node .
+107	Returns the index of the item in the collection .
+108	Creates an iterator for an array .
+109	Builds a function that matches an attribute object against a match object .
+110	Expand exponential ranges in a string .
+111	Run a worker and profile it .
+112	Loads a codec module .
+113	Wrap a function to make it emit a 'complete' event when it's done .
+114	Default check size function .
+115	This function is called when the input value is changed .
+116	Wrap the given regexp string in the correct regexp format .
+117	Called when fullscreen mode is entered or exited .
+118	SchemaParserV3 parses the schema information returned by Cassandra 2.1 and above .
+119	Removes all child nodes from this node .
+120	Add an array of records to a record's set of loading record arrays .
+121	Infer AngularJS modules from the given AST .
+122	Decrypts a message using AES - 256 - CBC .
+123	KeystoneClient constructor .
+124	Converts a dataset to ARFF format .
+125	Creates a set of stub methods on an Ext . direct . Provider for a given set of action methods .
+126	Sends a test request to the server .
+127	Peek at the next 4 hex digits in the input stream .
+128	Loads a theme file and returns the variables .
+129	Handle mouse over / out events for nodes .
+130	Get the type of a class or interface reference.
+131	Handles the i18n files .
+132	Gets the argument info for a node if it is immediately contained in a call expression .
+133	Returns the position of the element in IE .
+134	Returns a function that will only be called once .
+135	Returns a list of all types .
+136	Lookup a github login for a person .
+137	Deletes all . svn folders from a directory .
+138	Initializes a request . This method is to be used from native code - in other words from another domain in the same instance as FileAPI .
+139	Evaluate the options object if it is a function .
+140	Requests a file system .
+141	Parse the Accept header .
+142	Runs platform - specific commands .
+143	Converts a JSON object to a diff .
+144	Returns Emmet completions for given editor and position .
+145	Get all js files in a directory .
+146	Reset the project file to the original state .
+147	Constructor .
+148	Gets the import declaration referenced by a namespace import or import clause .
+149	Parses a version string into an array of integers .
+150	Initialize the error handler .
+151	Render markdown to HTML .
+152	Merge options into the global options object .
+153	A proxy that throws when accessing undefined keys .
+154	Returns true if the given variable is modified .
+155	Transform the request body into a message for the user service .
+156	Checks whether the given event is a valid modifier key combo .
+157	Returns a function that executes bodyFunc in a fiber and returns a promise of bodyFunc's result .
+158	Add signature headers to the request .
+159	Loads Google Fonts CSS .
+160	Updates the node's data to reflect the current state of the tree store .
+161	Factory function for creating a case - insensitive matcher .
+162	Processes a list of files and directories , recursively .
+163	Safely call a function with arguments .
+164	Sets the id and type of the record and associates it with an internal model . This method is not called by the store , but its public so that you can use it in your application code .
+165	Constructor for PreparedQueries .
+166	Parses a property function declaration .
+167	Handle events .
+168	Transport decorator that adds telemetry hooks to a transport .
+169	Check if a media type matches a media type specifier .
+170	Get a module from the cache .
+171	Advance to the next occurrence of `endChar` in `input` .
+172	Wrap a condition with coverage code .
+173	Click handler for the menu button .
+174	获取组件目录
+175	Middleware to check if the request body contains all the required parameters .
+176	Returns all channels that are defined in the document definition .
+177	Proxy ` addChildView ` for the case that a view 's ` addChildView ` has been overridden.
+178	Parse the response body .
+179	Add a model to this registry , so it can be found later .
+180	Removes a SWF from the page .
+181	Binary search for the index of the block that contains the given offset .
+182	Compares two buffers .
+183	Merge options with default options .
+184	Encoder constructor .
+185	Returns true if the given `string` matches the given glob `pattern` .
+186	Returns list of available Emmet snippets for given editor context .
+187	Convert a key to an AST child .
+188	Returns the node that is the candidate for the annotation .
+189	Adds a socket to the list of sockets for a user .
+190	Find a container above this component at any level by a custom function . If the passed function returns true , the container will be returned . The passed function is called with the arguments ( container , this component ) .
+191	Exits the current state and returns a function which can be used to re - enter the state .
+192	Write a path into a tree .
+193	Main section of the app .
+194	Reads all filenames in a directory recursively .
+195	Transform HAST to React .
+196	Calculates the zoom scale that will fit the graph in the viewport .
+197	Get the provider token from the pathname .
+198	Creates a new bundle .
+199	Validate the document before saving .
+200	DAOImplementation constructor .
+201	Save the database .
+202	Get the attribute value for `name` on the current element .
+203	Middleware to map the servers in the response to the service objects .
+204	Update payload with embedded records .
+205	Removes a node from the DOM and clears all listeners on it and its children .
+206	Lifecycle callback for inserted .
+207	Formats a string to a specific width .
+208	Find multiple records at once by ID .
+209	Open a popup window with a form that will POST to the given URL .
+210	Initializes the RemoveObserver .
+211	Create an error with a code .
+212	Fixes the package.json file to include the correct NativeScript version and the correct devDependencies
+213	Selects a set of actions that satisfy the goal trees .
+214	GrelRequest is a wrapper for the request object .
+215	Gets the value for a property on a node . Only used in DEV for SSR validation . The "expected" argument is used as a hint of what the expected value is . Some properties have multiple equivalent values .
+216	Find elements by class name .
+217	Checks if runtime has specific capability .
+218	The main function .
+219	Updates the working state for the given branch .
+220	Register a service , factory , provider , or value .
+221	Callback for grunt task .
+222	Test if the facet name is from one of the disjunctive facets .
+223	Get the context for the template .
+224	Format a Url object into a complete URL string .
+225	Converts all keys in a hash to camelCase .
+226	Adds a class to the element .
+227	Get the signatures of a union type .
+228	Returns the main files for a component .
+229	Return an object with only the keys that match the given glob pattern .
+230	Remove a refinement set on a disjunctive facet .
+231	Get the timestamp of the last time WDA was upgraded .
+232	Processes the src URI to be used in the File plugin .
+233	A point is a single data point in a stream .
+234	Registers an event listener on the document . If the given event is triggered, the provided view 's `eventName` method will be triggered on the view. If the method returns `false`, the event will be `preventDefault`-
+235	Determines whether the node is a valid identifier name .
+236	Solve all conflicts in a tree conflict .
+237	Update node color based on the selected scale .
+238	Renders the article for the given group , name and version .
+239	Validates the encoding options .
+240	Disconnects a view that has been rendered into an outlet .
+241	Normalize a part of the JSON payload returned by the server . You should override this method , munge the hash and call super if you have generic normalization to do . It takes the type of the record that is being normalized , and the property
+242	Returns the main field from the bower.json file as an array .
+243	Creates the watched file set .
+244	Returns a unique identifier for `item` , based on a string property of that item .
+245	Checks if the given object is a jQuery object .
+246	Find a single instance that matches the specified query .
+247	Logs an error and exits the process .
+248	Determines whether a space should be rejected between a left and right token .
+249	Renders the view and all of its children . Triggers before : render and render events during the process .
+250	Extracts the shebang command from a file .
+251	A label displays content classification .
+252	Remove a model from the collection .
+253	Bind the events to be triggered on the collection .
+254	Set a change to the current working state .
+255	Merge in options to the defaults .
+256	Injects template into the component .
+257	Used when an application loads in an environment where `history.state` is not supported (e.g. IE9).
+258	Normalizes property descriptors .
+259	Copy a directory recursively .
+260	Deselects all records in the current selection .
+261	Get a collection for a specific model . If the collection doesn 't exist, create it if `create` is `true`.
+262	Inserts a row into a table .
+263	Stringify an object using the canonical JSON format .
+264	Check if the facet contains a refinement for the given value .
+265	Handle files .
+266	Converts a pattern group to a task .
+267	Creates a directory recursively .
+268	Removes all WebSocket handlers for a given session .
+269	Renders the view again . This will work regardless of whether the view is already in the DOM or not . If the view is in the DOM , the rendering process will be deferred to give bindings a chance to synchronize .
+270	Append the placeholder to the previous node .
+271	Generates the code for the properties .
+272	Prepares query by choosing the best storage for it .
+273	Creates a new ShellStream .
+274	Creates a new promise .
+275	Get the name of a declaration. This is primarily used for declarations that can be named in multiple ways.
+276	Reduce a childList mutation to a single mutationContent .
+277	Iterates over accessors and wraps setter with updateSetter .
+278	Reads the file from the file system .
+279	Prepare commit builder .
+280	Returns the index of the first element in the array that satisfies the provided testing function . Otherwise - 1 is returned .
+281	Prefixes all substrings in the given strings .
+282	Fetches all records from an object store .
+283	Parses a path and returns a path object with the following properties : - path : the original full path - classNames : a string with the className and falsyClassName ( if defined ) - className : the className if defined -
+284	Inflector class .
+285	Model constructor .
+286	Try to get the model from the store, or create a new model to fetch from the server.
+287	Inserts an element at the given index .
+288	Set data to a service .
+289	Sets the arguments to be passed to the function .
+290	Matches the exact protocol .
+291	Create a plugin function that exposes the given `prop` on the instance .
+292	Inspects a resource container .
+293	Calculates the specificity of CSS selectors .
+294	Formats a string using ANSI color codes . This implementation is minimal and will not work on all terminals .
+295	The ownKeys trap is used to enumerate the properties on the proxy .
+296	Handle the response from the API .
+297	Creates a node for a property .
+298	Create pages from markdown files .
+299	Get the next word node after `parent` .
+300	Encodes a transaction .
+301	Returns the url for the persona based on the options passed in .
+302	Calculates the color of the field based on the selected and focused values .
+303	Returns a formatted location string .
+304	Create a new button .
+305	Formats a quantity or tag .
+306	Gets the symbol for the property corresponding to the JSX attribute .
+307	Get a value from the data .
+308	Removes a file from the queue .
+309	Overrides Ember . Object . set to also set corresponding attributes on the HTML element when a value is changed . Also catches changes to style attribute to keep style attribute in sync .
+310	Binds the switch change event to the model .
+311	Traps a top - level event by using event capturing .
+312	Sort function for multiresolution nodes .
+313	Render page using handlebars template .
+314	Closes the portal .
+315	Creates a transform stream that encodes objects into a binary stream .
+316	Toggles a single CSS class on an element based on a condition . If the condition is a boolean , it will add the class if true and remove if false . If the condition is a function , it will be called with the element and the current
+317	Add ` . should ` to all instances of ` Assertion ` . This property is deprecated , use ` Assertion . prototype . assert ` instead .
+318	Converts the result of a query into a format that the client understands .
+319	A Metalsmith plugin to store untemplatized content .
+320	Returns the example code for a given comment .
+321	Aborts the request .
+322	Converts an integer to a hex string .
+323	Override the keydown event handler for the textarea .
+324	Returns a list of records from the storage .
+325	Recycles the graph by removing all the nodes and links and pushing them back to the pool .
+326	Customizer function for merging accessors .
+327	Converts a node - style callback function to a promise .
+328	Flushes the call buffer .
+329	Check if a component matches a selector .
+330	Configures a proxy server to be used for LAN testing .
+331	Parses a byte array and counts the number of n - grams found in the n - gram list .
+332	Register a class as a bean .
+333	Internal method to display an empty view in place of a collection of item views, when the collection is empty .
+334	Executes a SQL statement .
+335	Subtracts two numbers .
+336	Returns the event array for the given channel id and event name .
+337	Returns the type of the given name in the current model scope .
+338	Converts an IMAP message to a Message object .
+339	Given a ReactDOMComponent or ReactDOMTextComponent , return the corresponding DOM node .
+340	Merge properties of source into destination as an object .
+341	Returns a JSON object from a file .
+342	Get the dpad vector .
+343	Setter for parent node .
+344	Inlines the external resources of a stylesheet.
+345	Enforce string type .
+346	Adds selections to the chart .
+347	List all saved boilerplates .
+348	Execute a command synchronously .
+349	Converts `value` to an integer .
+350	Installs the selenium driver if needed .
+351	Called when the content property is about to change . Notifies each child view that its corresponding object in the content array will change .
+352	Initialize the plugin .
+353	Scan a JSX identifier ( valid tag or attribute name ) .
+354	Parse EvtLink to object .
+355	Remove a model , or a list of models from the set .
+356	Shifts arguments to the left to match the expected arguments .
+357	Update the scroll position .
+358	Returns an array of snippets for the given registry .
+359	Growly constructor .
+360	Returns a callback function that can be used to set an object from a template .
+361	Creates a new bundle .
+362	Strips quotes from a string .
+363	Destroys any existing element along with the element for the view . If the view does not currently have a element , then this method will do nothing . If you implement willDestroyElement () on your view , then this method will be invoked on your
+364	Mouse wheel event handler .
+365	Normalize a part of the JSON payload returned by the server . You should override this method , munge the hash and call super if you have generic normalization to do . It takes the type of the record that is being normalized , and the property
+366	PromiseResolve ( promise , resolution )
+367	Makes a function signature from a list of parameters .
+368	Parse JSON without throwing an exception .
+369	Triggers a named action on the `ActionHandler` . Any parameters supplied after the `actionName` string will be passed as arguments to the action target function .
+370	Clears the view template cache for the given view .
+371	Returns the number of leading zeros of this value .
+372	Subscribe to a logia event .
+373	Render a Jade template from the file system .
+374	Authorize a request .
+375	Bind the events from the collection to methods on this view .
+376	Get the width of the window .
+377	Creates a new event object .
+378	Stops all instances of a module .
+379	This function is called when ` childViews ` is changed . It will update the views , replacing added views with new ones , and removing views that are no longer in the view hierarchy . It will also call the ` childViewsDidChange `
+380	Process a file .
+381	Updates the pressed buttons by adding the pressedCls to the new pressed buttons .
+382	Determines if a space should be rejected between a left and right token .
+383	Prints error message and exits .
+384	Calculates the difference between two dates .
+385	Removes a file from the output directory .
+386	Normalizes a root ( singular ) resource name to its plural form . For example , 'post' -> 'posts' . Also works for non - standard English inflections : 'person' -> 'people' , 'ox' -> 'oxen
+387	Define a non - enumerable property value .
+388	Determines if the object is an event .
+389	Caches all modules in the ModCache object .
+390	Creates a replacement change for the given original change .
+391	Resolves plugin config .
+392	Creates a new Subject .
+393	Write a file to disk, creating any necessary subdirectories.
+394	Generates snapshots for the given input .
+395	Wrap a plugin to only be applicable to the given node type .
+396	Bind an event handler to an element .
+397	Determines if the current argument can be used to fill an optional spot instead of a required one .
+398	Register the given plugin callback `fn` to the given `type` .
+399	Clears the cached template for the given template property .
+400	Initialize WebdriverIO instance .
+401	Processes the bootstrap file to find the component that is being bootstrapped .
+402	Blurs the input field .
+403	Add a child module .
+404	.
+405	Enable the plugin .
+406	Set the brightness of a specific LED .
+407	Creates a provider .
+408	Returns the estimated time remaining in seconds for all files in the batch .
+409	Writes the config to the specified path .
+410	Wrap a function to make sure that any nested async calls are made in the context of the listeners active at their creation .
+411	Starts multiple modules .
+412	Get options for a message type .
+413	A FormField is a wrapper for form controls that adds additional styles for general layout and title .
+414	Creates a new Component from the specified config object using the config object 's xtype to determine the class to instantiate.
+415	Define an event attribute descriptor .
+416	Serialize a form into a url encoded string .
+417	Prepare the output directory for writing .
+418	Start recording audio file .
+419	Sets a parameter to a new value .
+420	Formats a URI for the current page .
+421	Creates the CLI options object .
+422	Generates a random graph using the Erdos - Renyi model .
+423	Remove data from the element .
+424	Stop orientation .
+425	Split a method name into domain and method .
+426	Converts an enum value to a human readable string .
+427	Retrieves the protocol module from the server .
+428	Parses a URI to a path and filename .
+429	Fires the back event .
+430	Check if NVM is installed and if so, what version .
+431	Detects if all nodes are fixed .
+432	Converts camelCase properties to dashed properties .
+433	Get the coordinates of the center of an element .
+434	Get the current style of an element .
+435	Initializes the current router .
+436	Reset the transfer control to its initial state .
+437	Handle mouse down event .
+438	Formats a value according to the given formatter .
+439	Iterate over all events and then bind the appropriate callback function .
+440	Constructs a view .
+441	Applies fixes to the source code and returns the fixed source code along with the list of fixes that were applied and the list of remaining errors .
+442	A feed can contain a summary .
+443	Returns the string representation of the element , without any outer HTML .
+444	Model constructor .
+445	Polyfill for getTargetInstForInputEvent .
+446	SM2KeyPair constructor
+447	Adds a new object to the object tree .
+448	Constructor for User .
+449	Removes this Game Object from the display list . It will no longer be drawn , updated or checked for input events . If this Game Object has the Events component it will also dispatch the `onDestroy` event . You can optionally also destroy the Game
+450	Compile the browser version of kiwi .
+451	Parse option value .
+452	Require a prop to be a non - empty string .
+453	Delete data from a service .
+454	Creates a new instance of a MultiClassifier .
+455	Iterates over an object and calls the given function for each property .
+456	Get the diagnostic head message for when we cannot resolve the signature of a decorator .
+457	Sort the keys of an object and return a new object with the sorted keys and the same values .
+458	Creates a new InfluxDB client .
+459	Get service by type or service name .
+460	Assigns options to defaults .
+461	Finds an item in the collection .
+462	A row sub - component for Grid .
+463	Reads the key block and extracts the keywords .
+464	Creates a new Stopwatch .
+465	Converts a property descriptor into a data descriptor .
+466	ts . getOwnEmitOutputFilePath ( targetSourceFile , host , shouldEmitJsx ( targetSourceFile ) ? ".jsx" : ".js" ) ;
+467	Sort issues by updated_at date .
+468	Creates a new instance of this Model based on a given record .
+469	Sets default values for the options object .
+470	Handles context menu click on a control table row .
+471	A backoff strategy that waits a certain amount of time before retrying. The initial delay is a random number between 0 and 2^k - 1 where k is the number of retries so far, except the first retry which is 0.
+472	Generate a container status object .
+473	Splits a string into a key / value pair .
+474	Processes the queue of files to be tailed .
+475	FrameReader is a wrapper around a Buffer that provides a number of methods for reading data out of the buffer in the correct way according to the data type .
+476	Check if the type on the 'model' property of a Relation matches the type of the related model .
+477	Wrap conditionals with coverage instrumentation .
+478	Get the real width of a string , accounting for non - basic - multilingual - plane characters .
+479	Generate tasks based on patterns and cli options .
+480	Accumulates entering and leaving events on an event target .
+481	Stop the module , and run its finalizers .
+482	This is a helper method used by observers and dependent keys to add and remove classes from the view .
+483	Constructs a SyntheticEvent object for select events .
+484	Parses a numeric literal .
+485	Register a sub - object .
+486	Error handler for async functions .
+487	Create a mark of the given type .
+488	Combines the css from the templates and the scoped css .
+489	Get the state object from the options object .
+490	Returns a time value with ticks .
+491	Creates a new object .
+492	Reads a chunk from the filesystem .
+493	Inserts the first node before the second node in this nodes childNodes collection .
+494	Generate input from a text file .
+495	Parses the text of a config file using JSON . parse and returns the object . On error , returns a Diagnostic indicating the error .
+496	Returns true if we should yield for scheduler .
+497	Given a fullName return a corresponding instance .
+498	Determines if the provided view is already rendered into the outlet .
+499	Creates a journal object that records the agent's creation and execution events .
+500	Get the current time position of the media .
+501	Render the child item's view and add it to the HTML for the collection view at a given index . This will also update the indices of later views in the collection in order to keep the children in sync with the collection .
+502	Creates an index on the object store .
+503	Check if we can extract at given position .
+504	Creates a new DatabaseDefinition .
+505	Run the retriever and then run Inch on each file .
+506	Get the breadcrumb for a hierarchical facet value .
+507	A feed can contain a meta.
+508	Commit a system revision .
+509	Check to see if index is within the bounds of a TimeRange object .
+510	Removes a refinement set on facet values .
+511	Checks that the plugin ID and version match the expected ID and version .
+512	Move a directory and all its contents to a new location .
+513	Follows a reference to a function declaration .
+514	Get the contextual type for a parameter or binding element . This function is used when a parameter or binding element does not have an explicit type annotation . In this case we want to infer the type of the parameter or binding element from its containing function or binding
+515	Normalize touch and mouse events .
+516	A breadcrumb is used to show hierarchy between content .
+517	Initializes the switch component .
+518	Smooths the area between two points .
+519	Handle mouse down events .
+520	Replaces objects in an array with the given objects . The objects replace the slice of the array starting at idx and including amt objects . The array is modified in - place and returned .
+521	Creates an async function tailored to the given options .
+522	Render the template for the view .
+523	Wraps a callback function to make it compatible with async . auto .
+524	Finds the AndroidLaunchMode preference from the platform config .
+525	Check the return type of a decorator function .
+526	Get the cookie value by the key .
+527	Returns an array of field paths for the given object .
+528	Returns the transform property of an element .
+529	Define a constant .
+530	Unsubscribe from all events .
+531	Selects the best overload candidate based on the number of arguments .
+532	Convert a number to a UDecimalString .
+533	Adds a random identifier to the chart .
+534	Compare two specs .
+535	Converts an array of images to an array of image srcs .
+536	Creates a new SteroidsSocket instance .
+537	Adds a marker to the map .
+538	Set token to cookie .
+539	This function will be called for each message received by Burp .
+540	Reads a definition from a block .
+541	Creates a new GitRepository .
+542	Creates a new instance of the BrowserifyModule class .
+543	Get the system bucket from the config .
+544	Returns true if the output file is known to exist .
+545	Add multiple regions using an object literal or a function that returns an object literal , where the keys will be used as the region names , and the values are the region definitions . The definition values can be a selector string , a Region class , or an
+546	Creates a function that pipes the result of the first function to the second function .
+547	SM2Curve constructor .
+548	A rail is used to show accompanying content outside the boundaries of the main view of a site .
+549	Get node id from string or buffer .
+550	Parse properties of an object .
+551	Executes all event listeners with the given parameters .
+552	Serialise an object to JSON , optionally filtering out properties .
+553	Adds permissions to the role .
+554	Get a list of available node versions .
+555	Validate that the placeholders in the translations match the placeholders in the original string .
+556	Bubble up the values to the top level .
+557	Curry a function .
+558	Create a transformer that will add a `sentiment` property to each node .
+559	Reads an XML file and returns the parsed result .
+560	Get the contextual type for an expression that is the target of an indexing operation .
+561	Builds a container .
+562	Creates a new cache object .
+563	Specify the charset for an Accept - Charset header .
+564	Add regions to your view .
+565	Reads the lstat of all files in a directory .
+566	Get a record array for all records of a given type , regardless of filter .
+567	Define a property on an object .
+568	Fixes inline - block elements in IE6 / 7 .
+569	Reloads the record from the adapter . This will only work if the record has already finished loading ( ` isLoaded ` ) .
+570	Returns the mousewheel delta .
+571	Mounts this component and inserts it into the DOM .
+572	Compare two nodes .
+573	SchemaParserV1 .
+574	Send an event with the given name , passing the arguments .
+575	Encode a string for use in a public S3 URI .
+576	Get the symbol of the entity name from the right hand side of an import = declaration . The import declaration is optional since we already have the parent chain .
+577	Throws an error if the node is not a valid AST node .
+578	Remove an event listener .
+579	Removes a directory and all its contents .
+580	Creates a request handler .
+581	Parses a CSV file and returns a promise that resolves to a hierarchy object .
+582	Call ` advanceReadiness ` after any asynchronous setup logic has completed .
+583	Return the array of models for the collection view .
+584	Iterates over entries of a map .
+585	Copies a cache entry .
+586	Binds the children of a node .
+587	Updates all layers in a group .
+588	Clean up a url .
+589	Update all refs .
+590	Subscribe to store events .
+591	Resolve lodash modules to the same module .
+592	Get the nearest value from a select element .
+593	Determines whether the node is a write access .
+594	Unescapes an escaped identifier .
+595	Parse a git URL into a path .
+596	Repeat the given string n times . Fastest implementation for repeating a string .
+597	Company model .
+598	Get the priority of a language.
+599	Handles mouseup events .
+600	Get the solved entries for a tree conflict .
+601	Returns true if the value is or was a list .
+602	Check the type parameter for errors .
+603	Suspends listener during callback .
+604	Metalsmith plugin to copy assets from a source directory to a destination directory .
+605	Resets the state of the router by clearing the current route handlers and deactivating them .
+606	Converts a string representation of a model into a map of maps of weights .
+607	Creates a new RuleContext object .
+608	Validates a task . json file .
+609	Animate the move of the camera .
+610	Get the priority of a encoding from an Accept - Encoding header .
+611	Inserts a new migration record into the database .
+612	Sets a value on an object . If the value is an object , it will create a new instance of the object .
+613	Returns the position of a node in the document .
+614	Encode the last recordedSourceMapSpan when ending a file .
+615	Checks the spacing before function parentheses .
+616	Fires the checkchange event .
+617	Destroys this node .
+618	Adds a resource to the bundle .
+619	Set background of canvas with given value .
+620	Validates the object against the schema .
+621	Sets the triggers hash for a given behavior . If the behavior does not have a triggers hash then the event hash from the instantiated behavior is checked .
+622	Prepare filtering optimization .
+623	Returns a promise that is fulfilled when any one of the promises in the iterable argument is fulfilled .
+624	Returns the property id for the specified property name .
+625	Wrap a handler with a reporter .
+626	Notifier constructor .
+627	Copies a file from the server to the client .
+628	Returns an array of keys that are dashed and have an alternative camelCase version .
+629	Adds a feature to the feature index .
+630	Creates a new RequestQueue .
+631	RPC constructor .
+632	Loads a new scene .
+633	Generates encoder and decoder functions for a given encoding and options .
+634	Serialize the belongsTo relationship for the record .
+635	Removes a region from your app .
+636	Called when the image is loaded .
+637	Gets the parameters from a function - like declaration .
+638	Define a constructor for Cloudinary client instances .
+639	MaterializedView class .
+640	Configuration constructor .
+641	Creates a new wrapper function with the given options .
+642	Add multiple regions using an object literal or a function that returns an object literal , where the keys will be used as the region names , and the values will be used as the region selectors .
+643	Processes a function node .
+644	Curry a function .
+645	Example of using the client .
+646	Resolves a path in a resource .
+647	Returns a controller instance by name .
+648	Destroys all of the child views and removes them from the DOM .
+649	Add emails to a book .
+650	Given a DOM node , return the closest ReactDOMComponent or ReactDOMTextComponent instance ancestor .
+651	Convert the given `extglob` pattern into a regex-compatible string .
+652	Resumes the animation loop .
+653	Returns sandbox map from ast .
+654	Returns true if the two arrays are different .
+655	Prints an error message and exits the process .
+656	Returns a random value from an array .
+657	Performs an Ext Direct call to the server - side method represented by the provided configuration object . The simplest usage of this method would be to call a remote method that has no parameters :
+658	Condense multiple blocks into one .
+659	Throttle a function .
+660	Parses a style string into an object .
+661	Lifecycle hook called when the element is removed from the DOM .
+662	Lookup both camelCase and underscored versions of the given template name . The first template to be found will be rendered .
+663	Creates a new Resource .
+664	Returns a promise that resolves to an array of plugins .
+665	Returns true if the given turn is a turnaround .
+666	Loads a script from a specified url into the document .
+667	Polyfill URLSearchParams
+668	Returns the range of the wrapping HTML tag for the given position .
+669	Evaluate a function on the page .
+670	Sets the value of the picker .
+671	Sets up a component for testing .
+672	PUTs data to the specified URL .
+673	Resolves a namespace .
+674	Stops all modules .
+675	Extracts a zip file to a given destination directory .
+676	Get the hash from a URI .
+677	Creates an Error from a JSON string or an Object with the properties described on { @link Error . prototype . init } .
+678	Event handler for the cycle event .
+679	Get the base constructor type of a class . If there is no base class , then undefined is returned .
+680	Middleware to check if the JWT is valid .
+681	Parse a charset from the given content - type header .
+682	Returns a new array with all elements that pass the test implemented by the provided function .
+683	Formats a Set .
+684	Resolves call argument .
+685	Get application hook scripts from directory .
+686	Run a function while a condition is true .
+687	Returns true if the given type is deeply nested generic type .
+688	Create a time range object given ranges of time .
+689	Creates a plain text element .
+690	Wrap a glob pattern with logic that negates the match when the first character is a bang .
+691	Disconnects the binding instance . Observers and unwatchers should be cleaned up .
+692	Creates a new CustomEvent .
+693	Deletes a module from the module cache .
+694	Parses a flat JSON file into a hierarchy .
+695	Iterates over the models in the current model 's ancestry.
+696	Iterates through all the relationships in the model , calling the passed function on each . The callback method you provide should have the following signature ( name , relationship ) { ... } .
+697	Reservation constructor .
+698	Returns the text that should be displayed for the score .
+699	Returns all of the items in the enumeration without the items that the truth test ( predicate ) passes . The opposite of filter .
+700	Sets the '_superModel', '_subModelTypeValue', and '_subModelTypeAttribute' properties on the specified 'modelType' if it is found to be a subModel of any other model in this MetadataStore . </
+701	Returns the document of the given event target .
+702	Parse the Accept - Charset header . Based on the parseAccept function from "accept" by Douglas Christopher Wilson ( https : //github.com/dcwatson/accepts)
+703	Returns the urlRoot for the division class
+704	Builds sass content .
+705	Renders a response object .
+706	Returns false if 'dir' is not a writeable directory , 'dir' otherwise .
+707	Completes a purchase .
+708	Removes a file from the repo .
+709	Pop a value off of the stack of the given `type` .
+710	Sends a failure response .
+711	Returns the default arguments for the program .
+712	Initialize the page .
+713	Creates a media object , which can be used to play audio files .
+714	Checks if the given literal is a hexadecimal number .
+715	Returns a SchemaParser instance based on the version of the schema .
+716	Replaces the reducers for a given scope .
+717	Get the record for a given type and ID without triggering a fetch .
+718	Creates a list of links to the children of a class .
+719	Validate a TileJSON object .
+720	Creates a function that limits the rate at which it can be called .
+721	Calculates the delta for the right side of the pixel .
+722	Checks if a new version of OpenTest is available .
+723	Configure express server .
+724	Returns the header for a suite .
+725	Removes all event listeners added during 'onDown' .
+726	Initialize the switch plugin .
+727	Reads a chunk from the file object using the webAPI .
+728	Adds a facet to the facets attribute of the helper configuration, if it isn 't already present.
+729	Matroshka is a function that wraps another function and returns a new function that will execute the original function with the namespaces of the current process .
+730	Updates the AST with the new annotations .
+731	Spreads fragments recursively .
+732	Add article settings to fields .
+733	Reports a given node if there's no whitespace after the first token .
+734	Memoize generated regex or function .
+735	Check if we need to escape the given character with a \ .
+736	Waits for a condition to be true .
+737	Set a cookie .
+738	Converts an iterator to an array .
+739	Convert a number to a string .
+740	Removes an item from the Container . Fires the ` remove ` event when complete . @param { Ext . Component } item The item to remove . @param { Boolean } [ destroy = autoDestroy ] True to automatically invoke the removed Component 's
+741	Get base params from base string .
+742	Base58 encode a number .
+743	Creates a basic plugin function .
+744	Update the document to reflect the given change .
+745	Return the index of an element within an array .
+746	Normalize event handler options .
+747	Loads a brocfile from the given path .
+748	Generates a random string of the given length .
+749	Decorates a Model with the NodeInterface .
+750	Loads images .
+751	Compile a profile in buffer mode .
+752	Get campaign stats by referrals .
+753	Cross - browser compatible event handler .
+754	Finds the token that occurs immediately before the given position .
+755	Flatten options .
+756	Formats an array .
+757	Removes the old version from the travis yml file .
+758	Sets the width and height of the canvas .
+759	Compile the wasm binary .
+760	Performs a accept operation with added sanity check to ensure that the resulting node is of the same type.
+761	Encode a Uniform Resource Identifier ( URI ) component by replacing each instance of certain characters by one , two , three , or four escape sequences representing the UTF - 8 encoding of the character ( will only be four escape sequences for characters composed of two
+762	Generates an error page .
+763	Request data for a table .
+764	Train the classifier online .
+765	Builds a URL for a given type and optional ID . By default , it pluralizes the type's name ( for example , 'post' becomes 'posts' and 'person' becomes 'people' ) . To override the pluralization see [
+766	Get the value of an element .
+767	A match between an operation and an index .
+768	Updates speed stats .
+769	Send chunk event .
+770	ReduceComputedProperty is the default implementation of ComputedProperty for reducing properties .
+771	Write the file to the output path .
+772	@method childViewsWillChange @param {Ember.View} views the child views array before mutation @param {Number} start the start position of the mutation @param {Number} removed the number of child views removed @private </s
+773	Adds a hierarchical facet to the search .
+774	Rounds a number to the nearest even integer .
+775	Create an ogr2ogr command .
+776	Get signature help items at the specified position in the active file .
+777	Add a reverse relation . Used internally by the `belongsTo` and `hasOne` methods .
+778	Check if expression is of call expression .
+779	Inspects function declarations for visibility modifiers .
+780	This function will update the file name based on the configurations provided in the replaceFileName .
+781	Retrieves a directory entry .
+782	List revisions for a system .
+783	Triggers a setup event on the player that can be listened to in order to perform actions that need to be performed only once , at the appropriate time .
+784	Rebase a path from one location to another .
+785	Adds a file to the list of files to be processed , along with its dependencies .
+786	Get the node that the comment annotates .
+787	Finds files in a directory that match the given patterns .
+788	Ensures that the capabilities element does not contain duplicate capabilities .
+789	Merges two objects together . If the source object has a key that the default object does not , it will be applied .
+790	Iterates over a JavaScript object .
+791	Determines whether the specified URL is absolute
+792	Get the name of a tag .
+793	Fetch a blob from the driver and store it in the cache .
+794	Create an instance of `Extglob` with the given `options` .
+795	Initializes the List component .
+796	Exports the public key from a private key .
+797	Adds setHeader and setHeaders methods to the constructor .
+798	Detects if the current file is a takeout file .
+799	Sends a request to the API .
+800	Handle various callbacks for the file upload .
+801	Check if `file` is a javascript file .
+802	This represents the mobile device , and provides properties for inspecting the model , version , UUID of the phone , etc . These are all read - only properties , but they are incredibly helpful in developing platform - specific code .
+803	Iterates over an array of items .
+804	Returns true if the url is on the same origin as the current page .
+805	Serializes a record for `store.push` .
+806	Performs a request with cloudscraper .
+807	Updates the title of the current month .
+808	Returns a function that will only be executed once per animation frame .
+809	Finds the node that encloses the start and end of the range .
+810	Initialize HTTP server .
+811	Updates the date format in the field and the picker
+812	Renders a hotspot .
+813	Handles window resize events .
+814	Attempt to parse the given input string .
+815	Check if a user has access to this controller .
+816	Automatically setup any tags that have a data - setup attribute when the player is started .
+817	Get the property with the given name in the given type . Returns undefined if no such property exists .
+818	Transforms a snapshot list into a string .
+819	Removes the current view from the DOM and unbinds all events .
+820	Returns the converted property if it is a property that needs to be converted .
+821	Checks if an element has a class .
+822	Search for resources .
+823	Generates the CSS rules for the spacing scale .
+824	Formats the given URI to be relative to the output directory .
+825	Find method name in class .
+826	Parse a query string into an object .
+827	Given a describe message , find all the dependencies that are missing .
+828	Adds a refinement on a hierarchical facet .
+829	Encode user credentials for HTTP Basic Authentication .
+830	Check if a node version is installed that satisfies the projects required engine .
+831	Initialize a new ` Node ` with the given ` type ` and ` content ` .
+832	Exclude a range from another range .
+833	Reads the directory structure recursively .
+834	Returns the next active node in the activeNodes array .
+835	A message list displays a list of messages inside a message .
+836	Shows this component by setting the `hidden` config to `false` . Fires the `show` event after doing so . Will invoke any configured `showAnimation` and `showTransition` methods after showing the component . **Note:** This
+837	A button can be formatted to show different levels of emphasis .
+838	Move an index .
+839	Logs the message at the specified level .
+840	Returns all child markers of this cluster ( including other clusters ) .
+841	Calculate keyProvider .
+842	Loads a file .
+843	Main function .
+844	Maps each element of the source array to an async iterable , then flattens the result into a new array .
+845	Selects an array of DOM nodes by CSS/XPath selector .
+846	Update the UI of the menu .
+847	Update lineno and column based on `str` .
+848	Creates a new project .
+849	Determines whether a contextual type has an index signature of the specified kind .
+850	A type of Backbone . Model that also maintains relations to other models and collections .
+851	JWT constructor .
+852	Checks if the target position is out of bounds .
+853	Toggle the value of a property between a list of acceptable values .
+854	Returns the name of the function .
+855	Parses the options passed to the plugin .
+856	Callback for when a promise is rejected .
+857	Calls the version script for each engine and sets the currentVersion property on the engine .
+858	Compiles the schema into a model class .
+859	Opens a popup window with the specified url and POST data .
+860	Initialize a node for use with the block .
+861	Command constructor .
+862	Handle pointer down event .
+863	Generates a robots.txt file for the current environment .
+864	Get a value from the dictionary .
+865	Fetches all records from the given object stores .
+866	Set a cookie .
+867	Initialize the module .
+868	Verify that the request came from Facebook .
+869	Registers a system in the systems repository .
+870	Setup watcher for data changes .
+871	Extracts CSS from a browserify bundle .
+872	Executes the next block in the flow .
+873	Returns the values of the fields in the same group that are checked .
+874	Check that type annotation is used as an expression .
+875	Creates a template cache entry for the given template property .
+876	Creates an instance of this class .
+877	This method returns a record array that contains all of the records matching the specified query . The query is specified as a hash .
+878	Adds a Direct Provider and creates the Ext . Direct stack for the given provider .
+879	Checks if the given identifier is a code or has a base type of code .
+880	Call a function with the given name .
+881	Wrap a method on a prototype with a callback .
+882	Consumes attribute value from given stream .
+883	Mixin to add XtallatX ( eXtended TALL AXT) features to a custom element class. * @param superClass Element class to extend. */ function _getNodeColor ( node , highlightedNode , config ) {
+884	Called when connection is deemed open .
+885	OAuth error handler .
+886	Returns an error object .
+887	Generate SUMMARY.md
+888	Moves the entry to a new location .
+889	Initializes the SyntheticEvent object .
+890	Reads a file and returns its content as a string .
+891	Subscribes a subscriber to a channel .
+892	Generates a random color .
+893	Returns the relative path from root to src .
+894	Constructor for SearchInfo .
+895	Extracts the styles from a given HTML string .
+896	Returns the size of the element .
+897	Clears any enqueued write buffers .
+898	Gulp plugin for static i18n .
+899	Set the related collection when the relation is created . If a collection was specified , use that . Otherwise , create a new collection based on the definition in the relation . Updates this . related whenever a new collection is set .
+900	Checks if a point is in view .
+901	A table can have a header cell .
+902	Reinterprets left - hand side as an assignment pattern .
+903	Transform the links object to a type Ember Data understands .
+904	Checks if a path exists .
+905	Make a reference to a definition .
+906	Returns the trap function for the given trap name .
+907	Returns a pure node object , without circular references .
+908	Returns the item at the specified index .
+909	Check if an element has data .
+910	Returns a list of all the subdirectories in the content directory .
+911	Matches nodes in the DOM tree with nodes in the virtual tree .
+912	Watches the schema file for changes and reinitializes the babel relay plugin .
+913	Parses the structure and writes it to the bin .
+914	Override keypress event to handle tab and enter keys .
+915	Returns the intersection of two arrays .
+916	Normalize a path .
+917	Position the specified row of nodes . Modifies `rect` for subsequent node positioning .
+918	Create a new system .
+919	Adds the value of increment to the value of the property at the given key .
+920	Initialize the layout .
+921	Get the type of a binding element . This is the type of the initializer of the binding element if one is present , or otherwise the type of the parent binding element .
+922	Constructs a new FrameHeader instance .
+923	Lexer constructor .
+924	Calculates a duration between two dates based on the precision .
+925	Convert hex to rgb .
+926	Customer constructor .
+927	Convert string to date and number .
+928	Constructs a new Vec2 from the given arguments .
+929	Injects code into the app . js file .
+930	Check if a system library is installed .
+931	Get a file from the backend .
+932	CronJob constructor .
+933	Normalizes the timezone offset from ISO8601 format to minutes .
+934	Run the request queue.
+935	Run mocha tests .
+936	Create a new branch .
+937	Loads a script file .
+938	Returns a 32 byte buffer of pseudo - random bytes .
+939	Returns a function that takes a glob pattern or filepath and returns a function that returns true if the filepath matches the glob pattern or not . The function returned from the main function should be called with a filepath and will return true if that file
+940	Logs the creation of an agent .
+941	Recursively store a commonform and its children in a levelup batch .
+942	Creates a function that updates the program with the given programArgs .
+943	Backoff driver
+944	Returns the bounds of the FeatureGroup ( created from bounds of its child layers ) .
+945	Remove repeated characters from a string .
+946	Chunkify a string .
+947	Reverts a file to its previous state .
+948	Worker constructor .
+949	Processes a message received from the HMR server .
+950	Compile a system .
+951	Returns the currently selected elements , in order .
+952	Append a view to the end of the childViews array .
+953	Parse a shard string into a shard object .
+954	Refreshes the view by reloading the data from the store and re - rendering the template .
+955	MurmurHash3 mix function .
+956	Parse the given string of `input` , returning an AST .
+957	Update Sauce Labs job status .
+958	Destroys any views rendered by this view . If the view does not currently have a element , then this method will do nothing . If you implement willDestroyElement () on your view , then this method will be invoked on your view before your element
+959	Executes a popup .
+960	Returns a function that removes the specified values from the result of the function it wraps .
+961	Creates a new context object .
+962	Fade all nodes that are not connected to the target node .
+963	Initialize dropdown behavior .
+964	Finds all plugins in the given directory .
+965	Scrolls to the given position .
+966	A parameter that accepts a range of values .
+967	Respond with the given body and status code .
+968	Get the priority of a language .
+969	Display the final help message .
+970	Creates a new client .
+971	Gets the effective call arguments for a call expression .
+972	Delete a record from the server by sending an ajax request .
+973	Append a string to the list .
+974	Iterates over an object and invokes the given callback for each iteration . The callback is invoked with three arguments : the value of the current property , the name of the property , and the object itself .
+975	Set the text content of an element .
+976	Returns the length of the buffer .
+977	Returns true if the given path is a directory .
+978	Checks if the comment is a license comment .
+979	Convert the data returned from the database into the connection object .
+980	Refreshes the slider by re-evaluating all the options .
+981	Canonicalize a value .
+982	Creates a new multilabel classifier .
+983	Inserts a child before an element .
+984	Returns a new array with duplicate elements removed .
+985	Creates a new error constructor that will format the error message using the given formatter .
+986	A container can reduce its maximum width to more naturally accommodate a single column of text .
+987	Creates a batch from the syncstack .
+988	Processes a node and its children , replacing any bound nodes with their corresponding markers .
+989	Set or get an attribute on the element .
+990	Connects the stdout and stderr events to the process .
+991	Error thrown when a transaction is rejected .
+992	Logs the request to the console .
+993	Get the updater function for the esprima transform .
+994	Creates a new symbol table with all the symbols in the given table replaced with instantiations of the given mapper .
+995	Set the config object .
+996	Push some data for a given type into the store . The data will be deserialized using the serializer for the type and then pushed into the store .
+997	Prompts the user to install the latest compatible version of node .
+998	Used to register a callback to be executed whenever the browser location changes .
+999	Expect the next token to match the specified keyword . If not, an exception will be thrown .

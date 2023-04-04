@@ -1,0 +1,423 @@
+0	Bufferizes index changes to be flushed at commit time .
+1	Called by cluster iterator .
+2	Called by class iterator .
+3	Returns the linked class in lazy mode because while unmarshalling the class could be not loaded yet .
+4	Remove the index on property
+5	Creates an index on this property . Indexes speed up queries but slow down insert and update operations . For massive inserts we suggest to remove the index make the massive insert and recreate it .
+6	Returns the first index defined for the property .
+7	Returns the list of databases on the connected remote server .
+8	Connects to a remote server .
+9	Gets the cluster status .
+10	Checks if a database exists in the remote server .
+11	Freezes the database by locking it in exclusive mode .
+12	All operations running at cache destruction stage
+13	All operations running at cache initialization stage
+14	Remove all records belonging to specified cluster
+15	Delegates to the OQueryExecutor the query execution .
+16	Performs index query and returns index cursor which presents subset of index data which corresponds to result of execution of given operator .
+17	Returns only the first record if any .
+18	Update the record .
+19	Deletes the record .
+20	Acquires a connection from the pool specifying options . If the pool is empty then the caller thread will wait for it .
+21	Acquires a connection from the pool . If the pool is empty then the caller thread will wait for it .
+22	Execute the DROP CLUSTER .
+23	Remove the current event listener .
+24	Grant a permission to the resource .
+25	Revoke a permission to the resource .
+26	Sets the fetch plan to use .
+27	Drops a database from a remote server instance .
+28	Add new indexDefinition in current composite .
+29	Move bytes left or right of an offset .
+30	Fills the stream from current position writing iLength times the iFiller byte
+31	At run - time the evaluation per record must return always true since the recordset are filtered at the beginning unless an operator can work in both modes . In this case sub - class must extend it .
+32	Hashes the input string .
+33	Checks if an hash string matches a password based on the algorithm found on hash string .
+34	Read the current record and increment the counter if the record was found .
+35	Method that detaches all fields contained in the document to the given object .
+36	Returns the version number of the object . Version starts from 0 assigned on creation .
+37	Acquires a database engine from the pool . Once finished using it the instance MUST be returned in the pool by calling the method
+38	Formats the library of functions for a language .
+39	Retrieves the value crossing the map with the dotted notation
+40	Delegates the execution to the configured command executor .
+41	Converts all the items
+42	Assure that the requested key is converted .
+43	Returns the next character from the input stream . Handles Unicode decoding .
+44	Execute the CREATE CLASS .
+45	Checks if the user has the permission to access to the requested resource for the requested operation .
+46	Checks if a rule was defined for the user .
+47	Set the inherited context avoiding to copy all the values every time .
+48	Handles the record in result .
+49	Determine clusters that are used in select operation
+50	Execute the CREATE CLUSTER .
+51	This is executed on non - indexed fields .
+52	Truncates all the clusters the class uses .
+53	Releases a frozen database .
+54	Parses the timeout keyword if found .
+55	Iterates on all factories and append all command names .
+56	Iterates on all factories and append all function names .
+57	Sets the received handler as default and merges the classes all together .
+58	Create a POJO by its class name .
+59	Convert the byte array to an int starting from the given offset .
+60	Creates the index .
+61	Sends the complete HTTP response in one call .
+62	Writes a record as response . The record is serialized in JSON format .
+63	Writes records as response specifying a fetch - plan to serialize nested records . The records are serialized in JSON format .
+64	Sets the response s headers specifying when using the keep - alive or not .
+65	Sets the response s status as HTTP code and reason .
+66	Sends the complete HTTP response in one call specifying a stream as content .
+67	Convert the item with the received key to a record .
+68	Changes amount of memory which may be used by given cache . This method may consume many resources if amount of memory provided in parameter is much less than current amount of memory .
+69	Checks if all registered entities has schema generated if not it generates it
+70	Iterates on all factories and append all index types .
+71	Returns true if the replication is active otherwise false .
+72	Returns the list of servers that can manage a list of clusters . The algorithm makes its best to involve the less servers as it can .
+73	Returns the configured server list for the requested cluster .
+74	Returns the set of server names involved on the passed cluster collection .
+75	Returns the static owner server for the given cluster .
+76	Executes a backup of the database . During the backup the database will be frozen in read - only mode .
+77	Reads your writes .
+78	Registers provided classes
+79	Write a bucket pointer to specific location .
+80	Read bucket pointer from page .
+81	Closes all the databases .
+82	Removes from memory the pool associated to the closed storage . This avoids pool open against closed storages .
+83	Make type conversion of keys for specific index .
+84	Iterates on all factories and append all collate names .
+85	Ends the current atomic operation on this manager .
+86	Acquires exclusive lock with the given lock name in the given atomic operation .
+87	Recalculates real bag size .
+88	Closes the transaction and releases all the acquired locks .
+89	Returns a Transactional OrientGraph implementation from the current database in thread local .
+90	Returns an index by name and class
+91	Removes the Element from the Graph . In case the element is a Vertex all the incoming and outgoing edges are automatically removed too .
+92	Drops an index by name .
+93	Creates a new unconnected vertex with no fields in the Graph .
+94	Creates an edge between current Vertex and a target Vertex setting label as Edge s label . iClassName is the Edge s class used if different by label .
+95	Creates an edge between current Vertex and a target Vertex setting label as Edge s label .
+96	Removes the current Vertex from the Graph . all the incoming and outgoing edges are automatically removed too .
+97	Returns a lazy iterable instance against vertices .
+98	Check if a class already exists otherwise create it at the fly . If a transaction is running commit changes create the class and begin a new transaction .
+99	Removes a Property .
+100	Sets a Property value .
+101	Determines if a field is a connections or not .
+102	Creates an edge between a source Vertex and a destination Vertex setting label as Edge s label .
+103	Closes a transaction .
+104	Returns the V persistent class as OrientVertexType instance .
+105	Returns the persistent class for type iTypeName as OrientVertexType instance .
+106	Returns the current Graph settings .
+107	Returns a vertex by an ID .
+108	Returns the result set of the query as iterable edges .
+109	Returns the result set of the query as iterable vertices .
+110	Returns the connected incoming or outgoing vertex .
+111	Returns the Edge Id assuring to save it if it s transient yet .
+112	Set a Property value . If the edge is lightweight it s transparently transformed into a regular edge .
+113	Removed a Property .
+114	Closes the Graph . After closing the Graph cannot be used .
+115	Returns the persistent class for type iTypeName as OrientEdgeType instance .
+116	Drops the index against a field name .
+117	Reuses the underlying database avoiding to create and open it every time .
+118	Returns a edge by an ID .
+119	Get all the Edges in Graph of a specific edges class and all sub - classes only if iPolymorphic is true .
+120	Get all the Vertices in Graph of a specific vertex class and all sub - classes only if iPolymorphic is true .
+121	Creates an automatic indexing structure for indexing provided key for element class .
+122	Returns a graph element vertex or edge starting from an ID .
+123	Drop a vertex class .
+124	Removes all entries from bonsai tree . Put all but the root page to free list for further reuse .
+125	Deletes a whole tree . Puts all its pages to free list for further reusage .
+126	Change UUID to null to prevent its serialization to disk .
+127	Gets transactional graph with the database from pool if pool is configured . Otherwise creates a graph with new db instance . The Graph instance inherits the factory s configuration .
+128	Gets non transactional graph with the database from pool if pool is configured . Otherwise creates a graph with new db instance . The Graph instance inherits the factory s configuration .
+129	Setting up the factory to use database pool instead of creation a new instance of database connection each time .
+130	Parses the lock keyword if found .
+131	Parses the fetchplan keyword if found .
+132	Returns amount of available connections which you can acquire for given source and user name . Source id is consist of source name and source user name .
+133	Adds a base class to the current one . It adds also the base class cluster ids to the polymorphic cluster ids array .
+134	Add different cluster id to the polymorphic cluster ids array .
+135	Used to extract the class name from the vertex s field .
+136	Parses the RETRY number of times
+137	Use index to order documents by provided fields .
+138	Serialize the link .
+139	Manages cross compiler compatibility issues .
+140	OBJECT OR MAP . CHECK THE TYPE ATTRIBUTE TO KNOW IT .
+141	Analyzes a query filter for a possible indexation options . The results are sorted by amount of fields . So the most specific items go first .
+142	Add SQL filter field to the search candidate list .
+143	Pushes record to cache . Identifier of record used as access key
+144	Looks up for record in cache by it s identifier . Optionally look up in secondary cache and update primary with found record
+145	IMPORTANT! Only for internal usage .
+146	Silently replace delegate by tree implementation .
+147	Iterates on all factories and append all index engines .
+148	Register the cluster internally .
+149	Internal only . Fills in one shot the record .
+150	Internal only . Sets the version .
+151	Internal only . Return the record type .
+152	Returns a map of all console method and the object they can be called on .
+153	Updates the metric metadata .
+154	Merge short value from two byte buffer . First byte of short will be extracted from first byte buffer and second from second one .
+155	Check for a separator
+156	Split short value into two byte buffer . First byte of short will be written to first byte buffer and second to second one .
+157	Jump white spaces .
+158	Parses the next sequence of chars .
+159	Parses the next word . It returns the word parsed if any .
+160	Finds a character inside a string specyfing the limits and direction . If iFrom is minor than iTo then it moves forward otherwise backward .
+161	Recursive method used to find all classes in a given directory and subdirs .
+162	Filters discovered classes to see if they implement a given interface .
+163	Returns the generic class of multi - value objects .
+164	Parses optional keywords between the iWords . If a keyword is found but doesn t match with iWords then a SyntaxError is raised .
+165	Jump some characters reading from an offset of a String .
+166	Parses the next word . If no word is found or the parsed word is not present in the word array received as parameter then a SyntaxError exception with the custom message received as parameter is thrown . It returns the word parsed if any .
+167	Returns the execution mode if synchronous .
+168	Returns the argument by position
+169	Checks how many parameters have been received .
+170	Generate ParseException .
+171	Get the specific Token .
+172	Get the next Token .
+173	Root productions .
+174	Initialize a server socket for communicating with the client .
+175	Initializes connection parameters by the reading XML configuration . If not specified get the parameters defined as global configuration .
+176	Return the record to use for the operation .
+177	Gets the current thread database as a ODatabasePojoAbstract wrapping it where necessary .
+178	null is returned in all other cases and means authentication was unsuccessful .
+179	Creates a new vertex
+180	Flushes data to db and closes the db . Call this once after vertices and edges creation .
+181	Internal use only .
+182	Executes the command request and return the result back .
+183	Parses the NOCACHE keyword if found .
+184	Switch to the OrientDb classloader before lookups on ServiceRegistry for implementation of the given Class . Useful under OSGI and generally under applications where jars are loaded by another class loader
+185	Calculates the index within a binary chunk corresponding to the given absolute position within this BLOB
+186	Report the tip to the profiler and collect it in context to be reported by tools like Studio
+187	Scans all classes accessible from the context class loader which belong to the given class and all it s attributes - classes .
+188	Returns the temporary RID counter assuring it s unique per query tree .
+189	Method to adjust line and column numbers for the start of a token .
+190	Wait before to retry
+191	this method parses the statement
+192	this method works statefully using request and context variables from current Match statement . This method will be deprecated in next releases
+193	Execute the SYNC DATABASE .
+194	Execute the SYNC CLUSTER .
+195	Returns the set of clusters managed by a server .
+196	Register all the names for the same instance .
+197	Define custom strategy to use for edge attribute .
+198	Define custom strategy to use for vertex attribute .
+199	estimates how many items of this class will be returned applying this filter
+200	Start a depth - first traversal from the starting node adding all viable unscheduled edges and vertices .
+201	Returns the property value configured if any .
+202	parses an SQL statement and returns the corresponding executor
+203	Registers a stateful implementations a new instance will be created for each storage .
+204	Returns the complete list of servers found in configuration .
+205	Returns the server information in form of document .
+206	adds an item to the unique result set
+207	Defines a callback to call in case of error during the asynchronous replication .
+208	Checks if the link must be fixed .
+209	Stops and records results of timer which counts how much time was spent on atomic operation commit .
+210	Indicates that the most earliest component in stack of components has completed it s operation so performance data for this component is stopped to be gathered .
+211	old execution logic
+212	Returns the owner server for the given cluster excluding the passed node . The Owner server is the first in server list .
+213	checks if given a list of = conditions and a set of ORDER BY fields
+214	Wraps courser only if it is not already wrapped .
+215	Returns the write quorum .
+216	Returns the set of clusters where server is the owner .
+217	Remove both backup and primary configuration files on delete
+218	Tells if the channel is connected .
+219	Stops monitoring of performance statistic for whole system .
+220	Takes performance data are split by components from last snapshot and aggregates them with data passed inside method as parameter . Result of aggregation of performance data is returned inside of passed in performance data .
+221	Takes performance data for component from last snapshot and aggregates them with data passed inside method as parameter . Result of aggregation of performance data is returned inside of passed in performance data .
+222	Iterates over all live threads and accumulates performance statics gathered form threads for provided component also accumulates statistic from dead threads which were alive when when gathering of performance measurements is started .
+223	Creates a new Edge persistent class .
+224	Creates a new Vertex persistent class .
+225	Iterates over all live threads and accumulates performance statics gathered form threads on system level also accumulates statistic from dead threads which were alive when when gathering of performance measurements is started .
+226	Creates a distributed database instance if not defined yet .
+227	Auto register myself as hook .
+228	Returns true if the algorithm is supported by the current version of Java
+229	Deregisters JMX bean for current manager .
+230	Registers JMX bean for current manager .
+231	get the collate of this expression based on the fully evaluated field chain starting from the passed object .
+232	Derived implementations can override this method to provide new server user implementations .
+233	databaseName may be null .
+234	Stops and records results of timer which counts how much time was spent on operation of flush pages in write cache .
+235	Stops and records results of timer which counts how much time was spent on fuzzy checkpoint operation .
+236	Stops and records results of timer which counts how much time was spent on logging of single write ahead log record .
+237	Takes write ahead log data from last snapshot and aggregates them with data passed inside method as parameter . Result of aggregation of performance data is returned inside of passed in performance data and as result of this method call .
+238	Stops timer and records how much time was spent on flushing of data from write ahead log cache .
+239	Takes storage performance data from last snapshot and aggregates them with data passed inside method as parameter . Result of aggregation of performance data is returned inside of passed in performance data and as result of this method call .
+240	Stops and records results of timer which counts how much time was spent on full checkpoint operation .
+241	Takes write cache performance data from last snapshot and aggregates them with data passed inside method as parameter . Result of aggregation of performance data is returned inside of passed in performance data and as result of this method call .
+242	Iterates over all live threads and accumulates write performance statics gathered form threads also accumulates statistic from dead threads which were alive when when gathering of performance measurements is started .
+243	Checks the OrientDB cache memory configuration and emits a warning if configuration is invalid .
+244	returns the plain string representation of this identifier with quoting removed from back - ticks
+245	Removes the node map entry .
+246	Guarantees that each class has own master cluster .
+247	Initializes all the available server s databases as distributed .
+248	Avoids to dump the same configuration twice if it s unchanged since the last time .
+249	This will authenticate username using the system database .
+250	Checks to see if a
+251	Gets the document representing the cluster configuration .
+252	Adds the specified cluster to the class if it doesn t already exist .
+253	Create a compact string with all the relevant information .
+254	Returns a copy of current database if it s open . The returned instance can be used by another thread without affecting current instance . The database copy is not set in thread local .
+255	Acquires item associated with passed in key in container . It is guarantied that item will not be closed if limit of open items will be exceeded and container will close rarely used items .
+256	Finds closest power of two for given integer value . Idea is simple duplicate the most significant bit to the lowest bits for the smallest number of iterations possible and then increment result value by 1 .
+257	Removes item associated with passed in key .
+258	Method is used to log operations which change content of the container . Such changes should be flushed immediately to update content of LRU list .
+259	Adds entry to the read buffer with selected index and returns amount of writes to this buffer since creation of this container .
+260	Method is used to log operations which do not change LRU list content but affect order of items inside of LRU list . Such changes may be delayed till buffer will be full .
+261	Read content of all read buffers and reorder elements inside of LRU list to update internal statistic . Method has to be wrapped by LRU lock .
+262	Closes item related to passed in key . Item will be closed if it exists and is not acquired .
+263	Clears all content .
+264	Adds item to the container . Item should be in open state .
+265	Returns item without acquiring it . State of item is not guarantied in such case .
+266	Returns true if the local server has all the requested clusters .
+267	Returns all the configured data centers names if any .
+268	Returns the data center write quorum .
+269	Returns the list of servers in a data center .
+270	Returns the data center where the server belongs .
+271	Returns the global read quorum .
+272	Gets the document representing the dc configuration .
+273	Removes listener which is triggered if exception is cast inside background flush data thread .
+274	Fires event about exception is thrown in data flush thread
+275	translates subqueries to LET statements
+276	Returns true if the local server has the requested cluster .
+277	INTERNAL USE ONLY this has to be invoked ONLY if the item is aggregate!!!
+278	Sets a property value
+279	Gets the property value .
+280	Returns true if the database is sharded across servers . False if it s completely replicated .
+281	aggregates multiple index conditions that refer to the same key search
+282	creates additional projections for ORDER BY
+283	re - writes a list of flat AND conditions moving left all the equality operations
+284	checks if a class is the top of a diamond hierarchy
+285	returns TRUE if all the order clauses are ASC FALSE if all are DESC null otherwise
+286	tries to use an index for sorting only . Also adds the fetch step to the execution plan
+287	tests if current expression is an indexed function AND that function can be used on this target
+288	tests if current expression is an indexed funciton AND that function can also be executed without using the index
+289	tests if current expression involves an indexed function AND that function can be used on this target
+290	tests if current function is an indexed function AND that function can also be executed without using the index
+291	Return the partition keys of all the sub - tasks .
+292	Computes the timeout according to the transaction size .
+293	Returns the next position available .
+294	Checks whether there are not released buffers in the pool
+295	Clears pool and dealocates memory .
+296	Shutdowns this log manager .
+297	Catch the JVM exit and assure to shutdown the Orient Server .
+298	calculates the indexed class based on the class name
+299	Creates a Jackson ObjectNode from a graph element .
+300	Creates a Jettison JSONObject from a graph element .
+301	Reads an individual Vertex from JSON . The vertex must match the accepted GraphSON format .
+302	Reads an individual Edge from JSON . The edge must match the accepted GraphSON format .
+303	Derives the type of a field in a document .
+304	executes all the script and returns last statement execution step so that it can be executed from outside
+305	Creates a new instance of the requested strategy . Since strategies are stateless if an existing instance already exists then it s returned .
+306	splits this pattern into multiple
+307	new execution logic
+308	Obtains the value stored under the given index in this bucket .
+309	Puts the given value under the given key into this storage for the index with the given index id . Validates the operation using the provided validator .
+310	Registers a stateless implementations the same instance will be shared on all the storages .
+311	Returns the registered servers .
+312	Returns the new node strategy between dynamic and static . If static the node is registered under the server tag .
+313	Creates an OSymmetricKey from an OSymmetricKeyConfig interface .
+314	Creates an OSymmetricKey from a file containing a Base64 key .
+315	Creates an OSymmetricKey from an InputStream containing a Base64 key .
+316	This method encrypts an array of bytes .
+317	Saves the internal SecretKey to the specified OutputStream as a Base64 String .
+318	Saves the internal SecretKey as a KeyStore .
+319	Returns the secret key algorithm portion of the cipher transformation .
+320	Returns a wrapped OCommandRequest instance to catch the result - set by converting it before to return to the user application .
+321	Sets as dirty a POJO . This is useful when you change the object and need to tell to the engine to treat as dirty .
+322	Sets as not dirty a POJO . This is useful when you change some other object and need to tell to the engine to treat this one as not dirty .
+323	Writes page with given page index to the cache and eventually writes it to the file .
+324	Initializes cache and opens underlying file .
+325	Read page content with given index from cache or file .
+326	Open a database specified by name using the username and password if needed
+327	Executes the command and return the ODocument object created .
+328	Result set with a single result ;
+329	This method is used to find an item in an array .
+330	Elects a new server as coordinator . The election browse the ordered server list .
+331	ASSIGN THE LOCK MANAGER AT STARTUP
+332	Returns an ordered list of master server . The first in the list is the first found in configuration . This is used to determine the cluster leader .
+333	This method is used to find a number in an array .
+334	given a flat AND block and a set of indexes returns the best index to be used to process it with the complete description on how to use it
+335	Calculate the set of dependency aliases for each alias in the pattern .
+336	Put buffer which is not used any more back to the pool or frees direct memory if pool is full .
+337	returns the data center map for current deploy . The keys are data center names the values are node names per data center
+338	Return true if the push request require an unregister
+339	given a cluster map and a set of clusters involved in a query tries to calculate the minimum number of nodes that will have to be involved in the query execution with clusters involved for each node .
+340	Removes a response manager because in timeout .
+341	checks if this RID is from one of these clusters
+342	Rollbacks the given micro - transaction .
+343	Updates the record cache after unsuccessful micro - transaction commit .
+344	Commits the micro - transaction if it s a top - level micro - transaction .
+345	Rollbacks the micro - transaction if it s a top - level micro - transaction .
+346	Updates the record identity after its successful commit .
+347	Prepares the path for a file creation or replacement . If the file pointed by the path already exists it will be deleted a warning will be emitted to the log in this case . All absent directories along the path will be created .
+348	Tries to move a file from the source to the target atomically . If atomic move is not possible falls back to regular move .
+349	Merge the two set try to use the optimum case
+350	Flushes all buffered pages and truncates file till passed in page index
+351	Status of the Running Jobs
+352	Executes import with configuration ;
+353	Single Job Status
+354	Returns the biggest response group .
+355	Returns the received response objects .
+356	Returns the list of node names that didn t provide a response .
+357	Computes the quorum response if possible by returning true and setting the field quorumResponse with the ODistributedResponse .
+358	Returns all the responses in conflict .
+359	Builds the exception stack trace and prints it according to a level passed as argument .
+360	It returns a ODocument starting from a json file .
+361	That is internal method which is called once we encounter any error inside of JVM . In such case we need to restart JVM to avoid any data corruption . Till JVM is not restarted storage will be put in read - only state .
+362	Tries to acquire lock during provided interval of time and returns either if provided time interval was passed or if lock was acquired .
+363	Protecte system database from being replicated
+364	Change the type . It checks for compatibility between the change of type .
+365	returns an already prepared SQL execution plan taking it from the cache if it exists or creating a new one if it doesn t
+366	This check if a file was trimmed or trunked in the current atomic operation .
+367	returns begin position and length for each value in embedded collection
+368	checks whether the condition has CONTAINSANY or similar expressions that require multiple index evaluations
+369	use only for named fields
+370	Detects limit of limit of open files .
+371	Method that attaches all data contained in the object to the associated document
+372	executes the whole script and returns last statement ONLY if it s a RETURN otherwise it returns null ;
+373	Collect up the characters as element s characters may be split across multiple calls . Isn t SAX lovely ...
+374	choosing return type is based on existence of
+375	for internal use only
+376	Creates a new ReadersEntry instance for the current thread and its associated AtomicInteger to store the state of the Reader
+377	first set new current value then call next
+378	Only idempotent commands that don t involve any other node can be executed locally .
+379	Adds the record to repair int the map of records and cluster . The decision about repairing is taken by the timer task .
+380	Cancel the repair against a record because the update succeed .
+381	Enqueues the request to repair a cluster . The decision about repairing is taken by the timer task .
+382	Opens the database .
+383	Returns the nodes with the requested status .
+384	Executes the request on local node . In case of error returns the Exception itself
+385	inits the procedure that listens to pings from other servers eg . that discovers other nodes in the network
+386	inits the procedure that checks if a server is no longer available ie . if he did not ping for a long time
+387	Creates the file .
+388	Replaces the file content with the content of the provided file .
+389	ALWAYS ADD THE HEADER SIZE BECAUSE ON THIS TYPE IS ALWAYS NEEDED
+390	Callback the registered hooks if any .
+391	Deletes the record without checking the version .
+392	Returns the number of the records of the class iClassName considering also sub classes if polymorphic is true .
+393	Activates current database instance on current thread .
+394	Binds POJO to ODocument .
+395	Deletes the record checking the version .
+396	Returns the number of the records of the class iClassName .
+397	Indexes a value and save the index . Splits the value in single words and index each one . Save of the index is responsibility of the caller .
+398	Repairs the security structure if broken by creating the ADMIN role and user with default password .
+399	Token MUST be validated before being passed to this method .
+400	Splits passed in key on several words and remove records with keys equals to any item of split result and values equals to passed in value .
+401	This method load the record information by the internal cluster segment . It s for compatibility with older database than 0 . 9 . 25 .
+402	Compress content string
+403	Adds shutdown handlers in order which will be used during execution of shutdown .
+404	Execute the command remotely and get the results back .
+405	Returns the engine by its name .
+406	Ends the request and unlock the write lock
+407	Registers the remote server with port .
+408	Acquire a network channel from the pool . Don t lock the write stream since the connection usage is exclusive .
+409	Pseudo - randomly advances and records the given probe value for the given thread .
+410	Returns the table index for the counter at the specified depth .
+411	Reduces every counter by half of its original value .
+412	Applies a supplemental hash function to a given hashCode which defends against poor quality hash functions .
+413	Retrieves the connection by id .
+414	Interrupt the associated network manager .
+415	Disconnects a client connections
+416	Pushes the distributed configuration to all the connected clients .
+417	Disconnects and kill the associated network manager .
+418	Execute the INSERT and return the ODocument object created .
+419	Execute the CREATE INDEX .
+420	just read collection so import process can continue
+421	Obtain OBinarySerializer realization for the OType
+422	given a full text index and a flat AND block returns a descriptor on how to process it with an index ( index index key and additional filters to apply after index fetch

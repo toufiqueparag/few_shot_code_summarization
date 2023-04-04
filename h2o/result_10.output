@@ -1,0 +1,254 @@
+0	Return the percentile of a sorted list .
+1	Print a table to stdout .
+2	Import all modules in the given path .
+3	Handle signals by tearing down the cloud .
+4	Wipe the output directory .
+5	Scrape the cloud size from the stdout of the h2o process .
+6	Stop the JVM .
+7	Stop all the nodes in the cluster .
+8	Return the ip address of the first node in the cluster .
+9	Return the port of the first node in the cluster .
+10	Scrape the port from the stdout of the h2o process .
+11	Convert an H2OFrame to a list .
+12	Get a model object from its id .
+13	Download a CSV file from H2OFrame .
+14	Scree plot for PCA model .
+15	Wait for a keypress and return it .
+16	Mean absolute error regression loss
+17	Compute Explained Variance Regression Score
+18	Median absolute error regression loss
+19	Mean squared error regression loss
+20	Download all the logs from the H2O cluster .
+21	Upload a dataset at the path given from the local machine to the H2O cluster . The path can be a local file or a URL . The method returns a new H2OFrame object .
+22	Import a SQL table into H2O .
+23	Get a frame from the H2O cluster given its id .
+24	Project the archetypes for a given model and test data .
+25	Update the summary file with the content of the failed and passed tests files .
+26	Extract the true string from the string content .
+27	find the node name
+28	find the git hash and branch from the log file
+29	Find build timeout in the console text .
+30	This function is used to find the build failure in the log file .
+31	find the build id from the jenkins console output
+32	extract job name from the url
+33	grab all bad java messages from java_*_0.out.txt
+34	save the dictionary into a pickle file and a text file
+35	write the content of the file to the given file handle
+36	load the dictionary of java messages to be excluded from the file
+37	Add new ignored java messages to the dictionary.
+38	write the java message to the text file
+39	Load the list of java messages to ignore from a pickle file .
+40	print out the usage of the script
+41	parse command line arguments
+42	print the dictionary of ignored messages
+43	save the dict to a file
+44	Extracts the messages from the file and returns a dictionary of the messages .
+45	Update the global dictionary of java messages
+46	remove the sandbox directory
+47	Download POJO for a given model .
+48	Import file or files into H2O.
+49	Get a grid object from a grid id
+50	Discover all modules in the package .
+51	Write the API docs to the given directory .
+52	Write the module index file .
+53	Convert a dotted name to a file path .
+54	Convert a path to a uri .
+55	Parse the lines of a source file and return a tuple of lists of functions and classes .
+56	Generate the API documentation for a given module .
+57	Return a dictionary of endpoints grouped by class name .
+58	Translate a name from camel case to underscore separated .
+59	Get the regularization path for a GLM model .
+60	Create a new GLM model from an existing model and a set of coefficients .
+61	Import a table from a SQL database .
+62	Parse a raw byte-oriented Frame .
+63	Export a given H2OFrame to a path on the machine this python session is currently connected to .
+64	Prepare data payload for REST API call .
+65	Close the H2O connection .
+66	Process the response from the server .
+67	Return a human readable string representing the given size in bytes .
+68	Log the start of a transaction .
+69	Connect to an H2O cluster .
+70	Check the version of H2O and the version of the h2o-python package .
+71	Return the session id for this h2o instance .
+72	Prepare a file payload for a multipart/form-data request .
+73	Log the end of a transaction .
+74	Start logging all API requests to a file .
+75	Log a message to the logging destination .
+76	Poll the status of a job .
+77	Write a dictionary to a CSV file .
+78	Run a demo of H2O's Deep Learning model .
+79	Run the demo .
+80	Run a demo .
+81	Run the demo .
+82	Load a dataset from the h2o_data directory .
+83	Decorator to mark a function as deprecated .
+84	Print a table of the grid search results .
+85	Get a grid object from the server .
+86	Return a dictionary of hyperparameters for a given model id .
+87	Return the hyperparameters of the model .
+88	Print a summary of the grid search .
+89	Return a dictionary of deepfeatures for each model in the cluster .
+90	Return the F1 for each model in the list .
+91	Wait for the job to complete .
+92	Fit the model to the given data .
+93	Transform the data using the means and standard deviations of the training data .
+94	Return a confusion matrix for the given model . If no metrics or thresholds are given , then the confusion matrix for the best F1 is returned . If metrics are given , then the confusion matrix for the best metric is returned . If thresholds are given ,
+95	Plot the ROC curve for a given model .
+96	Return the table as a list of lists .
+97	Pretty print the cached data .
+98	Retrieve the hit ratio table for this model .
+99	Return a pandas DataFrame if pandas is installed , otherwise return self .
+100	Return the cross - validation models for a model .
+101	Check that the length of the actual and predicted targets are the same .
+102	Download the POJO for the given model .
+103	Return the coefficients for a model .
+104	Return the residual degrees of freedom for this model .
+105	Return the variable importances for a model .
+106	Print model details.
+107	Return the scoring history for this model . This shows the validation and cross - validation errors for the model at each of the points in time when the model was scored on training or validation data .
+108	Return the deep features for a given hidden layer .
+109	Fit the pipeline to the given frame .
+110	Generate a POJO from a model .
+111	Return the ROC data for this model . This is a tuple of False Positive Rates and True Positive Rates .
+112	Inverse transform the data back to the original space .
+113	Return the centers_std for a KMeansModel .
+114	Return the centers for a KMeansModel .
+115	Return the size of the model .
+116	Set the levels of a categorical column .
+117	Print a summary of the frame .
+118	Impute a column with the mean or median of the column .
+119	Merge two H2OFrame objects on a set of columns.
+120	Return the number of levels for each categorical column in the H2OFrame .
+121	Return the levels for each categorical column in the H2OFrame .
+122	Relevel a factor column .
+123	Convert all the strings in the column to upper case .
+124	Replace the first match of pattern with replacement .
+125	Convert a frame to an isax representation .
+126	Compute a histogram of a numeric column .
+127	Insert missing values into a H2OFrame .
+128	Create a table of the counts of values in a single column .
+129	Count the number of valid substrings in a string .
+130	Compute the entropy of the column .
+131	Remove leading characters from a string .
+132	Return a new H2OFrame with the first n rows and m columns .
+133	Compute the variance of a numeric column or the covariance between two numeric columns .
+134	Compute the pairwise correlations between all columns of this H2OFrame and another H2OFrame .
+135	Matrix multiplication of two H2OFrame objects .
+136	Convert a H2OFrame to a categorical/factor .
+137	Return a new H2OFrame that is a substring of the current H2OFrame .
+138	Count the number of times a pattern occurs in a string .
+139	Omit rows with NAs .
+140	Split the strings in the target column on the given pattern . This call is restricted to splitting on a single character .
+141	Return the frame data as a list of lists .
+142	Create a new H2OFrame with n_folds stratified k-fold column .
+143	Print a summary of this H2OFrame .
+144	Print a summary of the H2OFrame .
+145	Cut a numeric column into categorical bins .
+146	Generate a random number between 0 and 1 for each row in the H2OFrame .
+147	Remove a column from the frame .
+148	Compute quantiles over a H2OFrame .
+149	Concatenate a list of frames along the given axis .
+150	Set the level of a factor column .
+151	Row bind a collection of H2OFrame objects together .
+152	Split a frame into distinct subsets .
+153	Group by a column or columns .
+154	Apply a function to each column or row of the H2OFrame .
+155	Check if the values in this H2OFrame are contained in the given list .
+156	Set the name of a column in the H2OFrame .
+157	Set the names of the columns in this H2OFrame .
+158	Returns a new H2OFrame with a single column of 0s and 1s indicating whether the value in the corresponding cell is NA or not.
+159	Randomly split the H2OFrame into two non - overlapping H2OFrame objects with the same distribution of labels .
+160	Create a column that is the modulo of the row number and the number of folds .
+161	Find the h2o jar file .
+162	Start a local H2O server .
+163	Return a list of possible locations of h2o.jar .
+164	Assert that the variable is of the given type .
+165	Retrieve the arguments of the assert_* function that called this function .
+166	Check if ``var`` is of type ``vtype`` .
+167	Compute model metrics for a given pair of predicted and actual values .
+168	Print a message to stdout if verbose is enabled .
+169	Return the fully qualified name of a function .
+170	Wrap text to a given line length .
+171	Return a string representation of the arguments of a function .
+172	Find the function that contains the given code object.
+173	Assert that the given value matches the given regular expression .
+174	Assert that the given value satisfies the given condition .
+175	Create a deep copy of the H2OFrame .
+176	Set the encoding to use for the progress bar .
+177	Get the terminal width .
+178	Compute the size of each widget.
+179	Draw the progress bar .
+180	Return the time at which the progress will reach the given target .
+181	Guess the next poll interval based on the current progress .
+182	Estimate the completion time of the progress bar .
+183	Recalculate model parameters based on the current progress .
+184	Compute the progress at time t .
+185	Store the model progress data .
+186	Execute the progress bar .
+187	Prints a summary of the H2O cluster .
+188	Create an H2OCluster object from a dictionary of key / value pairs .
+189	Fill this H2OCluster instance with the properties of another H2OCluster instance .
+190	List all available timezones .
+191	Shutdown the H2O server .
+192	Returns True if the server is running , False otherwise .
+193	Send a REST API request to the H2O cluster .
+194	Check if the given variable is of the given type .
+195	Return a string representation of the type of the given value .
+196	Combine the current H2OFrame with one or more other H2OFrame objects by column .
+197	Get a frame from the cluster .
+198	Get the source code of a lambda function .
+199	Return a dictionary of the default parameters for this model builder .
+200	Return the actual parameters of the model .
+201	Check that normalization is idempotent .
+202	Return the unparsed string representation of this object .
+203	Move the slice by the given amount .
+204	Find the magic spell in the given file .
+205	Parse a file and return a Code object .
+206	Parse a string of Python code into an AST .
+207	locate all the python files in the given directory
+208	Get parameters for this estimator . Parameters ---------- deep : boolean , optional If True , will return the parameters for this estimator and contained subobjects that are estimators . Returns ------- params : mapping of string to any Parameter names mapped to their
+209	Train a model on the h2o cluster .
+210	Wait for the model to complete building .
+211	Fit the model to the given data .
+212	Check if Deep Water is available on the H2O cluster .
+213	Compute the first difference of the column .
+214	Download MOJO for this model .
+215	Normalize an enum constant .
+216	Check if a value is a valid enum value .
+217	Return a list of column names of the given type .
+218	Refresh the cached information about the h2o cluster .
+219	Read the config file and store the values in the config dictionary .
+220	Return the configuration dictionary .
+221	Generator that yields all candidate log files .
+222	Dedent a string by the given number of spaces .
+223	main function
+224	Extract the run time information from the java log file .
+225	Normalize a slice object to be within the range of the total number of rows .
+226	Return True if the slice is normalized .
+227	Check if the given frame id is valid .
+228	Return the type of the column .
+229	Find synonyms for a given word .
+230	Return the minute of the hour for each element in the column .
+231	Save the model details to a file .
+232	Compute the distance between two H2OFrame objects .
+233	Returns the index of the maximum value in the column .
+234	trim the data back to the given month
+235	extract intermittents from collected failed tests
+236	summarizeFailedRuns : This function will go through the failed tests and add them to the intermittents dictionary .
+237	Search for a pattern in a single string column .
+238	Return the variable importances for a model .
+239	Fill NA values in a H2OFrame .
+240	Uploads custom metric function into H2O cluster . The function is uploaded as a zip file containing the source code of the function . The function is then referenced by the key of the zip file .
+241	Upload a file to H2O .
+242	Determine the vector size of the pre_trained model .
+243	Return the metalearner parameters as a dictionary .
+244	Rename one or more columns .
+245	Predict using a MOJO model and return the result as a pandas dataframe .
+246	Predict using a MOJO model .
+247	Download the MOJO for the given model .
+248	Download the POJO for the specified model .
+249	Get the AutoML object from the project name
+250	Fit the target encoder on the given frame .
+251	Transform a H2OFrame using the MOJO pipeline .
+252	Import a Hive table into H2O .
+253	List all jobs on the server .

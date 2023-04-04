@@ -1,0 +1,65 @@
+func substring ( sub string ) componentFn { return & cfn { fn : func ( s string ) ( rest string , ok bool ) { if ! strings . HasPrefix ( s , sub ) { return s , false 
+ } 
+ return s [ len ( sub ) : ] , true 
+ } , str : sub , } 
+ }	<s> substring returns a componentFn that matches a prefix of sub . </s>
+func ( p PhysicalIndexLookUpReader ) Init ( ctx sessionctx . Context ) * PhysicalIndexLookUpReader { p . basePhysicalPlan = newBasePhysicalPlan ( ctx , TypeIndexLookUp , & p ) 
+ p . TablePlans = flattenPushDownPlan ( p . tablePlan ) 
+ p . IndexPlans = flattenPushDownPlan ( p . indexPlan ) 
+ p . schema = p . tablePlan . Schema ( ) 
+ return & p 
+ }	<s> Init initializes PhysicalIndexLookUpReader . </s>
+func WithAttempts ( attempts int ) Handler { opts := DefaultOpts 
+ opts . Attempts = attempts 
+ return & impl { opts : opts } 
+ }	<s> WithAttempts new retry Handler with given attempts . Other opts are set to default . </s>
+func ( i * Image ) WithNewBase ( base string ) resource . Resource { return & Image { imaging : i . imaging , format : i . format , genericResource : i . genericResource . WithNewBase ( base ) . ( * genericResource ) } 
+ }	<s> WithNewBase implements the Cloner interface . </s>
+func ( nd * Node ) connectionLimitReached ( ) ( res bool ) { if nd . cluster . clientPolicy . LimitConnectionsToQueueSize { cc := nd . connectionCount . IncrementAndGet ( ) 
+ if cc > nd . cluster . clientPolicy . ConnectionQueueSize { res = true 
+ } 
+
+ nd . connectionCount . DecrementAndGet ( ) 
+ } 
+
+ return res 
+ }	<s> connectionLimitReached return true if connection pool is fully serviced . </s>
+func NewReader ( r io . Reader ) * Reader { return & Reader { br : bufio . NewReader ( r ) , } 
+ }	<s> NewReader returns a quoted - printable reader decoding from r . </s>
+func ( b * Bitset ) Equals ( other * Bitset ) bool { if b . numBits != other . numBits { return false 
+ } 
+
+ if ! bytes . Equal ( b . bits [ 0 : b . numBits / 8 ] , other . bits [ 0 : b . numBits / 8 ] ) { return false 
+ } 
+
+ for i := 8 * ( b . numBits / 8 ) ; i < b . numBits ; i ++ { a := ( b . bits [ i / 8 ] & ( 0x80 >> byte ( i % 8 ) ) ) 
+ b := ( other . bits [ i / 8 ] & ( 0x80 >> byte ( i % 8 ) ) ) 
+
+ if a != b { return false 
+ } 
+ } 
+
+ return true 
+ }	<s> Equals returns true if the Bitset equals other . </s>
+func NewBotAPIWithClient ( token string , client * http . Client ) ( * BotAPI , error ) { bot := & BotAPI { Token : token , Client : client , Buffer : 100 , shutdownChannel : make ( chan interface { } ) , } 
+
+ self , err := bot . GetMe ( ) 
+ if err != nil { return nil , err 
+ } 
+
+ bot . Self = self 
+
+ return bot , nil 
+ }	<s> NewBotAPIWithClient creates a new BotAPI instance and allows you to pass a http . Client . It requires a token provided by </s>
+func ( s * GetInventorySchemaInput ) SetSubType ( v bool ) * GetInventorySchemaInput { s . SubType = & v 
+ return s 
+ }	<s> SetSubType sets the SubType field s value . </s>
+func ( xc * CommonExchange ) startWebsocket ( ) { ws , processor := xc . websocket ( ) 
+ go func ( ) { for { message , err := ws . Read ( ) 
+ if err != nil { xc . setWsFail ( err ) 
+ return 
+ } 
+ processor ( message ) 
+ } 
+ } ( ) 
+ }	<s> The listen loop for a websocket connection . </s>

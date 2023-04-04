@@ -1,0 +1,260 @@
+0	Draw the tile and get the bytes from the x y and zoom level
+1	Draw a tile bitmap from the x y and zoom level
+2	Set the polygon paint
+3	Set the line paint
+4	Call after making changes to the point icon point radius or paint stroke widths . Determines the pixel overlap between tiles
+5	Adjust the tile matrix set and WGS84 bounds for GeoPackage format . Determine the tile grid width and height
+6	Set the Bitmap Compress Config
+7	Get the tile count of tiles to be generated
+8	Adjust the tile matrix set and bounds
+9	Adjust the tile matrix set and web mercator bounds for Google tile format
+10	Adjust the tile matrix set and web mercator bounds for GeoPackage format . Determine the tile grid width and height
+11	Update all rows matching the where clause with the provided values
+12	Create a geometry metadata from the current cursor location
+13	Delete a Tile
+14	Create the geometry metadata or update if it already exists
+15	Query for a Tile
+16	Query for Tiles at a zoom level in descending row and column order
+17	Delete geometry metadata by database
+18	Count of Tiles at a zoom level
+19	Determine if the tiles are in the Google tile coordinate format
+20	Populate a new geometry metadata from an envelope
+21	Create a new geometry metadata
+22	Update the geometry metadata
+23	Update the least indexed time
+24	Create a GeoPackage metadata from the current cursor location
+25	Get the feature row for the Geometry Metadata
+26	Determine if the GeoPackage is external
+27	Get GeoPackage metadata or create it if it does not exist
+28	Get GeoPackage metadata by id
+29	Get GeoPackage metadata by name
+30	Get all GeoPackage metadata
+31	Rename the GeoPackage name to the new name
+32	Rename the GeoPackage metadata to the new name
+33	Delete the database
+34	Create a new GeoPackage metadata
+35	Draw a tile bitmap from the x y and zoom level by querying features in the tile location
+36	Determine if the database table is indexed after database modifications
+37	Index the feature row
+38	Create a table metadata from the current cursor location
+39	Get a GeoPackage id from the name
+40	Create a new table metadata
+41	Delete the database table name
+42	Get a table metadata or create if it does not exist
+43	Get the cached GeoPackage or open and cache the GeoPackage
+44	Query for Geometry Metadata count within the bounding box projected correctly
+45	Delete the feature table index
+46	Query for all Geometry Metadata
+47	Query for Geometry Metadata within the bounding box projected correctly
+48	Get the feature row for the Geometry Index
+49	Set the GeoPackage Progress
+50	Delete the feature index for the geometry id
+51	Determine if the feature table is indexed
+52	Query for all feature index results
+53	Query for all feature index count
+54	Query for feature index results within the bounding box in the provided projection
+55	Get the indexed type or throw an error if not indexed
+56	Get the feature row for the current place in the cursor
+57	Get the Geometry Metadata for the current place in the cursor
+58	Get the bounding box in the feature projection from the bounding box in the provided projection
+59	Query for Geometry Metadata count within the bounding box in the provided projection
+60	Query for Geometry Metadata within the bounding box in the provided projection
+61	Query for Geometry Metadata count within the Geometry Envelope
+62	Query for Geometry Metadata within the Geometry Envelope
+63	Query for all table geometry metadata count matching the bounding box in the same projection
+64	Delete the index for the geometry id
+65	Draw a tile with the provided text label in the middle
+66	Query for feature result count in the x y and zoom
+67	Query for feature results in the bounding box
+68	Query for feature result count in the bounding box
+69	Get the tile grid of the zoom level
+70	Query for the bounding
+71	Get the bounding box of tiles
+72	Validate the database header and integrity . Throw an error when not valid .
+73	Validate the header of the database file to verify it is a sqlite database
+74	Determine if the header of the database file is valid
+75	Validate the database and close when validation fails . Throw an error when not valid .
+76	Validate the GeoPackage database
+77	Validate the database and close it . Throw an error when not valid .
+78	Get external GeoPackage metadata by external path
+79	Get the GeoPackage metadata of the database at the external path
+80	Get a rectangle using the tile width height bounding box and the bounding box section within the outer box to build the rectangle from
+81	Perform a raw database query
+82	Check the cursor returned from the integrity check to see if things are ok
+83	Replace the url parts with the bounding box
+84	Replace the bounding box coordinates in the url
+85	Replace x y and z in the url
+86	Determine if the url has bounding box variables
+87	Determine if the url has x y or z variables
+88	Query for the tile tables linked to a feature table and return tile DAOs to those tables
+89	Query for the feature tables linked to a tile table and return feature DAOs to those tables
+90	Retrieve the tile row
+91	Get metadata where the name is like or not like
+92	Delete all databases that do not exist or the database file does not exist
+93	Get metadata where the name is like
+94	Get metadata where the name is not like
+95	Get the tile row results of tiles needed to draw the requested bounding box tile
+96	Get the tile from the request bounding box in the request projection
+97	Draw the tile from the tile results
+98	Reproject the tile to the requested projection
+99	Get a rectangle with rounded floating point boundaries using the tile width height bounding box and the bounding box section within the outer box to build the rectangle from
+100	Wrap the content values names in quotes
+101	Get the coverage data tile results by zooming out from the provided tile matrix
+102	Get the pixel value as a float from the image and the coordinate
+103	Get the closest zoom level for the provided width and height in the default units
+104	Create a new image
+105	Set the pixel value into the image
+106	Get the coverage data value of the pixel in the tile row image
+107	Get the tile matrix for the zoom level as defined by the area of the request
+108	Get the coverage data tile results by zooming in from the provided tile matrix
+109	Get the coverage data tile results by zooming in or out as needed from the provided tile matrix to find values
+110	Get the coverage data tile results by finding the tile matrix with values
+111	Get the pixel values of the image as floats
+112	Get the pixel value as a 16 bit unsigned integer value
+113	Get the pixel values of the image as 16 bit unsigned integer values
+114	Create a new 16 bit single channel image
+115	Validate that the image type is single channel 16 bit
+116	Get the image bytes
+117	Flush the output stream and set the image bytes close the stream
+118	Get the pixel at the coordinate
+119	Read all the pixels from the image
+120	Validate that the image type
+121	Add the linestring to the path
+122	Draw the feature on the canvas
+123	Draw the line path on the canvas
+124	Draw the path on the canvas
+125	Add the polygon on the canvas
+126	Set the tile data from a bitmap
+127	Read the blob column value in chunks
+128	Convert the cursor to the result type cursor
+129	Query using the query from a previous query result
+130	Query using the user query arguments
+131	Move to the next position of invalid rows to requery . Perform the requery the first time .
+132	Get the geometry
+133	When the simplify tolerance is set simplify the points to a similar curve with fewer points .
+134	Delete the feature index for the geometry id from the index types
+135	Get the indexed types that are currently indexed
+136	Delete the feature index for the feature row from the index types
+137	Index the feature row for the index types . This method assumes that indexing has been completed and maintained as the last indexed time is updated .
+138	Index the feature tables for the index types
+139	Delete the feature index from the index types
+140	Get a Tiled Gridded Coverage Data use the coverage data pixel tile size as the request size width and height request as the specified projection
+141	Get a Tiled Gridded Coverage Data use the coverage data pixel tile size as the request size width and height
+142	Get a Tiled Gridded Coverage Data
+143	Get the approximate zoom level for the provided length in the default units . Tiles may or may not exist for the returned zoom level . The approximate zoom level is determined using a factor of 2 from the zoom levels with tiles .
+144	Get the base id mappings for the related id
+145	Get the count of the cursor and close it
+146	Delete user mappings by base id
+147	Query by both base id and related id
+148	Build the where ids clause
+149	Delete user mappings by both base id and related id
+150	Delete user mappings by related id
+151	Read the database table and create a DAO
+152	Get the related id mappings for the base id
+153	Get a related simple attributes table DAO
+154	Get a User Mapping DAO from a table name
+155	Get the simple attributes rows that exist with the provided ids
+156	Read the table
+157	Register the cursor wrapper into the GeoPackage
+158	Compress the bitmap to a byte array
+159	Decode the bytes to a bitmap with options
+160	Query for rows within the geometry envelope
+161	Manually count the rows within the bounds
+162	Create the RTree extension for the feature table
+163	Get the feature row from the RTree Index Table row
+164	Query for rows within the bounding box in the provided projection
+165	Query for rows within the bounds
+166	Build a where clause from the bounds for overlapping ranges
+167	Count the rows within the geometry envelope
+168	Get a RTree Index Table DAO for the feature dao
+169	Manually count the rows within the bounding box in the provided projection
+170	Manually query for rows within the geometry envelope
+171	Manually query for rows within the bounds
+172	Manually query for rows within the bounding box in the provided projection
+173	Query for the feature index bounds
+174	Perform the query and wrap as a result
+175	Perform a raw query
+176	Open or get a connection using the SQLite Android Bindings connection
+177	Set the height
+178	Set the icon for the geometry type
+179	Create a color from the hex color and opacity
+180	Get the geometry type
+181	Set the width
+182	Validate and adjust the color value
+183	Get the icon for the geometry type
+184	Set the geometry type
+185	Query for the style row from a style mapping row
+186	Get the cached table styles querying and caching if needed
+187	Set the styles for the feature row
+188	Set the feature styles for the feature table and feature id
+189	Set the feature styles for the feature row
+190	Set the feature table default icons
+191	Set the feature table default styles
+192	Set the feature table default feature styles
+193	Get the icons for feature id from the icon mapping dao
+194	Get the cached table icons querying and caching if needed
+195	Get the icons for the feature row
+196	Get the styles for the feature row
+197	Get the feature styles for the feature table and feature id
+198	Get the feature styles for the feature row
+199	Get the icon of the feature table and geometry type
+200	Get the feature table default icons
+201	Get the style of the feature table and geometry type
+202	Get the feature table default styles
+203	Get the feature table default feature styles
+204	Get a icon DAO
+205	Get a style DAO
+206	Get a Style Mapping DAO from a table name
+207	Query for style mappings by base id
+208	Delete by base is and geometry type
+209	Determine if the base id and related id mapping exists
+210	Set the styles for the feature table and feature id
+211	Set the style of the feature row
+212	Get the styles for feature id from the style mapping dao
+213	Set the default style of the feature
+214	Delete the style mapping with the geometry type value
+215	Delete the table style mapping with the geometry type value
+216	Delete the table style mappings
+217	Delete the feature table icon for the geometry type
+218	Delete the feature table style for the geometry type
+219	Set the default style of the feature row
+220	Get the icon id either from the existing icon or by inserting a new one
+221	Insert a style mapping row
+222	Set the default icon of the feature
+223	Set the default icon of the feature row
+224	Set the icon of the feature row
+225	Set the icons for the feature table and feature id
+226	Set the icons for the feature row
+227	Get the style id either from the existing style or by inserting a new one
+228	Create or retrieve from cache an icon bitmap for the icon row
+229	Cache the icon bitmap for the icon row
+230	Get the polygon fill paint for the feature style or return the default paint
+231	Get the polygon paint for the feature style or return the default paint
+232	Get the line paint for the feature style or return the default paint
+233	Get the point paint for the feature style or return the default paint
+234	Get the style paint from cache or create and cache it
+235	Get the feature style paint from cache or create and cache it
+236	Get the unique base ids
+237	Get the unique related ids
+238	Set the data from a bitmap
+239	Set the data from a full quality bitmap
+240	Get all the unique icon row ids the features map to
+241	Get all the unique style row ids the features map to
+242	Get all the unique icon row ids the table maps to
+243	Get the derived width and height from the values and icon data scaled as needed
+244	Get all the unique style row ids the table maps to
+245	Get the color or default value
+246	Get the canvas for the layer index
+247	Create the final bitmap from the layers resets the layers
+248	Recycle the layered bitmaps
+249	Get the bitmap for the layer index
+250	Create a new empty Bitmap and Canvas
+251	Get the paint for the style row id and draw type
+252	Get the paint for the style row and draw type
+253	Get the bounding box for the feature tile generator from the provided and from the feature table
+254	Query for feature results in the x y and zoom level by querying features in the tile location
+255	Remove the cached feature row
+256	Clear and resize all caches and update the max cache size
+257	Get or create a feature row cache for the table name
+258	Get the tile density based upon the display density scale and tile dimensions
+259	Set the density

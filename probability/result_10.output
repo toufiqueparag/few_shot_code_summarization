@@ -1,0 +1,513 @@
+0	Runs a Markov chain until it has collected `num_results` states .
+1	One step of the leapfrog integrator .
+2	Sums a list of tensors , returning zero if the list is empty .
+3	One - step of the HMC transition kernel .
+4	Computes the log acceptance correction for HMC .
+5	Broadcast a secondary argument to the same length as ` states ` .
+6	Computes the potential scale reduction statistic for a single state .
+7	Computes the effective sample size for a single state .
+8	Computes the effective sample size of a Markov chain .
+9	Computes the size of the given axis .
+10	Returns all primes less than n .
+11	Computes the number of digits in the base - expansion of a number .
+12	Get the indices of the samples to be drawn .
+13	Generates a set of permutations for use in MCMC sampling .
+14	Generates a Halton sequence .
+15	Creates a function that returns `loc` and `scale` parameters .
+16	Creates a function which constructs a multivariate `Deterministic` or `Normal` distribution.
+17	Decorator to expand docstring templates .
+18	Bootstrap results .
+19	Computes `fx + gx * stop(x)` .
+20	Constructs a trainable tfd . Normal distribution .
+21	Constructs a trainable tfd . Poisson distribution .
+22	Returns a string representation of a numpy - compatible tensor .
+23	Return the value of this object as a numpy array .
+24	Evaluates this object and returns the result .
+25	Returns the value of this parameter .
+26	Returns the shape of a single sample from a single event index as a TensorShape . The batch shape is the product of the event shape and the sample shape .
+27	Wraps a function to apply it to the value of a tf . Variable .
+28	Creates a function that wraps a distribution class .
+29	Get the next interceptor from the stack .
+30	Decorator for interceptable functions .
+31	Choose between two namedtuples .
+32	Returns True if x is namedtuple - like .
+33	Get the inputs to a function .
+34	Returns a function that computes the log - probability of the model .
+35	A `TransitionKernel` that implements a random walk Metropolis - Hastings kernel with uniform proposal distribution .
+36	A function for adding a normal perturbation to the input state .
+37	Build fake data for testing .
+38	Plot the heldout prediction .
+39	Generate toy logistic regression data .
+40	Plot the weight posteriors for a number of layers .
+41	Visualize decision boundary .
+42	Build an input pipeline to batch and shuffle the dataset .
+43	Deserialize a function from a serialized representation .
+44	Serialize a function .
+45	Creates a layer from its config .
+46	Computes the Moore - Penrose pseudo - inverse of a matrix .
+47	Default function to create a multivariate normal distribution .
+48	Builds fake input functions for testing .
+49	Constructs a MixtureSameFamily distribution with ` mixture_components ` components .
+50	Default function for `exchange_proposed_fn` of `kernel` .
+51	Computes the drift term for the MALA transition kernel .
+52	Computes the log acceptance correction for the given states .
+53	Computes the volatility function and its gradients .
+54	Broadcast volatility to match state .
+55	Euler - Maruyama method for sampling from a SDE .
+56	Computes the value and gradients of a function .
+57	Calls `fn` and `tf . gradients` on `fn_arg_list` .
+58	Returns the number of columns in a tensor .
+59	Fits a GLM model .
+60	Returns a function that checks for convergence based on the relative change in the weights .
+61	Prepare args for the log - likelihood functions .
+62	Helper function to standardize op scope .
+63	Generates a random Rademacher ( +/- 1 ) tensor of the specified shape .
+64	Wraps a distribution as a RandomVariable .
+65	Helper method for building a custom random variable .
+66	Get a simple name for a distribution .
+67	Returns a Tensor representing the sample shape .
+68	Returns a function that computes the sum of the forward log - det - jacobians of a list of bijectors .
+69	A helper function to create a forward transform function for a bijector .
+70	Returns a function that applies the inverse of the bijector to the state .
+71	One - step transition kernel .
+72	Finds a step size satisfying the strong Wolfe conditions .
+73	Perform line search using the Hager - Zhang algorithm .
+74	Prepare arguments for the line search .
+75	Bracket and search for a minimum of a function .
+76	Pads the rightmost dimensions of `x` with ones.
+77	Reshapes the input and output of a function to account for the sample shape .
+78	Returns the sample shape and static sample shape .
+79	Interpolate the location parameters of a bimixture .
+80	Determines the batch and event shapes of the grid and endpoint_affine .
+81	Checks that the mixing parameters are valid .
+82	Computes the harmonic number .
+83	Computes the minimum number of dimensions required to compute the forward / inverse of a chain of bijectors .
+84	Converts a vector length to a square matrix size .
+85	Convert x to a Tensor or None .
+86	Returns the lower bound on the entropy of the mixture .
+87	Helper function for calling a function and reshaping its output .
+88	Returns the probability of each component .
+89	Quadrature scheme for the lognormal distribution using Gauss - Hermite quadrature .
+90	Returns a quadrature scheme for the given lognormal distribution .
+91	Quadrature scheme for the softmax of a normal distribution .
+92	Returns a quadrature scheme for the `tfd . Normal` distribution .
+93	Interpolate a scale matrix .
+94	Constructs a template for a fully - connected MLP parameterized via `real_nvp_template` .
+95	Move a dimension of a Tensor to a new index .
+96	Pads the batch dimensions of ` x ` to match the batch dimensions of ` mixture_distribution ` and ` categorical_distribution ` .
+97	Checks that the distribution is scalar and reparameterized .
+98	Returns True iff the given scale is diagonal .
+99	Get batch and event shapes from loc and scale .
+100	Constructs a `LinearOperator` representing a diagonal matrix .
+101	Constructs a trainable tfd . MultivariateNormalTriL distribution .
+102	Computes the standard deviation of a mixture distribution .
+103	Computes the posterior of a Normal - Normal model with known scale .
+104	Binomial cumulative distribution function .
+105	Create a LinearOperator representing the scale matrix .
+106	Validates the batchnorm layer .
+107	Undo batch normalization .
+108	If x is a vector , returns x [ tf . newaxis , : ] . Otherwise , returns x .
+109	A dense layer with a mask .
+110	Generates a mask for a MADE .
+111	Generates a list of slices for a masked weight matrix .
+112	Assigns the log - moving - mean - exp of a variable .
+113	Concatenates a sequence of vectors .
+114	Scales a linear operator by a scalar .
+115	Computes the outer squared difference between two tensors .
+116	Expand the last dimension of x to match the event_shape .
+117	Build a function that runs a single step of Kalman filtering .
+118	Computes the mean of the joint distribution of the latent and observed states .
+119	Augment the sample shape of a distribution with the batch shape of another .
+120	Checks that the shape of a tensor is equal to a target shape .
+121	Perform the transition step of the Kalman filter .
+122	Builds a function that computes the mean of the prior distribution .
+123	Builds a function that computes a single step of the Kalman covariance recursion .
+124	Propagate the mean of a distribution through a linear operator .
+125	Computes the joint covariance matrices for the latent and observation spaces .
+126	Build a function that samples a single timestep of a Kalman filter .
+127	Computes the posterior mean and covariance of a linear Gaussian state space model .
+128	Propagates a covariance matrix through a linear operator .
+129	Sample from the joint distribution of latents and observations .
+130	Sums over the rightmost ` ndims ` dimensions of ` x ` .
+131	Flattens a list of kernels , recursively .
+132	Flattens a list of kernels into a list of kernels .
+133	Download ( and unzip ) a file from the VLAE repository , unless it 's already here .
+134	Pack images into a square tiled image .
+135	Add control dependencies to update the codebook using an exponential moving average.
+136	Save a grid of images .
+137	Visualize training progress .
+138	Transpose the last two dimensions of a tensor .
+139	Minimize a function using the BFGS algorithm .
+140	Update the inverse Hessian estimate using the BFGS update rule .
+141	Computes the tensor product of two tensors .
+142	Samples the next state of the Markov chain .
+143	Performs one - dimensional slice sampling .
+144	Samples from a slice of a target distribution .
+145	Chooses a random direction in the space of the input .
+146	Right - pads a tensor with ones to a given rank .
+147	One iteration of the slice sampler .
+148	Computes the upper and lower bounds of the slice for each chain .
+149	Finds the best interval for each element of x .
+150	Generates the left side increments for the slice sampler .
+151	Calls `fn` if it is callable , else returns `fn_result` .
+152	Draws samples from a Rayleigh distribution .
+153	Validate `rightmost_transposed_ndims` .
+154	Validate `perm` .
+155	Replaces the event shape in `input_tensorshape` with `event_shape_out`.
+156	Constructs a trainable Dirichlet encoder .
+157	Builds a variational model for LDA .
+158	Returns a list of strings with the top words for each topic .
+159	Returns a tf . data . Dataset of documents from the 20 Newsgroups dataset .
+160	Constructs a decoder that maps topics to bag - of - words .
+161	Builds input functions for training and evaluation .
+162	Builds fake input functions for testing .
+163	Creates a prior distribution over topics .
+164	Replace the element at index in x with replacement .
+165	Prepare arguments for the simplex algorithm .
+166	Prepare arguments for the Nelder - Mead algorithm .
+167	Prepare the arguments for the optimizer .
+168	Check for convergence .
+169	Minimize a function using the Nelder - Mead algorithm .
+170	One step of the Nelder - Mead algorithm .
+171	Accept the reflected point if it is better than the worst point .
+172	Expansion step of the Nelder - Mead algorithm .
+173	Shrink the simplex towards the best vertex .
+174	A function that performs a contraction step .
+175	Evaluate the objective function on a batch of arguments .
+176	Returns the marginal distribution over the index points .
+177	Returns True if the marginal GP at `index_points` is univariate .
+178	Benchmark for HMC on the eight schools model .
+179	Constructs a trainable tfd . MultivariateNormalDiag distribution .
+180	Joint log - probability function for the eight schools model .
+181	Returns the mode of the distribution .
+182	Compute the log - normalizer of the vMF distribution .
+183	Sample from the von Mises - Fisher distribution .
+184	Rotates samples to be orthogonal to the mean direction .
+185	Creates a simple step size update policy .
+186	Extracts a field from kernel results .
+187	Exchange states between replicas .
+188	Computes the log - normalization of the LKJ distribution .
+189	Compute the log - unnormalized probability of a batch of matrices .
+190	Generates a random unit norm vector .
+191	Computes the gradient of the negative log - likelihood and the Fisher Information Matrix .
+192	Fits a sparse model to data .
+193	A context manager for recording a tape of function executions .
+194	Computes the Von Mises CDF using a series expansion.
+195	Computes the CDF of the von Mises distribution using a Normal approximation.
+196	Draws samples from the prior .
+197	Computes the empirical mean , standard deviation , and initial value of a time series .
+198	Constructs a state - space model from this model .
+199	If the last dimension of observed_time_series_tensor is 1 , return it as is . Otherwise , expand the last dimension to 1 .
+200	Latent Dirichlet Allocation model .
+201	Constructs a deep exponential family model .
+202	A trainable positive deterministic distribution .
+203	Creates a trainable Gamma distribution .
+204	Loads the NIPS 2011 papers dataset .
+205	Loads the MNIST dataset .
+206	Converts a sequence of production rules to a string .
+207	Generate a sequence of productions .
+208	Builds the encoder network and returns the posterior distribution .
+209	Returns True if the dot product of the momentum and the difference between the states is positive .
+210	Leapfrog integrator .
+211	Compute the log - joint density of the current state .
+212	Draws samples from a Bernoulli distribution .
+213	Load the Covertype dataset .
+214	Wraps a function to check for None gradients .
+215	A simple logistic regression model .
+216	Builds a tree of states and log - probabilities .
+217	Computes the square root of `x` with finite gradients at `x = 0` .
+218	Constructs a Bayesian ResNet - 18 model .
+219	A VGG - style convolutional block .
+220	Residual block with 2 convolutional layers .
+221	Build fake data for a 1D regression problem .
+222	Constructs a tfd . MultivariateNormalLinearOperator from a list of tfd . MultivariateNormalDiag distributions .
+223	Sums a list of MultivariateNormalDiag distributions .
+224	Broadcast the batch shape of a list of distributions .
+225	Creates a dataset of sprite sequences .
+226	Create a sequence of frames from a sprite .
+227	Create a character from the given skin , hair , top , and pants .
+228	Downloads the sprites dataset .
+229	Reads an image from a filepath .
+230	Create a random sequence of actions .
+231	Visualize qualitative analysis .
+232	Visualize the reconstruction of inputs .
+233	The LSTM - based distribution .
+234	Returns the initial state for the RNN .
+235	Constructs a tfd . MultivariateNormalDiag distribution .
+236	Sample from the dynamic prior .
+237	Sample from the static prior .
+238	Create a TensorBoard image summary .
+239	The forward pass of the network .
+240	Generate samples from the model .
+241	Reconstructs the input .
+242	Summarize the mean and stddev of a distribution .
+243	Summarize the mean of the inputs in nats and bits per dim .
+244	Decorator to check that the argument is in the support of the distribution .
+245	Merge two values , checking for compatibility .
+246	Merge two mappings .
+247	Initialize parameters .
+248	Returns a 1 - D integer Tensor representing the batch shape .
+249	Returns the batch shape of the distribution .
+250	Pick a scalar value based on a boolean condition .
+251	Returns a mask indicating which matrices in x are positive semi - definite .
+252	Returns a mask indicating whether the determinant of the input is large enough .
+253	Generates a random correlation matrix .
+254	Generates samples from the uniform distribution over the space of correlation matrices .
+255	Compute a Clopper-Pearson confidence interval for a Bernoulli distribution.
+256	Compute true volumes of correlation matrices with determinant >= det_bounds .
+257	Validate the initial inverse Hessian .
+258	Prints the values of the tensors .
+259	Perform a single iteration of the Hager - Zhang line search algorithm .
+260	Fix step size by halving until finite .
+261	Returns the machine epsilon for the given dtype .
+262	Broadcast event and samples to the same shape .
+263	A smart for loop that can be used in eager mode or graph mode .
+264	Returns True iff the given dtype is known to be unsigned .
+265	Returns the static value of ` x ` if it is available , otherwise returns ` x ` .
+266	Returns True if the given dtype is known to be signed .
+267	Returns the largest integer representable by the given dtype .
+268	Rotates the dimensions of a tensor by shifting the first `shift` dimensions to the end. For example, if `x` is a tensor with shape `[N1, N2, ..., Nd]` and `shift
+269	Returns True if the dtype is integer - like .
+270	Validates the shape of a categorical distribution parameter .
+271	Computes log ( n ! / sum ( counts ! ) ) where counts is a tensor of non - negative integers .
+272	Pick elements from ` true_vector ` or ` false_vector ` depending on ` cond ` .
+273	Returns the broadcast shape of `shape1` and `shape2` .
+274	Generate a new seed for a random number generator .
+275	Returns the size of the given dimension .
+276	Processes the quadrature grid and probs .
+277	Returns the arguments and their values of the parent frame .
+278	Computes the variance scale term for the Dirichlet distribution .
+279	Copy a function .
+280	Reconstructs the original input .
+281	Standardize input .
+282	Returns the smallest integer representable by the given dtype .
+283	Returns True iff a and b have the same dynamic shape .
+284	Constructs a batch of tridiagonal matrices.
+285	Broadcast `event` and `params` to the same shape .
+286	Returns the range of the distribution .
+287	Pick one of two scalar values based on a scalar predicate .
+288	Finish computing the probability for one fiber .
+289	Rotates the last ` rotate_ndims ` dimensions of ` x ` to the left or right .
+290	Checks that ` x ` is a non - negative integer .
+291	Compute log_prob for one fiber .
+292	Returns the registered KL divergence function for the given types .
+293	Computes log[cdf(x)] for the Laplace distribution .
+294	Computes the inverse error function of x element - wise .
+295	The Normal CDF .
+296	Computes the normal cumulative distribution function ( cdf ) .
+297	The inverse of the standard normal CDF .
+298	Computes the log of the normal cumulative distribution function .
+299	Computes the asymptotic series for the log of the normal CDF .
+300	Helper function for computing the standard deviation and variance .
+301	The inverse of the hat integral .
+302	The integral of the hat function .
+303	The value of the pdf at the peak .
+304	Broadcast a tensor to the shape of a list of tensors .
+305	Squeeze a tensor along the specified axis .
+306	Convert negative axis to positive axis .
+307	Computes the variance of elements across dimensions of a tensor .
+308	Builds a trainable variational posterior for a parameter .
+309	Builds the variational loss for a factored variational posterior .
+310	Minimize a loss function in a graph .
+311	Computes the standard deviation of a tensor along the specified axis .
+312	Computes the Cholesky decomposition of the covariance matrix of x .
+313	Ensure that TensorFlow is installed .
+314	Computes log ( sum_i exp ( v_i + m_i ) ) .
+315	Extract log - probabilities from a categorical distribution .
+316	Vector - matrix multiplication .
+317	Computes the marginal probability of each hidden state at each time step .
+318	Multiply a matrix by a vector on the right .
+319	Asserts that the ndims of x is statically known and optionally matches a given value .
+320	Update the inverse Hessian estimate using the BFGS update rule .
+321	Returns the number of dimensions of `x` .
+322	Inserts dimensions of size 1 into ` x ` at ` axis ` .
+323	Convert axis to a list of non - negative integers .
+324	Move dimensions to the end of the shape .
+325	Sorts the last dimension of a tensor .
+326	Restricts a function to a line .
+327	Broadcast a value to the shape of a target .
+328	Get initial state for optimization .
+329	Check convergence of the optimization .
+330	A step function for the line search algorithm .
+331	Update the state of the optimizer .
+332	Gather slices from `params` according to `indices` with leading dims of `params` and `indices` broadcastable .
+333	Get attributes to add to distribution classes .
+334	Evaluates a function on all one - hot vectors .
+335	Benchmark for Hamiltonian Monte Carlo .
+336	Joint log probability of the data and latent variables .
+337	Returns the initial state for the LBFGS optimizer .
+338	Computes the search direction for L - BFGS .
+339	Make an empty queue for ` element ` .
+340	Push new_vecs onto the queue , replacing the oldest vectors if should_update is True .
+341	Minimize a function using the BFGS algorithm .
+342	Computes log ( sum ( exp ( m + v ) ) ) for each batch member .
+343	Computes the marginal log - probabilities of the observations .
+344	Recursively converts a nested structure of lists , tuples , and dicts to a tuple of tuples and dicts .
+345	Minimize a function using differential evolution .
+346	Performs one step of the Differential Evolution algorithm .
+347	If ` tensor_or_list ` is a list or tuple , return it . Otherwise , return a list containing ` tensor_or_list ` .
+348	Performs binary crossover on a population .
+349	Returns a tensor of shape [ size , 3 ] containing indices for mixing .
+350	Check if the population has converged .
+351	Find the best individual in a population .
+352	Get initial args for the DE optimizer .
+353	Constructs the initial population .
+354	Creates mutants for the population .
+355	Computes the number of independent samples in a ( batch of ) distribution ( s ) with given event shape .
+356	Computes the number of parameters in a MixtureSameFamily distribution .
+357	Computes the one - step - ahead predictive mean and variance for a given model and observed time series .
+358	Forecasts from a state - space model .
+359	Computes the quantiles of a tensor along an axis .
+360	Assertions for `lu_reconstruct` .
+361	Solves a linear system of equations with a lower - upper ( LU ) factorization .
+362	Expand a scalar or vector to a vector .
+363	Computes the inverse of a matrix given its LU decomposition .
+364	Remove a field from the state .
+365	Performs the backward smoothing pass .
+366	Computes the backward smoothing update .
+367	Build a function that runs a single step of backward smoothing .
+368	Compute the posterior marginals of the latent states .
+369	Assertions for `tfp . math . lu_solve` .
+370	Creates a value - setting interceptor .
+371	Bisects the interval [ left , right ] until the function value at the midpoint is less than f_lim .
+372	Bisects the interval to satisfy opposite slope conditions.
+373	Check if the values are finite .
+374	Find the bins for each element of x .
+375	Soft - thresholding operator .
+376	Minimize a function using coordinate descent .
+377	Constructs a block - diagonal matrix from a sparse matrix .
+378	Constructs a trainable tfd . MultivariateNormalDiag distribution .
+379	Constructs a transition matrix for a linear trend model with autoregressive # error in the slope.
+380	Bracketing phase of the line search algorithm.
+381	Clips tensor values to a specified min and max , while preserving gradients .
+382	Computes the value and batch Jacobian of a function .
+383	A function that returns a tensor and a gradient function that raises an exception .
+384	Computes the distributional transform of the input .
+385	Draws samples from a multinomial distribution .
+386	Validates the block sizes .
+387	Helper function for `_csiszar_function` .
+388	Update the interval based on the trial point .
+389	Computes the expectation of f ( z ) under the distribution p ( z ) using importance sampling .
+390	Checks that map_values is a valid map_values argument .
+391	A version of tf . scan that returns the intermediate states .
+392	Wraps ` output_tensor ` in a ` tf . control_dependencies ` context such that all ` dependencies ` are evaluated before ` output_tensor ` .
+393	A smart case function that can handle predicates that are not tensors .
+394	Returns the static value of `pred` if it is available , otherwise returns `None` .
+395	Converts a dense tensor to a sparse tensor .
+396	Replaces the event shape in a shape tensor .
+397	Check that `shape` is a valid shape for a distribution .
+398	Remove keys from a dictionary whose values are equal to val .
+399	Returns True if the Wolfe conditions are satisfied .
+400	Secant2 algorithm for line search .
+401	Inner loop of the secant2 algorithm .
+402	Update the left / right bracketing interval for each active batch member .
+403	Secant method for finding roots of a function .
+404	Validate that the distributions are compatible .
+405	Computes the rank of a matrix .
+406	Validate input matrix .
+407	Returns the event shape of the distribution .
+408	Creates a new instance of the class from a config dictionary .
+409	Returns the configuration of the layer .
+410	Apply a sequence of slice overrides to a distribution .
+411	Slice a distribution .
+412	Slices a single parameter of a distribution .
+413	Slices a single parameter of a distribution .
+414	Apply a single step of slicing to a distribution .
+415	Computes the most likely state sequence given the observations .
+416	Constructs a transition matrix for an autoregressive process .
+417	Computes the optimal variational posterior for a Gaussian process regression model .
+418	Computes the variational loss .
+419	Computes a histogram of a tensor .
+420	Counts the number of occurrences of each integer in arr .
+421	Get the tolerance for the numerical integration .
+422	Computes the mean and covariance of the observations given the latent means and covariances .
+423	Mixes over posterior draws .
+424	Plot images .
+425	Builds an input pipeline for training .
+426	Decompose a forecast distribution into its component distributions .
+427	Decompose the log - likelihood of a time series into the contributions of each component .
+428	Builds a list of state - space models for each component .
+429	Decompose a joint posterior distribution into component posteriors .
+430	Splits a covariance matrix into a list of marginal covariance matrices .
+431	Builds the matrices that convert between effects and residuals .
+432	Builds a function that returns True if the given step is the last day of a season .
+433	Builds a function that returns a tfd . MultivariateNormalTriL distribution with the given scale factor , but only if the given boolean mask is True .
+434	Builds a transition matrix for a seasonal state space model .
+435	Builds a function that returns a tfd . MultivariateNormalDiag distribution . The distribution 's scale_diag is zero except for the last element, which is drift_scale if the current season has just ended.
+436	Returns True if any of the elements of ` converged ` are True , or if all of the elements of ` failed ` are True .
+437	Enable storing parameters in results for a kernel .
+438	Wraps a getter to return the innermost results .
+439	Wraps a kernel setter to apply it to the innermost kernel .
+440	Copy the docstring from original_fn to new_fn .
+441	Returns a callable that returns the rank of a tensor .
+442	Decorator to wrap a function with a static version .
+443	Get a function that converts a tensor to a specified dtype .
+444	Check that the shapes of the given tensors are compatible for broadcasting .
+445	Helper function to make summary statistic methods .
+446	Compute the mean and variance of a time series tensor , excluding masked entries .
+447	Computes the initial value of a masked time series .
+448	Canonicalizes a possibly - masked observed time series .
+449	Create masks for the adjacency matrix .
+450	Constructs a masked initializer .
+451	Builds the layer .
+452	Call the layer .
+453	Create an input order array .
+454	Creates the degrees for each layer .
+455	One - step of the HMC transition kernel .
+456	Bootstrap the results of the algorithm .
+457	Creates a stack of IAFs .
+458	Numpy implementation of tf . linalg . matmul .
+459	Sort values along the last axis .
+460	Returns the indices that would sort an array .
+461	Asserts that ` x ` has rank at most ` rank ` .
+462	Compute the entropy of the joint distribution .
+463	Resolve the graph of distributions .
+464	Computes the KL divergence between two joint distributions .
+465	Returns the required args for the given distribution .
+466	Resolve distribution names .
+467	Make a summary statistic function .
+468	Unifies the call signature of `dist_fn` .
+469	Trace a transition operator .
+470	Broadcast a structure to match another structure .
+471	Adapts the control parameter of a distribution based on the sign of the difference between the output and the set point .
+472	Runs Hamiltonian Monte Carlo .
+473	Performs a Metropolis - Hastings step .
+474	Leapfrog integrator step .
+475	Transforms a log - probability function .
+476	Calls a function and returns its value and gradients .
+477	Call a function with a tuple of arguments .
+478	A zero - dimensional MultivariateNormalDiag .
+479	Convert parameters to weights .
+480	A helper function for constructing observation noise functions .
+481	Returns the size of a dtype in bytes .
+482	Returns the maximum value of a dtype .
+483	Returns True iff ` dtype ` is a complex type .
+484	Returns the name of a dtype .
+485	Returns the base dtype of a dtype .
+486	Returns the numpy dtype corresponding to the given TensorFlow dtype .
+487	Returns True if ` dtype ` is a boolean type .
+488	Concatenate two shapes .
+489	Returns the dimensions of a TensorShape or Tensor .
+490	Merge two shapes .
+491	Returns the given tensor with the same shape as x but with rank at least rank .
+492	Returns the common dtype of the arguments , or None if no arguments .
+493	Returns the maximum of x along axis , but masks out non - finite values .
+494	Asserts that the given tensor is finite .
+495	Asserts that all items are of the same base type .
+496	Asserts that all tensors are of the same floating point dtype .
+497	Returns the common dtype of the args_list .
+498	Check that observation index points and observation counts broadcast .
+499	Returns `True` if the observation data is empty .
+500	Builds the model .
+501	Flatten a nested distribution into a flat distribution .
+502	Build the model .
+503	Compute the depth of each node in the graph .
+504	Find the best order to traverse the graph .
+505	Broadcast ` from_structure ` to ` to_structure ` .
+506	Converts a nested structure of objects to Tensors .
+507	Converts args to tensors .
+508	Call a function with args , expanding them if necessary .
+509	Get index_points , or raise an error if they were not provided .
+510	Yields a list of distributions and a list of values .
+511	Recursively replaces dicts with PrettyDicts .
+512	Validate args .

@@ -1,0 +1,1000 @@
+0	Returns a map where the default converter map is merged with the map contained in the context .
+1	Add 1 to the size of the array for the given dimension . Use linear average and interpolation to fill in the values .
+2	Deserialize String offset to Map of table to offset
+3	Registers a packet interceptor with this connection . The interceptor will be invoked every time a packet is about to be sent by this connection . Interceptors may modify the packet to be sent . A packet filter determines which packets will be delivered to the interceptor .
+4	Calculates the number of ASCII characters that will be needed to represent a specified signed decimal number .
+5	Is the recording counter still active .
+6	Check if the passed column ID is a key column in the specified column set
+7	Returns the set of clusters where server is the owner .
+8	Sort the arrays using an in - place merge sort .
+9	Start Media Driver as a stand - alone process .
+10	Discards any cached principal for the collection of credentials satisfying the given predicate .
+11	Attaches a timer
+12	END PWC 6512276
+13	Write a NetcdfDataset as an NcML - G document to the specified stream .
+14	This method returns the aci for the specified activity if exists it should be invoked by each impl of methods of an ra type aci factory .
+15	return prefix name part of an fqn ; result will be escaped .
+16	Checks to see if a string is inside of another
+17	Builds a HEAD request .
+18	Helper method to extract default values from a Schema . This is normally done in DataGeneratorFormat validation however we have to do it at runtime for Schema Registry .
+19	Builds transformations common to both stack protocols and transport .
+20	Perform automatic differentiation wrt the input variables
+21	Test that the passed picture is valid and conforms to the converters specifications .
+22	Invoked on first get so that everything is available especially Spring stuff .
+23	Deletes a permission
+24	Converts a spanned text to HTML
+25	Extract BaseValidator Meta Data .
+26	XML Attribute utilities
+27	Returns the class of the immediate subclass of the given parent class for the given object instance ; or null if such immediate subclass cannot be uniquely identified for the given object instance .
+28	Write out a set of bytes
+29	Create a query parameter with a number value .
+30	Draw a tile bitmap from the x y and zoom level
+31	Drop the connection to the remote host and release the underlying connector thread if it has been created .
+32	Checks if a class should be included as a system class .
+33	Converts type of the given value .
+34	Returns the package name of the object s class .
+35	Adds another template to the list . If the list does not exist it will be created .
+36	SBB USAGE PARAMS
+37	generates a map of key values to store in the footer
+38	Get more bytes into buffer . Stop when endSequence is found .
+39	Load the dbase file data .
+40	Enables single profile .
+41	Returns the inward flowing edge vertices .
+42	Retrieves and removes the head of this queue or null if this queue is empty .
+43	Skips the next sequence of white space in s . An exception is not thrown if there is no matching white space .
+44	parse an int within a range
+45	copyins - copy all in arcs of a state to another state
+46	Set the feature styles for the feature table and feature id
+47	setter for id - sets The id of the concept type .
+48	Sends a job status request to the KIE Server .
+49	Returns a new empty PersistentTreeMap that will use the specified comparator .
+50	Prepares the JSON payload that carries on the token value .
+51	Set the element as text value parse it and setValue . The separator is CID_SEPARATOR
+52	convert a dataRootExt to a dataRoot
+53	Bring the receiver under version control . This means that the receiver is replaced by a version - controlled resource . Note that the client may send version control to a resource that is already under version control with no adverse effects .
+54	Determines whether DataSet contains any collections schema
+55	Checks for existence of the requested stream and adds any configuration issues to the list .
+56	Registers default Madvoc components .
+57	Search the handlerPkgs for URLStreamHandler classes matching the pkg + protocol + . Handler naming convention .
+58	Writes the data to the given OutputStream .
+59	Unpack an eight - byte IEEE float from the given byte array .
+60	Checks if all dependencies of a DU component exists
+61	Acquire decode and decrypt a configuration object from a data stream .
+62	Returns the nodes with the requested status .
+63	Execute the CREATE PROPERTY .
+64	When a factory method is invoked we create a child injector that binds all parameters then use that to get an instance of the return type .
+65	Sets the footer of sheet configuration .
+66	1 anonymous element array_element
+67	package - protected for EmitUtils try to fix
+68	Add a vertex to the graph
+69	Determine if a name is empty or if ot contains only one component which is the empty string .
+70	Returns true if the given class has a scope annotation .
+71	Returns the index to which this map maps the specified key .
+72	Create a new logging filter without using the new operator . Will make the DSL look nicer .
+73	Deserialize the given File to Java object .
+74	Populate a new geometry metadata from an envelope
+75	Creates a collection with single element .
+76	Commit the offset . Required after take has returned a non - null value .
+77	Do an additional read
+78	Fires a profile added or updated event if the profile object state is ready and the persistent state is dirty
+79	Find which index holds the value want
+80	Looks for a variable definition that matches the reference in the scope nodes on the stack . If found a reference node that can repeat this lookup later is placed on the stack not the current value itself . This is done because the value may change if the variable reference is inside a mixin .
+81	Adds a CONSTANT_NameAndType_info to the constant pool of this symbol table . Does nothing if the constant pool already contains a similar item .
+82	read the header of input file and parsing the NOWRAD part
+83	Decodes the given base58 string into the original data bytes .
+84	Get the principals of the logged in user in this case the distinguished name .
+85	Generates a tokenString with a new expiration date and assigns it .
+86	Returns an arraylist of strings .
+87	Recursive method which reverses the path into a ForwardPath .
+88	Sets the value of the zimmertyp property .
+89	Answer a new resource locator that identifies a particular server resource by it s URL and label .
+90	Get stack trace for a given thread .
+91	get a reference date
+92	Creates a new instance .
+93	Merge the two set try to use the optimum case
+94	Initializes connection parameters by the reading XML configuration . If not specified get the parameters defined as global configuration .
+95	Gets transactional graph with the database from pool if pool is configured . Otherwise creates a graph with new db instance . The Graph instance inherits the factory s configuration .
+96	Invoke tag plugin for the given custom tag if a plugin exists for the custom tag s tag handler .
+97	Utility method for transferring input stream to output .
+98	sets the presence
+99	Sets the cell value number .
+100	Caches returned entities . Replaces new instances with existing ones .
+101	Calculates the number of columns needed to host all field editors .
+102	Parse the remote host ip of the channel .
+103	this method is synchronized in order to avoid concurrent calls to mkdir
+104	Check the vertex for either an incoming or outgoing edge mathcing e .
+105	Adds property injection point .
+106	Determine size of hash table capable of storing the specified number of elements with a load factor applied .
+107	add table join to this cursor level
+108	The JMS connection factory can specify another server to deploy its destinations by passing a property server = &lt ; name of the server > . Otherwise default is used by default .
+109	Scans all the properties in the parent Properties object and creates arrays for any array property definitions .
+110	What is the data type of the aggregation coordinate ?
+111	Understands both the legacy format ag1zfnZvb2Rvb2R5bmUwcgcLEgFCGAEM and new format providing the key either way .
+112	the wrapper StructureMembers must be converted to correspond to the wrapper Structure
+113	Converts a boolean into a multi type data object .
+114	Lookups value as an alias and if not found as a default alias .
+115	Apply the default header for a message in a term .
+116	Returns all values associated with the name .
+117	Refresh when child elements are created or updated
+118	called by the parser bolts
+119	Provides a transactional queue that delays all queue manipulation operations until the transaction is committed or erases them if it is rolled back .
+120	Gets the value of the valuelist property .
+121	Restore all tables from CSV files one per table
+122	getter for occurrences - gets The occurrences of this variant .
+123	wrapped in quotes to output as a Json string .
+124	Unwire a state from the NFA .
+125	Force recalculation of size of one element of this structure - equals the sum of sizes of its members . This is used only by low level classes like IOSPs .
+126	Gets the names of all capture groups
+127	method to get the ID s from all polymers and groups
+128	Finds the first occurrence of the separator character ignoring the escaped separators starting from the index . Note the substring between the index and the position of the separator is passed .
+129	Has the members of the cluster the voted reached the provided position in their log .
+130	Detail your error msg with the error msg returned from response command
+131	Query an external RFC2483 resolver for a system identifier .
+132	Iterates all beans that are of given type .
+133	Query for rows within the bounding box in the provided projection
+134	Appends all of the elements in the specified array to the end of this JSON array .
+135	getFactSheets Retrieves all Fact Sheets
+136	Lookup of the activity context id bound to the specified aci name
+137	Sets the value of the erdwaerme property .
+138	Gets vocab for given bean .
+139	Lets use the project and its classpath to try figure out what default icon to use
+140	Add a ConditionFactor to a ConditionTerm .
+141	Get the size of a closed file
+142	Returns transactions by address with limit .
+143	Searches for provided interface in passed Class object - it can be class or interface . If it finds it return instance of it .
+144	Some of this might need to move to the install phase
+145	Upgrade whole pipeline at once and return updated variant .
+146	This method ensures the events in the beginning of FIFO queues are finished
+147	Attach this instance to HTTP servlet request . Load this instance state from HTTP servlet request and mark it as attached .
+148	Extracts the primary key from the specified POJO .
+149	Removes the specified property change listener from the list of active listeners .
+150	Skips over and discards the given number of bytes of data from this fast buffered input stream .
+151	set up facesCell s attribute from poiCell and others .
+152	Round up to the nearest power of 2
+153	Register a resource adapter deployment
+154	Checks whether no more bytes will be returned .
+155	Find first member variable in this struct with given attribute name and value
+156	TMP DEV METHODS
+157	Convert a string value into the true value for typeName using the PropertyEditor associated with typeName .
+158	The init method tries to generate the message keys . You should only call the init method if you don t inject values into the detailMessage and summaryMessage .
+159	Insert a column in to this array Will throw an exception if this ndarray is not a matrix
+160	Add a throwable that is to be handled .
+161	Gets the value of the vermarktungsart property .
+162	Factory method which requires all mandatory fields .
+163	Factory method that returns a RegExpAndDurationTimeCoverageEnhancer instance that will apply the match pattern to the dataset path .
+164	Get data for this Station within the specified date range .
+165	Finds all files and returns list of founded files .
+166	This check if a file was trimmed or trunked in the current atomic operation .
+167	Returns a Flowable that concatenate each item emitted by the source Publisher with the values in an Iterable corresponding to that item that is generated by a selector .
+168	Create and send the handshake to the other endpoint
+169	Sets the fetch plan to use .
+170	Sets the value of the city property .
+171	Add all ; replace old if has same name
+172	the following is a workaround until these problems are resolved .
+173	Replace any char out in s with in .
+174	getter for depLabel - gets The dependency label of the token with respect to its head .
+175	Registers or adds an event to the local_events . properties file
+176	Adds a new CONSTANT_Long_info or CONSTANT_Double_info to the constant pool of this symbol table .
+177	Initializes the lookup table for this decision node . The specified decision tree that corresponds to this node is used to extract all the possible outcomes for this decision and these are stored in a lookup table so that future decisions made with this tree will run faster .
+178	Evaluates a script from a reader .
+179	Write a field
+180	Returns true if boxB is contained inside of or is identical to boxA .
+181	For generic acceptor and connectors migrate their factory - class attribute if they are using the default Netty ones .
+182	Make a NestedTable object for the dataset .
+183	Get a text based response handler used mainly for JSON .
+184	Gets the value of the objektKategorie2 property .
+185	method to validate the group id
+186	Tries to subscribe to a possibly Callable source s mapped ObservableSource .
+187	Returns an input stream that reads the body of a snapshot closing the snapshot when the stream is closed .
+188	After a timeout failed the timer need to retried . The method must lock the timer for state check and update but not during callTimeout run .
+189	Sets headers in msgToSet with headers from emailWithData .
+190	Writes a single page
+191	Retrieve the setter on the POJO class ; default is to is set plus upper case first character of the field name .
+192	Parses the HTTP response text from a request into SDC Records
+193	Returns an input stream for reading the specified resource .
+194	exports the Playlist to a HashMap
+195	Renders the view by dispatching to the target JSP .
+196	Will save the PersistenceProviderAdaptor at the top level application deployment unit level for sharing with other persistence units
+197	Removes a Property .
+198	The entire request including query string
+199	Converts a char into a multi type data object .
+200	Returns a the value as the first matching schema type or null .
+201	This methods gets locators to rollup a slot .
+202	Copies all of the mappings from the specified map to this map These mappings will replace any mappings that this map had for any of the keys currently in the specified map .
+203	Adds a new CONSTANT_Dynamic_info or CONSTANT_InvokeDynamic_info to the constant pool of this symbol table .
+204	add cache dependencies
+205	Performs bulk documents create and update request .
+206	Compute the prime factors of an integer value .
+207	Add a listener to the coordinator with a given target name and event scope . This information is used when an event is fired to determine whether or not to fire this listener .
+208	Schedules prune .
+209	method to change the default count of one to the user - defined
+210	allow calling from outside
+211	attach the given timer to the current activity context .
+212	Intended to be used at the startup of the MetricsServiceImpl to ensure we have enough tables for processing
+213	Removes the run as identity
+214	Applies column naming strategy to given column name hint . Returns full column name .
+215	Consumes all the leading comment data in the given String and returns the remaining content which may be empty since the supplied content might be all comment data . For our purposes it is only important to strip leading comment content on a line since the first piece of non comment content will be either the DOCTYPE declaration or the root element of the document .
+216	Create the inheritance link with the sbb absract class provided by the sbb developer
+217	Returns a list of all codecs supported for this Object .
+218	method to generate for all sections a HELM2 string
+219	Creates binary search wrapper over a list of comparable elements .
+220	Initializes the cache for use . Prior to this the cache has no store .
+221	Prints the usage line .
+222	clear all the grid cells
+223	END PWC 6386258
+224	Applies a 2D special euclidean transform to an array of points .
+225	Performs validation of provided validation context and appends violations .
+226	Converts an absolute path into a relative one .
+227	Encode this picture as a P - frame . P - frame is an frame predicted from one or more of the previosly decoded frame and is usually 10x less in size then the IDR frame .
+228	Delete a global Attribute . Must be in define mode .
+229	Create a recovery plan for the cluster that when the steps are replayed will bring the cluster back to the latest stable state .
+230	Gets endpoint container lazily .
+231	Parse the given input source and return the root Element
+232	The default parameters for media constraints . Might have to tweak in future .
+233	Get the array of azimuths for this sweep .
+234	Fetch all the data from a temporary table for the compression job . Using TokenRanges avoids fetching first all the metrics partition keys and then requesting them .
+235	Return an iterator over all contained property names .
+236	Handle Decora tags .
+237	Extracts the bundle symbolic name from the jar manifest .
+238	Returns just host url without path and query .
+239	Moves to the write mode using specified object . The current java transaction will be suspended .
+240	Clears all settings and removes all created bundle files from file system .
+241	Inserts an object into the scope .
+242	Write the current object and vendor - specific data to the output stream .
+243	Creates an UnicastProcessor with the given internal buffer capacity hint and a callback for the case when the single Subscriber cancels its subscription .
+244	Retrieve the CoordinateTransform with the specified name .
+245	Increasing the capacity of the map
+246	Returns true if the types classloader has the same version of cglib that BytecodeGen has . This only returns false in strange OSGI situations but it prevents us from using FastClass for non public members .
+247	Performs a HTTP DELETE request .
+248	Joins items of a text list separating items by comma .
+249	Possibly blocks worker w waiting for a task to steal or returns false if the worker should terminate . If inactivating w has caused the pool to become quiescent checks for pool termination and so long as this is not the only worker waits for up to a given duration . On timeout if ctl has not changed terminates the worker which will in turn wake up another worker to possibly repeat this process .
+250	Create a SimpleUnit from the given name catch Exceptions .
+251	Convert ptg .
+252	Check error message from object in context .
+253	Removes the object pool for the specified profile table . If a transaction manager is used then the removal is only after the tx commit .
+254	Execute a accept operation
+255	Adds a post activate interceptor
+256	Converts the raw type from the database into the right Java type . For most applications the raw type will be Long for some applications it could be String .
+257	Clear out all the values thus setting back to the initial state .
+258	Implementation of the script goal .
+259	Override replaceObject to check for Remote objects that are not RemoteStubs .
+260	Copy an serializable object deeply .
+261	Update the counter to the value provided it is greater . Regardless of the returned value it is guaranteed that the value of the counter after execution will be at least the input value .
+262	set current element at dimension dim to v
+263	Add optional String attribute to a group .
+264	Returns the Euclidean distance of the closest point on the Polygon to the provided point .
+265	Constraint has field extractor and this method is returning fieldName it .
+266	Re build upper level formula .
+267	Sets the value of the anbieter property .
+268	Joins buffers containing individual NAL units into a single AnnexB delimited buffer . Each NAL unit will be separated with 00 00 00 01 markers .
+269	Sets the value of the hallenTyp property .
+270	Prints routes to console .
+271	Retrieves an sbb aci data field value
+272	Decode all of the parts of the url including query and fragment
+273	Returns methods of this interface and all super interfaces
+274	Visits a field of the class .
+275	Translates the first defined message .
+276	Query a data record .
+277	extracts and removes parameters from a row .
+278	getBookmarks Retrieves all stored bookmarks a user can read .
+279	Unsets the ft context of the ra object .
+280	Removes the current Vertex from the Graph . all the incoming and outgoing edges are automatically removed too .
+281	This method is used to find a number in an array .
+282	Fallback to reflection if the call - site will not work or did not work
+283	Return the name of the current context name as found in the logging event .
+284	Read a scaled 3 - byte integer from file and convert to double
+285	Causes the Repository view to refresh if it is open .
+286	for associated fields
+287	When the simplify tolerance is set simplify the points to a similar curve with fewer points .
+288	Open a dataset as a FeatureDataset .
+289	Private method to add member values to annotation
+290	Returns directory path for given record and date .
+291	Returns the set of server names involved on the passed cluster collection .
+292	Visits information about an inner class . This inner class is not necessarily a member of the class being visited .
+293	Read packed data
+294	Crawl this dataset recursively . Only send back direct datasets
+295	Test if all the Dimensions in subset are in set
+296	Checks if the named class exists and is loadable .
+297	Error handler .
+298	Gets the value of the terrain property .
+299	Returns a flattened list of Throwables from tree - like CompositeException chain .
+300	Allow users to search the default rc
+301	Performs an optimization pass for specialized instructions .
+302	Create new instance of the delegator from given stage library .
+303	Parses the results of a query and handles any errors .
+304	Moves data from the end of the buffer to the beginning discarding old data and making space for new input .
+305	Clears pool and dealocates memory .
+306	Construct the standard THREDDS access URI for this dataset access method resolve if the URI is relative .
+307	This will create markers for parse errors . Parse errors mean that antlr has picked up some major typos in the input source .
+308	Get the HttpRequest class that represents this request type .
+309	Sets the value of the propertyStatus property .
+310	Handles links embedded in JSON response bodies .
+311	LinkFragment has closed - > process the result .
+312	Get a column of this matrix .
+313	Get the type of this filter .
+314	Creates a mapping of the supplied authorities based on the case - conversion and prefix settings . The mapping will be one - to - one unless duplicates are produced during the conversion . If a default authority has been set this will also be assigned to each mapping .
+315	Execute the search on Region
+316	Finds all of the methods that will be extended by an Enhancer - generated class using the specified superclass and interfaces . This can be useful in building a list of Callback objects . The methods are added to the end of the given list . Due to the subclassing nature of the classes generated by Enhancer the methods are guaranteed to be non - static non - final and non - private . Each method signature will only occur once even if it occurs in multiple classes .
+317	Parse an IIIF Image API compliant region request string
+318	Override the module loader with the given Play bindings .
+319	Setup for each request
+320	This is the master method that delegates requests to handlers and makes sure there is a response to every request . You are not supposed to call or override this method in any circumstances . But no one will stop you if you do . I m a Javadoc not Code Police .
+321	Send a text to a specific collection of websocket connections
+322	Find child rows mapping from shift map .
+323	Finalizes DCT calculation
+324	Retrieves SQL type for provided type . All subclasses and interfaces are examined for matching sql type .
+325	Walk the specified subtree dir tree to try to locate file|dir named filename . Use breadth first search .
+326	Retrieves a boolean function from the library . If the function is not found the library will attempt to load it using the mechanism described in the class documentation .
+327	Creates the index .
+328	Get a style DAO
+329	Retrieves the connection by id .
+330	Obtain OBinarySerializer realization for the OType
+331	Creates the service name used for the job operator registered for the deployment .
+332	Sets the permissions on a graph .
+333	public static final String UNIDATA_HEAD
+334	idempotent other than when the month changes between two calls
+335	Adds a new CaptureAppender to an existing logger .
+336	Make a Station from the station data structure .
+337	Calculate the position reached by a quorum of cluster members .
+338	Returns an type that s appropriate for use in a key .
+339	Continues the creation of the very first method in calling chain that simply delegates invocation to the first proxy method . This method mirrors the target method .
+340	Adds the given element to this queue . If the queue is currently full the element at the head of the queue is evicted to make room .
+341	Registers method injection point .
+342	Builds the profile attribute map using the cmp interface class
+343	Creates a transform from the plane s reference frame into world s reference frame . The z - axis is set to the plane s normal and the x - axis and y - axis are arbitrarily choosen . Points which lie along the plane will lie along its x - y plane .
+344	return sorted catalogs
+345	64 bit rewind and reverse
+346	Loads the specified JPA persistence provider module
+347	Repositions the stream .
+348	Tries to modify movie header in place according to what s implemented in the edit the file gets pysically modified if the operation is successful . No temporary file is created .
+349	given a full text index and a flat AND block returns a descriptor on how to process it with an index ( index index key and additional filters to apply after index fetch
+350	Adds the specified name to the set of names bound to the ac
+351	Release the file . This unlocks it updates its lastAccessed date . Normally applications need not call this just close the file as usual . The FileCacheable has to do tricky stuff .
+352	Return all applicable SYSTEM system identifiers in this catalog .
+353	Tests to see if the two vectors are identical up to a sign difference
+354	Removes the single row in sheet .
+355	Generate querystring for the request .
+356	Unbind from the streaming service .
+357	prepare worksheet for loading . this only load at backend without refresh gui .
+358	creates the Playlist - Request
+359	End universal methods .
+360	merge bits of a to b
+361	Write the term id field for a frame .
+362	Calculates frame number as it shows in quicktime player
+363	Get the remote file name .
+364	RUNTIME supports only Numeric types and String at the moment
+365	Converts type to byteccode type ref .
+366	verifies that an command is not malformed
+367	Builds the dynamic row for area ptg base .
+368	Logic to execute before invoking a cmp getter method on the mbean
+369	Records the offset of the start of the code for the named functor .
+370	Common method creation code so we can isolate mocking
+371	Gets the absolute path to the filename starting from the app s files directory if it is not already an absolute path
+372	This recursive method writes all matching files and directories to the jar output stream .
+373	Outputs an int into a byte array copying only the bottom 24 bits of the integer . The top sign bit is lost by this operation so this only works on positive ints below 2^24 .
+374	Root productions .
+375	Closes current transaction .
+376	Create a HTML label .
+377	This method returns actual device pointer valid for current object
+378	Calculate the map that maps IDL operation names to operation analyses . Besides mapped operations this map also contains the attribute accessor and mutator operations .
+379	Get the array of per - ray longitudes . If we do not have per - ray position information null is returned .
+380	Create a NTLM authentication scheme .
+381	Write a DIF record for a specific dataset
+382	Use when dimensions have changed to recalculate the shape .
+383	Remove implicit field mapping
+384	Calculates the component size based on the fullt size and color subsampling of the given component index .
+385	Returns the package name of the class given .
+386	Misc . Methods
+387	Copies reader to output stream using buffer .
+388	Create a ReferencedData instance that wraps data but also has a reference .
+389	Abort a claim of the message space to the log buffer so that the log can progress by ignoring this claim .
+390	Sets the value of the pelletheizung property .
+391	Close all connections of a address
+392	Filters discovered classes to see if they implement a given interface .
+393	Joins buffers containing individual NAL units into a single AnnexB delimited buffer . Each NAL unit will be separated with 00 00 00 01 markers . Allocates a new byte buffer and writes data into it .
+394	Add all of the elements in the given collection to this list .
+395	Run tasks according to the given arguments .
+396	Inject uploaded files from multipart request parameters .
+397	Obtain user information from the Session
+398	Checks if two objects have the same name . The check is case sensitive .
+399	Bind this binding key to the given instance .
+400	used only for testing
+401	this method sets the desired scaled size of the ScalablePicture to the size of the JPanel and fires off a createScaledPictureInThread request if the ScalablePicture has been loaded or is ready .
+402	Ensure that a package exists in the IR . This will create modules in the IR as needed .
+403	Fetches the next element from this iterator .
+404	Creates TaskAttemptContext from a JobConf and jobId using the correct constructor for based on Hadoop version .
+405	Fixup overloaded operation names . As specified in section 1 . 3 . 2 . 6 .
+406	Given a point in x y coordinate space find the x y index in the coordinate system .
+407	Processes the raw snippet that was set by the bid making any transformations necessary .
+408	Removes the first select from the sql query .
+409	Start the connection lost timer
+410	There is usually a performance gain to be had by overriding this default implementation
+411	LOOK maybe combine grib1 grib2 and bufr ??
+412	Unexport this object .
+413	Creates an instance of this machine loading and checking for availability of the native implementation library as required .
+414	Returns the next element in the iteration .
+415	Start the SLEE container
+416	uncompress the TDWR products
+417	Fixup ref relative row one to one .
+418	Reads the next row .
+419	Creates an OSymmetricKey from an InputStream containing a Base64 key .
+420	Add the values the corresponding values of the given timer
+421	getter for conceptType - gets The type of this concept .
+422	Configures logback with the configuration XML read from a given file
+423	Computes the timeout according to the transaction size .
+424	Starts the browser and loads the set url in the web view .
+425	Converts an exception into struts action errors . The exception stack trace is stored under the exception message key . The message resource error . internalerror is stored under the message key generalerror . The stack trace is pretty printed in HTML .
+426	Atomically adds the positive value n to the requested value in the AtomicLong and caps the result at Long . MAX_VALUE and returns the previous value .
+427	Perform the query and wrap as a result
+428	Increments the current source offset s startAt portion by the specified amount . This is the number of records parsed when paging BY_OFFSET or 1 if incrementing BY_PAGE .
+429	Encodes the rawPass using a MessageDigest . If a salt is specified it will be merged with the password before encoding .
+430	Runs the stemmer with the given options .
+431	Only update specified properties of the Object
+432	Remove the given slot from the running group after it has been successfully re - rolled .
+433	getter for isObjUri - gets Boolean flag - true of object field is a URI false otherwise .
+434	generic for all calls
+435	Get the type for this file
+436	Instantiate a java class object
+437	Once the children elements are also parsed now is the time to activate the appender options .
+438	Construct a Cli from an annotated class
+439	Get an entity value by name .
+440	Locate a value editor for a given target type .
+441	Create a new Range shifting this range by a constant factor .
+442	create a new Index based on a subsection of this one with rank reduction if dimension length == 1 .
+443	gets the LevelDescription .
+444	Appends CC addresses .
+445	Gets the appropriate method to be called for the given target method name and arguments . If successful this method will return the Method within the target that can be called and the converted arguments in actualArgs . If unsuccessful this method will return null and the actualArgs will be empty .
+446	Sets the value of the monatsmiete property .
+447	subset - set any subexpression relevant to a successful subre
+448	get Variables from the specified vocabulary
+449	Prints error message if level is enabled .
+450	Open a FeatureDataset from an Access object .
+451	Tests whether a set of conditions match .
+452	Get the current objectify instance associated with this ref
+453	Increase upper level final length .
+454	Make the C array
+455	SECURITY CONTEXT INTERFACE
+456	Encodes the given URI port with the given encoding .
+457	Resets the learning method . This should clear all the examples properties to learn from and for and the input machine to train .
+458	Returns a new node based on a successor of this node . This new node will also be a HeuristicSearchNode .
+459	Checks if a TypeMirror is mapped to Sqlite Integer Type
+460	Updates an existing Flow .
+461	Converts device independent points to actual pixels .
+462	Generic byte - array to integer - array conversion
+463	Add an edge to the vertex . If edge . from is this vertex its an outgoing edge . If edge . to is this vertex its an incoming edge . If neither from or to is this vertex the edge is not added .
+464	Smart copy . If source is a directory copy it to destination . Otherwise if destination is directory copy source file to it . Otherwise try to copy source file to destination file .
+465	Helps to set count and intervals
+466	Deletes the element .
+467	Add a dataRootExt to in - memory tree .
+468	Set the data from a full quality bitmap
+469	Defines filter for CC field .
+470	Helps to set start and end times
+471	Get a singleton instance representing one of the primitive types .
+472	Get the full heirarchical name of the dataset which has all parent collection names .
+473	Returns the direct supertypes of the given type . Resolves type parameters .
+474	Get the information for a parameterized type
+475	Dispatch the given action . Dispatching is always done on the JavaFX application thread even if this method is called from another thread .
+476	Write CDL representation into f
+477	Returns the template as uri components without variable expansion .
+478	Returns default value for given field or null if no default value should be used .
+479	set cell value .
+480	Validate and adjust the color value
+481	For testing only .
+482	Initalizes the object .
+483	Get the EntityManager stack .
+484	Adds a CONSTANT_Fieldref_info CONSTANT_Methodref_info or CONSTANT_InterfaceMethodref_info to the constant pool of this symbol table . Does nothing if the constant pool already contains a similar item .
+485	Take a snapshot of all the backlog information and group by stream .
+486	Utility method to log errors in the Egit plugin .
+487	Generates a gradient - noise value from the coordinates of a three - dimensional input value and the integer coordinates of a nearby three - dimensional value .
+488	Calculates x scroll position that is still in range of view scroller
+489	Stores result set .
+490	Gets the annotation that has the specified type or null if there isn t one
+491	Parses a JSP page or tag file . This is invoked by the compiler .
+492	find the least node from a given node . very useful for starting a sorting iterator ...
+493	Delivers a message directly to this chat which will add the message to the collector and deliver it to all listeners registered with the Chat . This is used by the Connection class to deliver messages without a thread ID .
+494	change shape of the data variables
+495	Replace variables with given pattern .
+496	Returns true if this map maps one or more keys to the specified value .
+497	Attempts to create a temporary directory that did not exist previously .
+498	Writes this messages body to the given output stream . This method may only be called once during the lifetime of this message .
+499	method to add a single element to the group
+500	Gets the string value of a string attribute .
+501	Find a matching method with the specified name for the specified arguments .
+502	Unconfigures the ra object
+503	Deserialize the byte array into an object .
+504	This method returns an array consisting of each of the training samples for each label in each sample the negative log likelihood of that value falling within the given gaussian mixtures .
+505	Registers new serializer .
+506	Add the item to the top of the list . If it already exists move it to the top .
+507	Locates gzipped version of bundle file . If gzip file does not exist it will be created .
+508	This does the hunting around the projec to find the . dsl file .
+509	Return true if the path refers to a jar file in WEB - INF and is a system jar .
+510	Read a variable attribute as a double .
+511	COLLECTIONS - complete
+512	remove all instances of specified type of documentation
+513	method to add annotation to this monomer
+514	Shutdown the service successfully
+515	Set the port for this URI . - 1 is used to indicate that the port is not specified otherwise valid port numbers are between 0 and 65535 . If a valid port number is passed in and the host field is null an exception is thrown .
+516	Returns builder for creating a paged query .
+517	Sets the value of this record at a certain index position .
+518	Add parameters from the table
+519	Receive notification of ignorable whitespace in element content .
+520	Maps a scalar value into an Observable and emits its values .
+521	Queries for scalar values . Internal use .
+522	Checks if connection provider can return a connection .
+523	Get the cache value for key if it has not expired . If the TimedEntry is expired its destroy method is called and then removed from the cache .
+524	This method is used to clear the given map . To do this you need to implement a BiConsumer that calls the specific method to remove a listener from an observable .
+525	Gets the result at the given index from the results set .
+526	Lists all the parsing errors from the most recent parsing in a string .
+527	This will partition the given whole variable data applyTransformToDestination in to the specified chunk number .
+528	Scan for subdirectories make each into a DirectoryBuilder and add as a child
+529	Gets the poi cell from sheet .
+530	Find out if property is included by searching through all annotations .
+531	Tell the time
+532	Removes a CaptureAppender from a logger .
+533	Looking for an existing file in cache or no
+534	Add a new Pipeline Fragment Configuration to the store
+535	Defines font for text overlay .
+536	Creates a URL for the specified string representation .
+537	Override the module loader with the given guiceable modules .
+538	Removes the entity it will unconfigure and unset the ra context the entity object can not be reused
+539	The square root .
+540	Identify duplicate group names .
+541	Uses the provided label - index mapping to extract state values and create a new State object .
+542	Retrieve Lang availables from the application configuration .
+543	all elements are processed finish construction
+544	This is a convenience method that creates an AOption based on Java conventions .
+545	Returns the last matching file .
+546	Get the indexed types that are currently indexed
+547	Resolves component type for given property descriptor .
+548	getter for namedEntityTypes - gets List of Named Entity types associated with this concept .
+549	Complete the taxonomy computation stage and the stages it depends on if it has not been done yet .
+550	Map the class and add its IIOP mapping to the repository .
+551	Wraps the given callable in a contextual callable that transfers the request to another thread . This acts as a way of transporting request context data from the current thread to a future thread .
+552	Creates a Ref from a registered pojo entity
+553	Pages given page .
+554	Starts the server .
+555	Process all events for keys queued to the watcher
+556	fromMap converts a map into a Java object . This version will see if there is a class parameter in the map and dies if there is not .
+557	Returns the expression currently active in the building context .
+558	Check if the value is legal for a given type .
+559	populate attributes .
+560	Extracts all elements from an iterator usually created from a filterator and adds them into the target collection returning that collection as the result .
+561	Write a byte to byte array .
+562	Parses a JavaTypeSignature and makes the given visitor visit it .
+563	Fills the stream from current position writing iLength times the iFiller byte
+564	Copies reader to output stream using buffer and specified encoding .
+565	Write an element or attribute name .
+566	Get the bounding box of tiles
+567	Dynamically create a GemFire pool with just the server
+568	Gets the value of the row property .
+569	Opens a file and plays the audio from it on the speakers .
+570	Calculates string length .
+571	Add a parameter to be sent with the request .
+572	Set the pixel value into the image
+573	Get interval size in units of hours . Only use in GribVariable to decide on variable identity when intvMerge = false .
+574	Parser specific methods
+575	string - > object
+576	Invokes an action asynchronously by submitting it to the thread pool .
+577	Forwards an event into state machine . State machine will deliver the event to a handler methods responsible for its processing . If there is no handler method found then event gets silently ignored and this call has no effect .
+578	Checks to see if we have a string field .
+579	Returns the number of the records of the class iClassName .
+580	Checks if Locator is recently inserted in the token discovery layer
+581	Set the file subType .
+582	Determines if the point on the same plane as T is contained inside of T .
+583	Extract phrases from Korean input text
+584	Adds method injection point .
+585	setter for namedEntityTypes - sets List of Named Entity types associated with this concept .
+586	is the specified black red? if the node does not exist sure it s black thank you
+587	Delete an existing Attachment .
+588	Delete the style mapping with the geometry type value
+589	copy on modify
+590	Look up the persistence provider
+591	If this dataset has an authority and an ID then the concatenation of them is the globally unique ID .
+592	Internal only . Sets the version .
+593	Dispatch events .
+594	Produces a flow of ByteString using Json . stringify from a Flow of JsonNode . Calls out to Comet . flow internally .
+595	Initializes parser .
+596	assemble rowslist from rowsmapping .
+597	Encode a public identifier as a publicid URN .
+598	Creates the comment anchor .
+599	This is the launch button action method . This method launches the Apache Sling bootloader and informs the user to wait before accessing it in a browser .
+600	setter for searchId - sets An identifier for this search result . Used to collect hit - list objects that belong to this search result after they ve been split out for parallel processing then gathered up again .
+601	Sets the array element forced . If index is greater then arrays length array will be expanded to the index . If speed is critical it is better to allocate an array with proper size before using this method .
+602	Reads filter config parameters and set into destination target .
+603	Collects the attributes of this method into the given set of attribute prototypes .
+604	Retrieves the Form Definition and Title mapping currently stored in Fluid .
+605	retrieve anchor information from draw . xml for all the charts in the workbook . then save them to anchors map .
+606	Get the flag that indicates if copy or move should overwrite an existing destination . Return the boolean value for the OVERWRITE key .
+607	Add this coordinate system to the netCDF file
+608	creates a new MuteEvent will mute everything
+609	Find the longest match .
+610	Sets a JSON String as a request entity .
+611	Get the lock timeout value . The value - 1 means that the value was not set the value - 2 means that the value was Infinity . Return the integer value for the TIMEOUT key .
+612	Returns a graph element vertex or edge starting from an ID .
+613	It must be executed in the main thread .
+614	Prepare the ws Deployment and return a DeploymentUnit containing it
+615	Compare expected versions with given versions to see if they are the same or not .
+616	Determines whether it s time to clear expired logs
+617	Pushes an item onto the top of this stack .
+618	Checks to see if the given scope is valid .
+619	Convenience method for adding a double option .
+620	Gets the default date pattern .
+621	this converts a byte array to another primitive array
+622	Return the log value of the given complex number
+623	Adds the specified cluster to the class if it doesn t already exist .
+624	Generates the ending part of the static portion of the servlet .
+625	decode the protocol code
+626	Get the unique base ids
+627	Returns class reader for advice .
+628	Finds index of the first character in given charsequence the matches any from the given set of characters .
+629	Get GeoPackage metadata by id
+630	Bind this binding key to the given implementation class .
+631	Adds a binding to the map for the given key .
+632	Validate that the socket buffer lengths are sufficient for the media driver configuration .
+633	Removes all entries from bonsai tree . Put all but the root page to free list for further reuse .
+634	method to stop all background loading except the indicated file . Returns whether the image is already being loaded . True = loading in progress False = not in progress .
+635	Maps object to EditPart .
+636	Peeks ahead for the given token type and if one is foudn with that type it is consumed .
+637	build a sheet for configuration map .
+638	Close the current thread s connection
+639	Adjust the tile matrix set and web mercator bounds for Google tile format
+640	Create a default JPA configuration with the given names and unit names .
+641	Counts the open - parentheses to the left of a string position excluding escaped parentheses
+642	Converts a Java List to Scala Seq .
+643	Get the result of an Object path expression as a byte .
+644	Write an array of data characters with escaping .
+645	Evict if we are over the size limit .
+646	Classic submit or reset button .
+647	Before outputting the message inject additional context .
+648	I have no idea what this is about it was in the old logic
+649	Returns object by its ID .
+650	Reads the Stream Header into a buffer . This is a helper function for the constructors .
+651	Rollbacks all attached resources . Resource will be closed . and detached from this transaction . If exception occurs it will be rethrown at the end .
+652	Closes this output stream and releases any system resources associated with this stream . Except the underlying stream is not actually closed ; that is left to the servlet level
+653	Add header information to send to HDFS
+654	Sets the state and timer task executing thread of this timer
+655	Return the time of last reset . - 1 if last reset time could not be found
+656	Create a java . util . Date from this udunits String .
+657	Find the granularity in the interval that will yield a number of data points that are closest to the requested points but < = requested points .
+658	Given a schema check to see if it is a union of a null type and a regular schema and then return the non - null sub - schema . Otherwise return the given schema .
+659	functionality into a separate class .
+660	Creates wav header for the specified audio format
+661	Preload the JBoss specific protocol handlers so that URL knows about them even if the handler factory is changed .
+662	Validate service dependencies .
+663	Return the IDL type name for the given class . Here we use the mapping for parameter types and return values .
+664	regular Variables .
+665	Returns the biggest response group .
+666	Gets input parameter info which is part of the URL mapping be it request parameters path variables or request body attributes .
+667	Using partition name and value that were obtained from record compare them with cached partition .
+668	Returns a Callable that returns the given value .
+669	Generates a simple result with byte - array content .
+670	reads an int in little endian at the given position
+671	Exec a given function
+672	Sends the body to the specified OutputStream . The pending parameter limits the maximum amounts of bytes sent unless it is - 1 in which case everything is sent .
+673	Restores a table from a text file .
+674	Inserts node after provided node .
+675	throws FSTBufferTooSmallExcpetion in case object does not fit into given range Zero Copy method
+676	Get parameter value or null if parameter does not exist .
+677	Read Markdown files from directory .
+678	Parses the Venmo configuration from json .
+679	Writes the current null value
+680	Register property change listeners .
+681	Non - atomic cases
+682	Gets context parameters meta data from jboss web meta data . If not found it creates new context parameters meta data and associates them with jboss web meta data .
+683	Sets the value of the handelTyp property .
+684	LOOK could be used in createView ??
+685	Returns the CORBA object for a Remote object . If input is not a Remote object or if Remote object uses JRMP return null . If the RMI - IIOP library is not available throw ConfigurationException .
+686	Invoking a FavoriteAction toggles it .
+687	Creates the cell comment .
+688	Registers a stateless implementations the same instance will be shared on all the storages .
+689	Set the Size of this vertex . Will not update the size if newSize is null .
+690	This gets called from the http post handler or event bus handler .
+691	Puts a new value into the current session .
+692	Create CalendarDate from msecs since epoch Uses the given Calendar .
+693	Get the feature table default styles
+694	Returns if string ends with provided character .
+695	Convert an attribute read method name in Java format to an attribute name in Java format .
+696	Returns files that end with java and all directories . Files and directories started with a . are excluded .
+697	Identify which countries are guaranteed to contain the given bounding box fully . The given bounding box may wrap around the 180th longitude i . e minLongitude = 170 and maxLongitude = - 170 .
+698	Process an array on the stack . Assumes the top item on the stack is an array of the specified type . For each element in the array puts the element on the stack and triggers the callback .
+699	Returns called class .
+700	Merge map .
+701	Check consistency of the current ontology if this has not been done yet .
+702	Find the grid record for the time and level indices Canonical ordering is ens time level
+703	Builds a POST request .
+704	Retrieves and removes the head of this queue waiting if necessary up to the specified wait time if no elements are present on this queue .
+705	Terminates this intention selector thread .
+706	Save persistent state .
+707	Provides a positional postfix walk over a term .
+708	Looks behind gets stuff after the white space . Basically ripping out the last word .
+709	Track nested Tables .
+710	Creates execution array that will invoke all filters actions and results in correct order .
+711	IMPORTANT! Only for internal usage .
+712	Convert projection coordinates to a LatLonPoint
+713	Converts bucket points indexed by start time into a list ordered by start time . Blanks will be filled with empty bucket points .
+714	Get a system property
+715	Do a bulk read on a list of Variables and return a corresponding list of Array that contains the results of a full read on each Variable . This is mostly here so DODSNetcdf can override it with one call to the server .
+716	Create a new Netcdf file with fill mode true .
+717	Set the encoder config
+718	Parses a unit specification . This method is thread - safe .
+719	Returns the prefix from the given set with the given identifier .
+720	Add to the current list of delegated catalogs .
+721	Get member data of type byte .
+722	Or over the whole ndarray given some condition with respect to dimensions
+723	Check if this is making a request for a restricted dataset and if so if its allowed .
+724	~~~ public helper methods to retrieve system property
+725	this is only called for ThredddsMetadata
+726	Create a ModuleReference from a target class name and factory class .
+727	First it checks is there any annotation class for parsing operations if it is parses with given format if there is a exception while parsing with given format catches and tries with default values If there is no given format tries with static values
+728	Atomically updates the target upstream AtomicReference from null to the non - null next Subscription otherwise cancels next and reports a ProtocolViolationException if the AtomicReference doesn t contain the shared cancelled indicator .
+729	Pushes or pops the EntityManager stack depending on the value of the em argument . If em is null then the current EntityManager is popped . If em is non - null then em is pushed onto the stack and becomes the current EntityManager .
+730	Set the cache timer resolution
+731	Getter for the Uninstall Actions .
+732	Print a single structure or sequence or record instance
+733	Get the constructor
+734	Creates a SSL socket . Enables default secure enabled protocols if specified .
+735	Applies a move to generate a new board position . This creates a new state object and updates its board position . The board position in this object is not changed .
+736	This is executed on non - indexed fields .
+737	Poll for control response events .
+738	Parses the tag file and collects information on the directives included in it . The method is used to obtain the info on the tag file when the handler that it represents is referenced . The tag file is not compiled here .
+739	Add a new partition to the given table with optional custom location .
+740	Returns a collection view of this map s values .
+741	Prints class declarations
+742	Tries to find a match for the provided breakpoint information from the list of registered breakpoints . For stepping and possibly other purposes it returns also a breakpoint for cases where exactly the same line was not found .
+743	Grabs the last items after the sort .
+744	the ones that dont start with thredds
+745	Get current Bounds
+746	Defines class as a target .
+747	Replaces the file content with the content of the provided file .
+748	if out of bbox or cell not marked return MAX_DOUBLE
+749	Checks given string against IP address v4 format .
+750	Adds new header value . If existing value exist it will be removed so the store the new key value .
+751	Check if the sun is shining for a given time .
+752	Returns a filter that selects declarations containing all of a collection of modifiers .
+753	assume filled validated Section
+754	Macro to get the content of an optional child element .
+755	Compile the servlet from . java file to . class file
+756	Determine if request is eligible for GZipping .
+757	Extracts the sub - list at the specified page index . The returned list will have size equal to the page size unless it is the last page in which case it may not be a full page .
+758	Parses string content once when starting quote has been consumed .
+759	Joins action and parameters into one single array of Targets .
+760	Decorates preProcessor with mandatory decorators . This method is synchronized to ensure that processor is injected before it is being used by other thread .
+761	Delete single object by its id . Resets ID value .
+762	Given a string that contains WWW escape sequences translate those escape sequences back into ASCII characters . Return the modified string .
+763	Get the pixel values of the image as 16 bit unsigned integer values
+764	Returns the amount of time to wait if the backend was queried too recently and needs throttling or - 1 if the backend can be queried straight away .
+765	Update the record .
+766	Create a query parameter with a String value .
+767	Is mapped to resolve in the COS Naming api .
+768	Checks if a candidate operator symbol can have one of the specified fixities and resolve it to an oeprator with that fixity if so . If it cannot be resolved an exception is raised .
+769	Pushes the specified argument of the current method onto the stack .
+770	Get GeoPackage metadata or create it if it does not exist
+771	Get a header for display .
+772	Runs the locator and collects all locations using the filters if set . The method can be called multiple times and will only result in a new map if any of the filters have been changed . If no filter has been changed the current map will be returned .
+773	Helper method to create batch from list of aggregates for cases when list of aggregates is higher then batchLimit
+774	Login user and retrieve authentication token .
+775	Determines if profile is in back end storage == visible to other compoenents than MBean if null is passed as argumetn it must check for any other than defualt?
+776	Signals the signallable resource if the size crosses a threshold boundary in a downward direction .
+777	Start the watch .
+778	Generates a SubjectAccessReview object used to request if a user has a certain permission or not .
+779	Converts map to target type .
+780	Given a lat lon point find the x y index in the coordinate system . If outside the range the closest point is returned
+781	Construct an immutable map from one key - value pair . Although this is more convenient than the static factory methods this method does not capture the instance being logged .
+782	escape special characters
+783	Print info from the node that needs to be in the form of xml attributes
+784	Returns a set view of this map s keys .
+785	call this method when you have encountered the user
+786	Closes the Memcached client connection .
+787	Adding custom query equal value .
+788	Parse Comment To Map
+789	Search iteratively on increasing maximum bound limits until the search space is exhausted or a goal state is found .
+790	Delete an existing Flow .
+791	Creates a map of postProcessors form a map of preProcessors . This method will be removed in 1 . 5 . 0 release when there will be no differences between pre & post processor interface .
+792	Check if this is a valid SIGMET - IRIS file for this IOServiceProvider .
+793	Detects any BOMs and returns the corresponding charset
+794	Prepares the template by adding the variables .
+795	Lists all children of a particular path taking overlays into account
+796	Generates a data URI from a byte array and outputs to the given writer .
+797	setter for originalText - sets The lexical string in the question .
+798	Returns common pool queue for an external thread .
+799	Given a point in x y coordinate space find the x y index in the coordinate system . If outside the range the closest point is returned eg 0 or n - 1 depending on if the coordinate is too small or too large .
+800	Clears all the children of this point in the tree . If this point is a leaf it will have no children so this operation does nothing . If this point is a node it will be reduced to a leaf by this operation . This implementation supports turning nodes into leaves .
+801	Get the station key names
+802	Attaches arbitrary private data to this view instance
+803	Read data from a top level Variable of INTEGER data type and return a memory resident Array .
+804	This method creates new FunctionProperties instance from FlatBuffers representation
+805	Get properties from a url .
+806	Change index number in hidden column .
+807	Builds the watch list for cell .
+808	copy subtraction of two matrices
+809	Sets the value of the lager property .
+810	Wraps a SingleSource into a Maybe .
+811	When sending a request will call this method to sign with server .
+812	Places the specified value into the memento based on the field s declaring class and name .
+813	Replace the rowList with this one .
+814	Writes created class content to output folder for debugging purposes .
+815	Writes this request s body to the given output stream . This method may be called more than once during the lifetime of this request .
+816	Returns urls for the classloader
+817	Returns a copy of the given array . The original array and the returned copy will have identical length and content .
+818	Returns chalked string .
+819	Called when the Kubernetes master server reponse has been inspected .
+820	Finds all . humble temp files in the temp directory and nukes them .
+821	Search forward from the current pos looking for a match .
+822	Creates an UnicastSubject with an internal buffer capacity hint 16 .
+823	Counts the number of directories in a given path .
+824	Finds constructor description that matches given argument types .
+825	creates a new Resource .
+826	Thong added for rotate
+827	Concatenates cssUri and imageUrl after few changes are applied to both input parameters .
+828	Specify the HMAC api key and secret to be used for authenticated requests
+829	Add image to memory cache .
+830	Returns all cookies from client that matches provided name .
+831	this is called on TDS shutdown and reinit
+832	verifies that the player is capable of handling the command
+833	Returns a String with all page scope variables .
+834	Extract an error message from the given exception and its causes .
+835	Pushes an object on to the top of the stack .
+836	Return a timestamp string that contains the elapsed time period .
+837	Sets the data table page .
+838	creates a Progress - object from the resourceModel
+839	Triggers remove operation on this profile table .
+840	Consume the next comment token update the inComment flag and return the remaining content .
+841	is this a child of that ?
+842	Restores the properties currently in this memento to the specified object .
+843	getter for types - gets A list of concept types that the concept belongs to .
+844	Generate small report into log .
+845	Get the customLocation flag from the metadata record . This flag marks whether or not the Hive database object is stored into a custom path on the Hadoop filesystem . In both cases the path is stored in the location field of the metadata record .
+846	Checks to see if the given variable name is used as an alias and if so returns the variable name for which it is used as an alias .
+847	Parse JSON from input stream accordingly given type . Return parsed object .
+848	creates a new EndedEvent
+849	Returns an image descriptor for the image file at the given plug - in relative path
+850	Add a field that edits a date
+851	Set the default style of the feature row
+852	Converts an object to a datastore Entity with the appropriate Key type .
+853	add any reserved xml attributes to a node unchanged
+854	< = less or equals than operator
+855	Verifies that the given password matches the hashed one .
+856	Indexes a value and save the index . Splits the value in single words and index each one . Save of the index is responsibility of the caller .
+857	Verifies whether secured property of cookie satisfies specified matcher .
+858	Scans the directory of for the next file .
+859	Simply runs a SQL command used for udpates inserts which the result doesn t matter .
+860	Converter to collection .
+861	Computes the convex hull of the set of points .
+862	verifies that the StopMusicRequest is correct and checks whether the you are meant to react to it
+863	Notify all listeners about cachePeriod property changed . If passed newValue is null the oldValue is taken as new value . This is the case when the reloadCache is invoked .
+864	Returns the currently contained Disposable or null if this container is empty .
+865	Add jars whose names contain the given patterns to the job s classpath .
+866	Creates a class with the desired name and linked to the mentioned interfaces .
+867	Parse this URL formatted string into properties .
+868	Invoked when a client error occurs that is an error in the 4xx series .
+869	Creates an automatic indexing structure for indexing provided key for element class .
+870	count the bits used by the data in this dd and its children only accurate for not compressed and not variable length
+871	Parses class annotations and adds all checks .
+872	Builder to create an instance of OcspFetcher using Apache HttpClient for connectivity .
+873	Read next event from buffer with respect to maximum timeout .
+874	Dereference the object at the given index .
+875	Create an entity from the given String .
+876	Returns the browser recipe that can handle billing agreement or null if there is none .
+877	Upgrade a Kyero document to version 3 .
+878	Find a channel by name
+879	Returns the Web endpoint method parameter from cookie in the HTTP request .
+880	Creates a new lockentry and adds it to this supported lock . Returns an editor on the new lockentry .
+881	check whether there is an active transaction .
+882	Shutdowns this log manager .
+883	Adds a fact to the Rule .
+884	returns begin position and length for each value in embedded collection
+885	animate to the small view
+886	Get the number of timesteps per file and the starting offset
+887	Add a sessionId to a given channel .
+888	Do we have the named axis?
+889	Output content to the console or a file .
+890	Sets the value of the blick property .
+891	Read the file and place contents into a byte array with any error messages put in the return String .
+892	Synchronize all design documents on desk to the database .
+893	Returns the Edge Id assuring to save it if it s transient yet .
+894	Determine the file column names based on the position within the requested columns and use that as the requested schema .
+895	Appends bytes . append = true
+896	Returns an array containing all the unique interfaces implemented by the argument class c and all its superclasses . Interfaces that appear multiple times through inheritence are only accounted for once .
+897	setter for query - sets The query in the native syntax of the corresponding search engine .
+898	Process the frame if it is the last frame
+899	get line color of line chart from CTLineSer .
+900	Extract the public ID of a YubiKey from an OTP it generated .
+901	Remove all but printable ascii
+902	Sets the seconds component of the timestamp returning the new timestamp with updated component .
+903	Visits an annotation of the class .
+904	Calculate 32 bytes length MD5 digest .
+905	Detach the sbb entity
+906	Set content ID if it is missing .
+907	Writes decorated content .
+908	Gets the fully - qualified class name of the tag handler corresponding to the given tag file path .
+909	Tombstone an entry in the log so it is no longer valid .
+910	Set the default icon of the feature row
+911	Returns true if the given transaction specification was expliitly specified at a method level returns false if it was inherited from the default
+912	The HTTP error to be used when an error is triggered .
+913	Decreases a property .
+914	Returns an instance of LoginManager and increases its reference count .
+915	Returns a filter that selects those declarations selected by both this filter and another .
+916	Set the icons for the feature table and feature id
+917	Creates new Web Service deployment .
+918	Returns the registerd SASLMechanism classes sorted by the level of preference .
+919	Changes the presence of available contacts offline by simulating an unavailable presence sent from the server . After a disconnection every Presence is set to offline .
+920	Closes all connected clients sockets then closes the underlying ServerSocketChannel effectively killing the server socket selectorthread freeing the port the server was bound to and stops all internal workerthreads .
+921	If the given throwable is an instance of E throw it as an E .
+922	create a json conf with given attributes . Note that shared refs = true for jason might be not as stable as for binary encodings as fst relies on stream positions to identify objects within a given input so any inbetween formatting will break proper reference resolution .
+923	Add a single model transformer .
+924	return chart type from CTChart object .
+925	Return a country name in another language .
+926	The gru cell
+927	getter for offsetInBeginSection - gets Character offset of the start of this passage within the section that contains this passage .
+928	Insert the constant value into the argument Any .
+929	Rearrange matrix columns into blocks
+930	Writes the entire contents of the specified input stream to this byte stream . Bytes from the input stream are read directly into the internal buffers of this streams .
+931	Unpack a packed grid
+932	Take key and value pairs from source and create map from value to key in target .
+933	Gets the set of enabled cipher suites based on the configuration .
+934	Replaces type with mapped type for current path .
+935	Atomically rolls the DataWindow of all aggregators associated with the Aggregators instance .
+936	different status objects lying on the same cycle
+937	Authenticate user and start user session .
+938	rather than the current 1024x768 this should be changed down to 200% .
+939	animate to the large view
+940	Executes actions scheduled for before commit
+941	dumprarcs - dump remaining outarcs recursively in reverse order
+942	Returns action filter instance for further configuration .
+943	Set the current element s index . General - rank case .
+944	Creates static initialization block that simply calls all advice static init methods in correct order .
+945	Run with no arguments for usage instructions .
+946	Parses a property as a long .
+947	Returns the next available packet from the queue for writing .
+948	copies exactly data . length bytes from this SegmentedByteArray into the provided byte array guaranteeing that if the update is seen by another thread then all other writes prior to this call are also visible to that thread .
+949	Select all nodes that are selected by this XPath expression . If multiple nodes match multiple nodes will be returned . Nodes will be returned in document - order
+950	Merges the current properties values with the new ones and uses the ra to verify the configuration
+951	Set extra information used by station obs datasets .
+952	Create the narrow method to get the activity context interface
+953	Writes a column chunk at once
+954	Resets the global state .
+955	Get Calendar date from fields . Uses UTZ time zone
+956	Send given content string as the HTTP response .
+957	Adds an interceptor factory to all methods of a view
+958	indexed getter for candidateAnswers - gets an indexed value - CandidateAnswerVariants generated from this SearchResult .
+959	Validate that page size is valid and alignment is valid .
+960	Runs this intentions selction thread .
+961	Determine if this CoordinateSystem can be made into a RadialCoordSys .
+962	Calculate a position given an azimuth and distance from another point . See details below . Uses default Earth .
+963	Consumes the data .
+964	Removes from memory the pool associated to the closed storage . This avoids pool open against closed storages .
+965	Create a new CoordinateAxis2D as a section of this CoordinateAxis2D .
+966	Write the content disposition header to the specified output stream .
+967	This should be called at the start of the learn method to initialize the input and output property sets .
+968	Write an array of doubles
+969	Sets up a FileObserver to watch the current directory .
+970	Puts a byte into this byte vector . The byte vector is automatically enlarged if necessary .
+971	This method returns device id available . Round - robin balancing used here .
+972	Convert the given value to a collection of Granted Authorities adding the result to the given result collection .
+973	search for Axis by Type .
+974	Extract the value can only be called for ScaledUnit .
+975	Replace one string with another .
+976	Allocate num copies of the incompleteKey
+977	Is a media driver active in the given directory?
+978	The files that comprise the collection . Actual paths including the grib cache if used .
+979	Copy and close the reader and writer streams .
+980	lexstart - set up lexical stuff scan leading options
+981	Test by marshalling .
+982	emit an informational message to standard out
+983	Return the property value for the given propertyId or null .
+984	Create a new Paragraph Text field .
+985	Get the pixel value as a float from the image and the coordinate
+986	Search the verticies for one with data .
+987	An alternative way to create a Cookies object from the constructor .
+988	Computes the mean of the list of points .
+989	Notification message that the connection with the server was lost unexpectedly . We will try to reestablish the connection for ever until the connection has been reestablished or this thread has been stopped .
+990	setter for offsetInEndSection - sets Character offset of the end of this passage within the section that contains this passage .
+991	Retrieves the set of sbbs used by this service
+992	Displays the permission admin page for a particular contact .
+993	END GlassFish 750
+994	Might produce a caching version if caching is enabled .
+995	Get the currently selected row .
+996	Gets the longest common parent directory path of two paths .
+997	delete old databases
+998	Reverse the system property sets performed on behalf of this restore context .
+999	Checks the Accept header to see if clients accept the correct media type
