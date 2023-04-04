@@ -1,7 +1,7 @@
 ## Few-shot training LLMs for project-specific code-summarization
 
 This repository contains the dataset and scripts from our ASE-NIER paper <strong><em>[Few-shot training LLMs for project-specific code-summarization](https://dl.acm.org/doi/abs/10.1145/3551349.3559555)</em></strong>. There are six folders for six programming langages (i.e., Java, Python, Ruby, JS, PHP, Go) and 8 folders for same project experiments.
-Each folder contains 4 file.
+Each folder contains 4 files.
 
 - final_1.gold: contains the reference/gold summarization.
 - test.jsonl: contains the test instances. Each line contains one test sample.
