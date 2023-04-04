@@ -53,7 +53,7 @@ def process(data_folder, key):
           engine="code-davinci-002",
           prompt=inputs1,
           temperature=0,
-          max_tokens=50,
+          max_tokens=250,
           top_p=1,
           frequency_penalty=0,
           presence_penalty=0
